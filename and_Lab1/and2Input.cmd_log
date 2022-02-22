@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/and_Lab1/and2Input.xst" -ofn "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/and_Lab1/and2Input.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 and2Input.ngc and2Input.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o and2Input_map.ncd and2Input.ngd and2Input.pcf 
+par -w -intstyle ise -ol high -t 1 and2Input_map.ncd and2Input.ncd and2Input.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml and2Input.twx and2Input.ncd -o and2Input.twr and2Input.pcf 
