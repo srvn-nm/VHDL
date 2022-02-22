@@ -5,17 +5,17 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <DeviceUsageSummary rev="1">
-<DesignStatistics TimeStamp="Wed Feb 23 00:34:38 2022"><group name="MiscellaneousStatistics">
+<DesignStatistics TimeStamp="Wed Feb 23 00:48:32 2022"><group name="MiscellaneousStatistics">
 <item name="AGG_BONDED_IO" rev="1">
-<attrib name="value" value="3"/></item>
+<attrib name="value" value="5"/></item>
 <item name="AGG_IO" rev="1">
-<attrib name="value" value="3"/></item>
+<attrib name="value" value="5"/></item>
 <item name="AGG_SLICE" rev="1">
 <attrib name="value" value="1"/></item>
 <item name="NUM_4_INPUT_LUT" rev="1">
 <attrib name="value" value="1"/></item>
 <item name="NUM_BONDED_IOB" rev="1">
-<attrib name="value" value="3"/></item>
+<attrib name="value" value="5"/></item>
 <item name="NUM_SLICEL" rev="1">
 <attrib name="value" value="1"/></item>
 </group>
