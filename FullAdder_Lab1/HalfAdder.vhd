@@ -38,23 +38,23 @@ end HalfAdder;
 
 architecture structure of HalfAdder is
 
-component xor_gate is
+component XorInput is
 port(
 A, B: in std_logic;
 C :out srd_logic
 );
-End Component xor_gate
+End Component XorInput
 
-component and_gate is
+component And2Input is
 port(
 A, B: in std_logic;
 C :out srd_logic
 );
-End Component and_gate
+End Component And2Input
 
 begin
-xor_gate_instance0: xor_gate port map (A=>in1, B=>in2, C=>out1);
-and_gate_instance0: and_gate port map (A=>in1, B=>in2, C=>out2);
+xor_gate_instance0: XorInput port map (A=>in1, B=>in2, C=>out1);
+and_gate_instance0: And2Input port map (A=>in1, B=>in2, C=>out2);
 
 end structure;
 
