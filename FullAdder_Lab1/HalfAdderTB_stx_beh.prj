@@ -1,0 +1,4 @@
+vhdl isim_temp "XorInput.vhd"
+vhdl isim_temp "And2Input.vhd"
+vhdl isim_temp "HalfAdder.vhd"
+vhdl isim_temp "HalfAdderTB.vhd"

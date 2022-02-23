@@ -1,5 +1,6 @@
-EN halfadder NULL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/HalfAdder.vhd sub00/vhpl04 1645646238
-EN and2input NULL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/And2Input.vhd sub00/vhpl02 1645646236
-AR and2input behavioral C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/And2Input.vhd sub00/vhpl03 1645646237
-EN xorinput NULL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/XorInput.vhd sub00/vhpl00 1645646234
-AR xorinput behavioral C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/XorInput.vhd sub00/vhpl01 1645646235
+EN halfadder NULL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/HalfAdder.vhd sub00/vhpl04 1645646333
+AR halfadder structure C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/HalfAdder.vhd sub00/vhpl05 1645646334
+EN and2input NULL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/And2Input.vhd sub00/vhpl02 1645646331
+AR and2input behavioral C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/And2Input.vhd sub00/vhpl03 1645646332
+EN xorinput NULL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/XorInput.vhd sub00/vhpl00 1645646329
+AR xorinput behavioral C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/XorInput.vhd sub00/vhpl01 1645646330
