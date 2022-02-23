@@ -106,6 +106,7 @@
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
     <transform xil_pn:end_ts="1645563946" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1645563946">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1645564948" xil_pn:in_ck="2083899142988748356" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1645564948">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -138,6 +139,8 @@
     <transform xil_pn:end_ts="1645564960" xil_pn:in_ck="2083899142988748356" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4687256688857977101" xil_pn:start_ts="1645564956">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="and4InputTB_beh.prj"/>
       <outfile xil_pn:name="and4InputTB_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
@@ -148,12 +151,15 @@
     <transform xil_pn:end_ts="1645564960" xil_pn:in_ck="8400939988470109750" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4972994495374642384" xil_pn:start_ts="1645564960">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="and4InputTB_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
     <transform xil_pn:end_ts="1645563855" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1645563854">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1645564692" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="2240217636883130940" xil_pn:start_ts="1645564692">
       <status xil_pn:value="SuccessfullyRun"/>
