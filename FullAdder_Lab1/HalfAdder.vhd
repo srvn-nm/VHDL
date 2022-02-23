@@ -41,14 +41,14 @@ architecture structure of HalfAdder is
 component XorInput is
 port(
 A, B: in std_logic;
-C :out srd_logic
+C :out std_logic
 );
 End Component;
 
 component And2Input is
 port(
 A, B: in std_logic;
-C :out srd_logic
+C :out std_logic
 );
 End Component;
 

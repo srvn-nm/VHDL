@@ -5,23 +5,4 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="HDLParsers" num="3313" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/HalfAdder.vhd</arg>&quot; Line <arg fmt="%d" index="2">45</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">srd_logic</arg>&apos;.  Should it be: <arg fmt="%s" index="4">std_logic</arg>?
-</msg>
-
-<msg type="error" file="HDLParsers" num="1209" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/HalfAdder.vhd</arg>&quot; Line <arg fmt="%d" index="2">45</arg>. <arg fmt="%s" index="3">srd_logic</arg>: Undefined symbol (last report in this block)
-</msg>
-
-<msg type="error" file="HDLParsers" num="3313" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/HalfAdder.vhd</arg>&quot; Line <arg fmt="%d" index="2">52</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">srd_logic</arg>&apos;.  Should it be: <arg fmt="%s" index="4">std_logic</arg>?
-</msg>
-
-<msg type="error" file="HDLParsers" num="1209" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/HalfAdder.vhd</arg>&quot; Line <arg fmt="%d" index="2">52</arg>. <arg fmt="%s" index="3">srd_logic</arg>: Undefined symbol (last report in this block)
-</msg>
-
-<msg type="error" file="HDLParsers" num="850" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/HalfAdder.vhd</arg>&quot; Line <arg fmt="%d" index="2">56</arg>. Formal port <arg fmt="%s" index="3">C</arg> does not exist in <arg fmt="%s" index="4">Component &apos;XorInput&apos;</arg>.
-</msg>
-
-<msg type="error" file="HDLParsers" num="850" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/HalfAdder.vhd</arg>&quot; Line <arg fmt="%d" index="2">57</arg>. Formal port <arg fmt="%s" index="3">C</arg> does not exist in <arg fmt="%s" index="4">Component &apos;And2Input&apos;</arg>.
-</msg>
-
 </messages>
-

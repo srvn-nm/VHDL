@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.22 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.20 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.22 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
  
 --> Reading design: HalfAdder.prj
 
@@ -110,17 +110,63 @@ Compiling vhdl file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAd
 Architecture behavioral of Entity and2input is up to date.
 Compiling vhdl file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/HalfAdder.vhd" in Library work.
 Entity <halfadder> compiled.
-ERROR:HDLParsers:3313 - "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/HalfAdder.vhd" Line 45. Undefined symbol 'srd_logic'.  Should it be: std_logic?
-ERROR:HDLParsers:1209 - "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/HalfAdder.vhd" Line 45. srd_logic: Undefined symbol (last report in this block)
-ERROR:HDLParsers:3313 - "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/HalfAdder.vhd" Line 52. Undefined symbol 'srd_logic'.  Should it be: std_logic?
-ERROR:HDLParsers:1209 - "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/HalfAdder.vhd" Line 52. srd_logic: Undefined symbol (last report in this block)
-ERROR:HDLParsers:850 - "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/HalfAdder.vhd" Line 56. Formal port C does not exist in Component 'XorInput'.
-ERROR:HDLParsers:850 - "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/HalfAdder.vhd" Line 57. Formal port C does not exist in Component 'And2Input'.
---> 
+Entity <HalfAdder> (Architecture <structure>) compiled.
 
-Total memory usage is 4494876 kilobytes
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <HalfAdder> in library <work> (architecture <structure>).
 
-Number of errors   :    6 (   0 filtered)
-Number of warnings :    0 (   0 filtered)
-Number of infos    :    0 (   0 filtered)
+Analyzing hierarchy for entity <XorInput> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <And2Input> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <HalfAdder> in library <work> (Architecture <structure>).
+Entity <HalfAdder> analyzed. Unit <HalfAdder> generated.
+
+Analyzing Entity <XorInput> in library <work> (Architecture <behavioral>).
+Entity <XorInput> analyzed. Unit <XorInput> generated.
+
+Analyzing Entity <And2Input> in library <work> (Architecture <behavioral>).
+Entity <And2Input> analyzed. Unit <And2Input> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <XorInput>.
+    Related source file is "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/XorInput.vhd".
+    Found 1-bit xor2 for signal <c>.
+Unit <XorInput> synthesized.
+
+
+Synthesizing Unit <And2Input>.
+    Related source file is "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/And2Input.vhd".
+Unit <And2Input> synthesized.
+
+
+Synthesizing Unit <HalfAdder>.
+    Related source file is "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/HalfAdder.vhd".
+Unit <HalfAdder> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
 
