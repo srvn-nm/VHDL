@@ -38,7 +38,7 @@ end Or2Input;
 architecture Behavioral of Or2Input is
 
 begin
-
+C <= A or B;
 
 end Behavioral;
 
