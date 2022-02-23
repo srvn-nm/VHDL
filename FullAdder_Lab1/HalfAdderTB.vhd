@@ -59,7 +59,7 @@ ARCHITECTURE behavior OF HalfAdderTB IS
    -- No clocks detected in port list. Replace <clock> below with 
    -- appropriate port name 
  
-   constant <clock>_period : time := 10 ns;
+   --constant <clock>_period : time := 10 ns;
  
 BEGIN
  
@@ -71,14 +71,14 @@ BEGIN
           d => d
         );
 
-   -- Clock process definitions
-   <clock>_process :process
-   begin
-		<clock> <= '0';
-		wait for <clock>_period/2;
-		<clock> <= '1';
-		wait for <clock>_period/2;
-   end process;
+--   -- Clock process definitions
+--   <clock>_process :process
+--   begin
+--		<clock> <= '0';
+--		wait for <clock>_period/2;
+--		<clock> <= '1';
+--		wait for <clock>_period/2;
+--   end process;
  
 
    -- Stimulus process
@@ -87,10 +87,11 @@ BEGIN
       -- hold reset state for 100 ns.
       wait for 100 ns;	
 
-      wait for <clock>_period*10;
+      --wait for <clock>_period*10;
 
       -- insert stimulus here 
-
+		a <= '0', '1' after 20 ns, '0' after 40 ns, '1' after 60 ns;
+		b <= '0', '1' after 40 ns;
       wait;
    end process;
 

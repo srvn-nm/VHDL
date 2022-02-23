@@ -53,8 +53,8 @@ C :out srd_logic
 End Component;
 
 begin
-xor_gate_instance0: XorInput port map (A=>in1, B=>in2, C=>out1);
-and_gate_instance0: And2Input port map (A=>in1, B=>in2, C=>out2);
+xor_gate_instance0: XorInput port map (A=>a, B=>b, C=>c);
+and_gate_instance0: And2Input port map (A=>a, B=>b, C=>d);
 
 end structure;
 

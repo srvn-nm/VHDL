@@ -1,0 +1,3 @@
+vhdl work "XorInput.vhd"
+vhdl work "And2Input.vhd"
+vhdl work "HalfAdder.vhd"
