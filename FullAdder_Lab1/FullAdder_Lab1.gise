@@ -125,6 +125,8 @@
     <transform xil_pn:end_ts="1645646391" xil_pn:in_ck="333941376610856480" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8862505685522416600" xil_pn:start_ts="1645646390">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="HalfAdderTB_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
     </transform>
