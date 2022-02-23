@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date:    23:07:08 02/23/2022 
+-- Create Date:    23:08:48 02/23/2022 
 -- Design Name: 
--- Module Name:    Xor - Behavioral 
+-- Module Name:    XorInput - Behavioral 
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
@@ -29,13 +29,13 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity Xor is
+entity XorInput is
     Port ( a : in  STD_LOGIC;
            b : in  STD_LOGIC;
            c : out  STD_LOGIC);
-end Xor;
+end XorInput;
 
-architecture Behavioral of Xor is
+architecture Behavioral of XorInput is
 
 begin
 C <= A xor B;
