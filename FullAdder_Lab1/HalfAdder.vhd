@@ -43,14 +43,14 @@ port(
 A, B: in std_logic;
 C :out srd_logic
 );
-End Component
+End Component;
 
 component And2Input is
 port(
 A, B: in std_logic;
 C :out srd_logic
 );
-End Component
+End Component;
 
 begin
 xor_gate_instance0: XorInput port map (A=>in1, B=>in2, C=>out1);
