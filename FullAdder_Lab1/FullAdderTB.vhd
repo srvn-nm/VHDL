@@ -61,7 +61,7 @@ ARCHITECTURE behavior OF FullAdderTB IS
    -- No clocks detected in port list. Replace <clock> below with 
    -- appropriate port name 
  
-   constant <clock>_period : time := 10 ns;
+   --constant <clock>_period : time := 10 ns;
  
 BEGIN
  
@@ -74,14 +74,14 @@ BEGIN
           carry => carry
         );
 
-   -- Clock process definitions
-   <clock>_process :process
-   begin
-		<clock> <= '0';
-		wait for <clock>_period/2;
-		<clock> <= '1';
-		wait for <clock>_period/2;
-   end process;
+--   -- Clock process definitions
+--   <clock>_process :process
+--   begin
+--		<clock> <= '0';
+--		wait for <clock>_period/2;
+--		<clock> <= '1';
+--		wait for <clock>_period/2;
+--   end process;
  
 
    -- Stimulus process
@@ -90,9 +90,72 @@ BEGIN
       -- hold reset state for 100 ns.
       wait for 100 ns;	
 
-      wait for <clock>_period*10;
+      --wait for <clock>_period*10;
 
       -- insert stimulus here 
+		uut : FullAdder port map(
+A =>A, B =>B,
+C => C, SUM => SUM, CARRY => CARRY);
+
+stim : process 
+begin
+
+A <= '0';
+B <= '0';
+C <= '0';
+wait for 10 ns;
+assert ((SUM = '0') and (CARRY = '0'))
+report "test Ailed for input combination 000" severity error;
+
+A <= '0';
+B <= '0';
+C <= '1';
+wait for 10 ns;
+assert ((SUM = '1') and (CARRY = '0'))
+report "test Ailed for input combination 001" severity error;
+
+A <= '0';
+B <= '1';
+C <= '0';
+wait for 10 ns;
+assert ((SUM = '1') and (CARRY = '0'))
+report "test Ailed for input combination 010" severity error;
+
+A <= '0';
+B <= '1';
+C <= '1';
+wait for 10 ns;
+assert ((SUM = '0') and (CARRY = '1'))
+report "test Ailed for input combination 011" severity error;
+
+A <= '1';
+B <= '0';
+C <= '0';
+wait for 10 ns;
+assert ((SUM = '1') and (CARRY = '0'))
+report "test Ailed for input combination 100" severity error;
+
+A <= '1';
+B <= '0';
+C <= '1';
+wait for 10 ns;
+assert ((SUM = '0') and (CARRY = '1'))
+report "test Ailed for input combination 101" severity error;
+
+A <= '1';
+B <= '1';
+C <= '0';
+wait for 10 ns;
+assert ((SUM = '0') and (CARRY = '1'))
+report "test Ailed for input combination 110" severity error;
+
+A <= '1';
+B <= '1';
+C <= '1';
+wait for 10 ns;
+assert ((SUM = '1') and (CARRY = '1'))
+report "test Ailed for input combination 111" severity error;
+
 
       wait;
    end process;
