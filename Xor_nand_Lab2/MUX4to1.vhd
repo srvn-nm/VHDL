@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date:    16:40:11 02/24/2022 
+-- Create Date:    16:41:42 02/24/2022 
 -- Design Name: 
--- Module Name:    MUX4-1 - Behavioral 
+-- Module Name:    MUX4to1 - Behavioral 
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
@@ -29,7 +29,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity MUX4_1 is
+entity MUX4to1 is
     Port ( a : in  STD_LOGIC;
            b : in  STD_LOGIC;
            c : in  STD_LOGIC;
@@ -37,9 +37,9 @@ entity MUX4_1 is
            s0 : in  STD_LOGIC;
            s1 : in  STD_LOGIC;
            z : out  STD_LOGIC);
-end MUX4_1;
+end MUX4to1;
 
-architecture Behavioral of MUX4_1 is
+architecture Behavioral of MUX4to1 is
 
 begin
 

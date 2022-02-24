@@ -108,9 +108,11 @@
     <transform xil_pn:end_ts="1645707647" xil_pn:in_ck="5159193064279075321" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1645707647">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="XorTB.vhd"/>
-      <outfile xil_pn:name="Xor_gate.vhd"/>
-      <outfile xil_pn:name="nand_gate.vhd"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1645707675" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4661408784876197979" xil_pn:start_ts="1645707675">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -127,26 +129,30 @@
     <transform xil_pn:end_ts="1645707675" xil_pn:in_ck="5159193064279075321" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1645707675">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="XorTB.vhd"/>
-      <outfile xil_pn:name="Xor_gate.vhd"/>
-      <outfile xil_pn:name="nand_gate.vhd"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1645707680" xil_pn:in_ck="5159193064279075321" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4450453122926978521" xil_pn:start_ts="1645707675">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="XorTB_beh.prj"/>
-      <outfile xil_pn:name="XorTB_isim_beh.exe"/>
-      <outfile xil_pn:name="fuse.log"/>
-      <outfile xil_pn:name="isim"/>
-      <outfile xil_pn:name="xilinxsim.ini"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1645707680" xil_pn:in_ck="6554363182789594846" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6561382936419705236" xil_pn:start_ts="1645707680">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="XorTB_isim_beh.wdb"/>
-      <outfile xil_pn:name="isim.cmd"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1645705315" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1645705315">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -179,21 +185,12 @@
     <transform xil_pn:end_ts="1645707366" xil_pn:in_ck="-8022797912272551430" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="7581584273926659166" xil_pn:start_ts="1645707357">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Xor_gate.lso"/>
-      <outfile xil_pn:name="Xor_gate.ngc"/>
-      <outfile xil_pn:name="Xor_gate.ngr"/>
-      <outfile xil_pn:name="Xor_gate.prj"/>
-      <outfile xil_pn:name="Xor_gate.stx"/>
-      <outfile xil_pn:name="Xor_gate.syr"/>
-      <outfile xil_pn:name="Xor_gate.xst"/>
-      <outfile xil_pn:name="Xor_gate_vhdl.prj"/>
-      <outfile xil_pn:name="Xor_gate_xst.xrpt"/>
-      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="nand_gate.ngr"/>
-      <outfile xil_pn:name="webtalk_pn.xml"/>
-      <outfile xil_pn:name="xst"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1645706909" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="4270938401082693677" xil_pn:start_ts="1645706909">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -202,45 +199,38 @@
     <transform xil_pn:end_ts="1645707372" xil_pn:in_ck="-4725477088427062938" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-5858349437945043160" xil_pn:start_ts="1645707366">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Xor_gate.bld"/>
-      <outfile xil_pn:name="Xor_gate.ngd"/>
-      <outfile xil_pn:name="Xor_gate_ngdbuild.xrpt"/>
-      <outfile xil_pn:name="_ngo"/>
-      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1645707376" xil_pn:in_ck="-5025355316107214072" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-7868858794111860816" xil_pn:start_ts="1645707372">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Xor_gate.pcf"/>
-      <outfile xil_pn:name="Xor_gate_map.map"/>
-      <outfile xil_pn:name="Xor_gate_map.mrp"/>
-      <outfile xil_pn:name="Xor_gate_map.ncd"/>
-      <outfile xil_pn:name="Xor_gate_map.ngm"/>
-      <outfile xil_pn:name="Xor_gate_map.xrpt"/>
-      <outfile xil_pn:name="Xor_gate_summary.xml"/>
-      <outfile xil_pn:name="Xor_gate_usage.xml"/>
-      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1645707383" xil_pn:in_ck="-2562791313593766" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="3266239339701135281" xil_pn:start_ts="1645707376">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Xor_gate.ncd"/>
-      <outfile xil_pn:name="Xor_gate.pad"/>
-      <outfile xil_pn:name="Xor_gate.par"/>
-      <outfile xil_pn:name="Xor_gate.ptwx"/>
-      <outfile xil_pn:name="Xor_gate.unroutes"/>
-      <outfile xil_pn:name="Xor_gate.xpi"/>
-      <outfile xil_pn:name="Xor_gate_pad.csv"/>
-      <outfile xil_pn:name="Xor_gate_pad.txt"/>
-      <outfile xil_pn:name="Xor_gate_par.xrpt"/>
-      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1645707383" xil_pn:in_ck="-2334917409746367616" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1645707380">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Xor_gate.twr"/>
-      <outfile xil_pn:name="Xor_gate.twx"/>
-      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
   </transforms>
 
