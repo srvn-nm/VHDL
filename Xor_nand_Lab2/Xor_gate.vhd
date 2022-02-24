@@ -36,9 +36,28 @@ entity Xor_gate is
 end Xor_gate;
 
 architecture structural of Xor_gate is
+component NAND_GATE is
 
+       Port ( A,B : in STD_LOGIC;
+
+                Y : out STD_LOGIC);
+
+end component;
+
+
+
+
+signal S0,S1,S2,S3:STD_LOGIC;
 begin
 
+U1:NAND_GATE PORT MAP(A=>B,B=>B,Y=>S0);
 
+U2:NAND_GATE PORT MAP(A=>A,B=>A,Y=>S1);
+
+U3:NAND_GATE PORT MAP(A=>A,B=>S0,Y=>S2);
+
+U4:NAND_GATE PORT MAP(A=>S1,B=>B,Y=>S3);
+
+U5:NAND_GATE PORT MAP(A=>S2,B=>S3,Y=>C);
 end structural;
 
