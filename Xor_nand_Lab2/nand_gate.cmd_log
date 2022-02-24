@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/nand_gate.xst" -ofn "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/nand_gate.syr" 
