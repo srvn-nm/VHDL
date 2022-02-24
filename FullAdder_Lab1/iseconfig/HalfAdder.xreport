@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-02-23T23:28:27</DateModified>
+  <DateModified>2022-02-24T13:40:45</DateModified>
   <ModuleName>HalfAdder</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/iseconfig/HalfAdder.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1\</ImplementationReportsDirectory>
   <DateInitialized>2022-02-23T23:18:20</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
