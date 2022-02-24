@@ -5,22 +5,16 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="HDLParsers" num="800" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdder.vhd</arg>&quot; Line <arg fmt="%d" index="2">56</arg>. Type of <arg fmt="%s" index="3">C</arg> is incompatible with type of <arg fmt="%s" index="4">1</arg>.
+<msg type="error" file="HDLParsers" num="800" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdder.vhd</arg>&quot; Line <arg fmt="%d" index="2">56</arg>. Type of <arg fmt="%s" index="3">C</arg> is incompatible with type of <arg fmt="%s" index="4">1</arg>.
 </msg>
 
-<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdder.vhd</arg>&quot; Line <arg fmt="%d" index="2">57</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">S</arg>&apos;.
+<msg type="error" file="HDLParsers" num="3312" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdder.vhd</arg>&quot; Line <arg fmt="%d" index="2">57</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">S</arg>&apos;.
 </msg>
 
-<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdder.vhd</arg>&quot; Line <arg fmt="%d" index="2">57</arg>. <arg fmt="%s" index="3">S</arg>: Undefined symbol (last report in this block)
+<msg type="error" file="HDLParsers" num="1209" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdder.vhd</arg>&quot; Line <arg fmt="%d" index="2">57</arg>. <arg fmt="%s" index="3">S</arg>: Undefined symbol (last report in this block)
 </msg>
 
-<msg type="error" file="HDLParsers" num="850" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdder.vhd</arg>&quot; Line <arg fmt="%d" index="2">58</arg>. Formal port <arg fmt="%s" index="3">X</arg> does not exist in <arg fmt="%s" index="4">Component &apos;Or2Input&apos;</arg>.
-</msg>
-
-<msg type="error" file="HDLParsers" num="850" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdder.vhd</arg>&quot; Line <arg fmt="%d" index="2">58</arg>. Formal port <arg fmt="%s" index="3">Y</arg> does not exist in <arg fmt="%s" index="4">Component &apos;Or2Input&apos;</arg>.
-</msg>
-
-<msg type="error" file="HDLParsers" num="850" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdder.vhd</arg>&quot; Line <arg fmt="%d" index="2">58</arg>. Formal port <arg fmt="%s" index="3">Z</arg> does not exist in <arg fmt="%s" index="4">Component &apos;Or2Input&apos;</arg>.
+<msg type="error" file="HDLParsers" num="1411" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdder.vhd</arg>&quot; Line <arg fmt="%d" index="2">58</arg>. Parameter <arg fmt="%s" index="3">C</arg> of mode <arg fmt="%s" index="4">in</arg> can not be associated with a formal <arg fmt="%s" index="5">port</arg> of mode <arg fmt="%s" index="6">out</arg>.
 </msg>
 
 </messages>

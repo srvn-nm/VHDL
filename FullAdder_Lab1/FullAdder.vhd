@@ -55,7 +55,7 @@ begin
 
 U1:HalfAdder PORT MAP(A=>A,B=>B,S=>S0,C=>1);
 U2:HalfAdder PORT MAP(A=>S0,B=>C,S=>S,C=>S2);
-U3:Or2Input PORT MAP(X=>S2,Y=>S1,Z=>C);
+U3:Or2Input PORT MAP(A=>S2,B=>S1,C=>C);
 
 end structural;
 

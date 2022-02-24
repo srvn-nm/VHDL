@@ -1,1 +1,2 @@
 xst -intstyle ise -ifn "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdder.xst" -ofn "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdder.syr" 
+xst -intstyle ise -ifn "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdder.xst" -ofn "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdder.syr" 
