@@ -146,6 +146,8 @@
     <transform xil_pn:end_ts="1645699905" xil_pn:in_ck="3527780441665878521" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-5975270184796605925" xil_pn:start_ts="1645699901">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="FullAdderTB_beh.prj"/>
       <outfile xil_pn:name="FullAdderTB_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
@@ -156,6 +158,8 @@
     <transform xil_pn:end_ts="1645699905" xil_pn:in_ck="-1688632372932109160" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8046167445783346040" xil_pn:start_ts="1645699905">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="FullAdderTB_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
