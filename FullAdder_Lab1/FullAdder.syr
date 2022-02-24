@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.13 secs
+Total CPU time to Xst completion: 0.16 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.14 secs
+Total CPU time to Xst completion: 0.16 secs
  
 --> Reading design: FullAdder.prj
 
@@ -115,14 +115,11 @@ Architecture behavioral of Entity or2input is up to date.
 Compiling vhdl file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdder.vhd" in Library work.
 Entity <fulladder> compiled.
 ERROR:HDLParsers:800 - "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdder.vhd" Line 56. Type of C is incompatible with type of 1.
-ERROR:HDLParsers:3312 - "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdder.vhd" Line 57. Undefined symbol 'S'.
-ERROR:HDLParsers:1209 - "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdder.vhd" Line 57. S: Undefined symbol (last report in this block)
-ERROR:HDLParsers:1411 - "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdder.vhd" Line 58. Parameter C of mode in can not be associated with a formal port of mode out.
 --> 
 
 Total memory usage is 4494884 kilobytes
 
-Number of errors   :    4 (   0 filtered)
+Number of errors   :    1 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 
