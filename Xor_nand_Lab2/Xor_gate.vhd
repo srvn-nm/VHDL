@@ -35,10 +35,10 @@ entity Xor_gate is
            c : out  STD_LOGIC);
 end Xor_gate;
 
-architecture Behavioral of Xor_gate is
+architecture structural of Xor_gate is
 
 begin
 
 
-end Behavioral;
+end structural;
 
