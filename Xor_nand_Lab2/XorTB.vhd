@@ -57,7 +57,7 @@ ARCHITECTURE behavior OF XorTB IS
    -- No clocks detected in port list. Replace <clock> below with 
    -- appropriate port name 
  
-   constant <clock>_period : time := 10 ns;
+   --constant <clock>_period : time := 10 ns;
  
 BEGIN
  
@@ -68,14 +68,14 @@ BEGIN
           c => c
         );
 
-   -- Clock process definitions
-   <clock>_process :process
-   begin
-		<clock> <= '0';
-		wait for <clock>_period/2;
-		<clock> <= '1';
-		wait for <clock>_period/2;
-   end process;
+--   -- Clock process definitions
+--   <clock>_process :process
+--   begin
+--		<clock> <= '0';
+--		wait for <clock>_period/2;
+--		<clock> <= '1';
+--		wait for <clock>_period/2;
+--   end process;
  
 
    -- Stimulus process
@@ -84,10 +84,24 @@ BEGIN
       -- hold reset state for 100 ns.
       wait for 100 ns;	
 
-      wait for <clock>_period*10;
+      --wait for <clock>_period*10;
 
       -- insert stimulus here 
+		A <= '0';
+B <= '0';
+wait for 20 ns;
 
+A <= '0';
+B <= '1';
+wait for 20 ns;
+
+A <= '1';
+B <= '0';
+wait for 20 ns;
+
+A <= '1';
+B <= '1';
+wait for 20 ns;
       wait;
    end process;
 
