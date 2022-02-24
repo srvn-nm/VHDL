@@ -20,8 +20,14 @@
       <association xil_pn:name="Implementation" xil_pn:seqID="1"/>
     </file>
     <file xil_pn:name="Xor_gate.vhd" xil_pn:type="FILE_VHDL">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="45"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="2"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="2"/>
+    </file>
+    <file xil_pn:name="XorTB.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="79"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="79"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="79"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="79"/>
     </file>
   </files>
 
