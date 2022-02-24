@@ -41,7 +41,7 @@ architecture structural of FullAdder is
 
 component HalfAdder is
 Port ( A,B : in STD_LOGIC;
-       S,C : out STD_LOGIC);
+       C,D : out STD_LOGIC);
 end component;
 
 component Or2Input is
@@ -53,8 +53,8 @@ SIGNAL S0,S1,S2:STD_LOGIC;
 
 begin
 
-U1:HalfAdder PORT MAP(A=>A,B=>B,S=>S0,C=>S1);
-U2:HalfAdder PORT MAP(A=>S0,B=>C,S=>sum,C=>S2);
+U1:HalfAdder PORT MAP(A=>A,B=>B,C=>S0,D=>S1);
+U2:HalfAdder PORT MAP(A=>S0,B=>C,C=>sum,D=>S2);
 U3:Or2Input PORT MAP(A=>S2,B=>S1,C=>carry);
 
 end structural;

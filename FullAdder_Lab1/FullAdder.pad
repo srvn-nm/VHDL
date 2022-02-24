@@ -1,7 +1,7 @@
 Release 14.7 - par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Wed Feb 23 23:29:18 2022
+Thu Feb 24 14:10:00 2022
 
 
 # NOTE: This file is designed to be imported into a spreadsheet program
@@ -9,8 +9,8 @@ Wed Feb 23 23:29:18 2022
 # character is used as the data field separator. This file is also designed
 # to support parsing.
 #
-INPUT FILE:       HalfAdder_map.ncd
-OUTPUT FILE:      HalfAdder.pad
+INPUT FILE:       FullAdder_map.ncd
+OUTPUT FILE:      FullAdder.pad
 PART TYPE:        xc3s50
 SPEED GRADE:      -5
 PACKAGE:          pq208
@@ -201,13 +201,13 @@ P179|||GND||||||||||||
 P180||DIFFM|IO_L32P_1/GCLK4|UNUSED||1|||||||||
 P181||DIFFS|IO_L32N_1/GCLK5|UNUSED||1|||||||||
 P182||IOB|IO|UNUSED||1|||||||||
-P183||DIFFM|IO_L32P_0/GCLK6|UNUSED||0|||||||||
-P184|b|IOB|IO_L32N_0/GCLK7|INPUT|LVCMOS25*|0||||NONE||UNLOCATED|NO|NONE|
-P185|c|IOB|IO_L31P_0/VREF_0|OUTPUT|LVCMOS25*|0|12|SLOW|NONE**|||UNLOCATED|NO|NONE|
+P183|carry|IOB|IO_L32P_0/GCLK6|OUTPUT|LVCMOS25*|0|12|SLOW|NONE**|||UNLOCATED|NO|NONE|
+P184|c|IOB|IO_L32N_0/GCLK7|INPUT|LVCMOS25*|0||||NONE||UNLOCATED|NO|NONE|
+P185|a|IOB|IO_L31P_0/VREF_0|INPUT|LVCMOS25*|0||||NONE||UNLOCATED|NO|NONE|
 P186|||GND||||||||||||
-P187|d|IOB|IO_L31N_0|OUTPUT|LVCMOS25*|0|12|SLOW|NONE**|||UNLOCATED|NO|NONE|
+P187|b|IOB|IO_L31N_0|INPUT|LVCMOS25*|0||||NONE||UNLOCATED|NO|NONE|
 P188|||VCCO_0|||0|||||2.50||||
-P189|a|IOB|IO|INPUT|LVCMOS25*|0||||NONE||UNLOCATED|NO|NONE|
+P189|sum|IOB|IO|OUTPUT|LVCMOS25*|0|12|SLOW|NONE**|||UNLOCATED|NO|NONE|
 P190||DIFFM|IO_L30P_0|UNUSED||0|||||||||
 P191||DIFFS|IO_L30N_0|UNUSED||0|||||||||
 P192|||VCCINT||||||||1.2||||
