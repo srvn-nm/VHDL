@@ -41,6 +41,15 @@ architecture Behavioral of Or4Input is
 
 begin
 
-
+component Or2Input is
+    Port ( a : in  STD_LOGIC;
+           b : in  STD_LOGIC;
+           c : out  STD_LOGIC);
+end component;
+signal w1,w2: STD_LOGIC;
+begin
+instance0: Or2Input port map (a=>a , b=>b , c=>w1);
+instance1: Or2Input port map (a=>c , b=>d , c=>w2);
+instance2: Or2Input port map (a=>w1 , b=>w2 , c=>output);
 end Behavioral;
 
