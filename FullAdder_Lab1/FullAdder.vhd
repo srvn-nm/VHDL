@@ -53,7 +53,7 @@ SIGNAL S0,S1,S2:STD_LOGIC;
 
 begin
 
-U1:HalfAdder PORT MAP(A=>A,B=>B,S=>S0,C=>1);
+U1:HalfAdder PORT MAP(A=>A,B=>B,S=>S0,C=>S1);
 U2:HalfAdder PORT MAP(A=>S0,B=>C,S=>sum,C=>S2);
 U3:Or2Input PORT MAP(A=>S2,B=>S1,C=>carry);
 

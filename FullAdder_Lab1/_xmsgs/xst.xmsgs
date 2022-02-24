@@ -5,7 +5,7 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="HDLParsers" num="800" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdder.vhd</arg>&quot; Line <arg fmt="%d" index="2">56</arg>. Type of <arg fmt="%s" index="3">C</arg> is incompatible with type of <arg fmt="%s" index="4">1</arg>.
+<msg type="error" file="Xst" num="2585" delta="new" >Port &lt;<arg fmt="%s" index="1">S</arg>&gt; of instance &lt;<arg fmt="%s" index="2">U1</arg>&gt; does not exist in definition &lt;<arg fmt="%s" index="3">HalfAdder</arg>&gt;. Please compare the definition of block &lt;<arg fmt="%s" index="4">HalfAdder</arg>&gt; to its component declaration to detect the mismatch.
 </msg>
 
 </messages>

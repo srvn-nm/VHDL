@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.16 secs
+Total CPU time to Xst completion: 0.17 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.16 secs
+Total CPU time to Xst completion: 0.17 secs
  
 --> Reading design: FullAdder.prj
 
@@ -114,10 +114,17 @@ Compiling vhdl file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAd
 Architecture behavioral of Entity or2input is up to date.
 Compiling vhdl file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdder.vhd" in Library work.
 Entity <fulladder> compiled.
-ERROR:HDLParsers:800 - "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdder.vhd" Line 56. Type of C is incompatible with type of 1.
+Entity <FullAdder> (Architecture <structural>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <FullAdder> in library <work> (architecture <structural>).
+"C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdder.vhd" line 56: In entity <FullAdder>
+ERROR:Xst:2585 - Port <S> of instance <U1> does not exist in definition <HalfAdder>. Please compare the definition of block <HalfAdder> to its component declaration to detect the mismatch.
 --> 
 
-Total memory usage is 4494884 kilobytes
+Total memory usage is 4497076 kilobytes
 
 Number of errors   :    1 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
