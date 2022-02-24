@@ -1,46 +1,61 @@
-------------------------------------------------------------------------------------
----- Company: 
----- Engineer: 
----- 
----- Create Date:    23:22:04 02/23/2022 
----- Design Name: 
----- Module Name:    FullAdder - Behavioral 
----- Project Name: 
----- Target Devices: 
----- Tool versions: 
----- Description: 
-----
----- Dependencies: 
-----
----- Revision: 
----- Revision 0.01 - File Created
----- Additional Comments: 
-----
-------------------------------------------------------------------------------------
---library IEEE;
---use IEEE.STD_LOGIC_1164.ALL;
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date:    23:22:04 02/23/2022 
+-- Design Name: 
+-- Module Name:    FullAdder - Behavioral 
+-- Project Name: 
+-- Target Devices: 
+-- Tool versions: 
+-- Description: 
 --
----- Uncomment the following library declaration if using
----- arithmetic functions with Signed or Unsigned values
-----use IEEE.NUMERIC_STD.ALL;
+-- Dependencies: 
 --
----- Uncomment the following library declaration if instantiating
----- any Xilinx primitives in this code.
-----library UNISIM;
-----use UNISIM.VComponents.all;
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
 --
---entity FullAdder is
---    Port ( a : in  STD_LOGIC;
---           b : in  STD_LOGIC;
---           c : in  STD_LOGIC;
---           sum : out  STD_LOGIC;
---           carry : out  STD_LOGIC);
---end FullAdder;
---
---architecture Behavioral of FullAdder is
---
---begin
---
---
---end Behavioral;
---
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity FullAdder is
+    Port ( a : in  STD_LOGIC;
+           b : in  STD_LOGIC;
+           c : in  STD_LOGIC;
+           sum : out  STD_LOGIC;
+           carry : out  STD_LOGIC);
+end FullAdder;
+
+architecture structural of FullAdder is
+
+component HalfAdder is
+Port ( A,B : in STD_LOGIC;
+       S,C : out STD_LOGIC);
+end component;
+
+component Or2Input is
+Port ( A,B: in STD_LOGIC;
+         C: out STD_LOGIC);
+end component;
+
+SIGNAL S0,S1,S2:STD_LOGIC;
+
+begin
+
+U1:HalfAdder PORT MAP(A=>A,B=>B,S=>S0,C=>1);
+U2:HalfAdder PORT MAP(A=>S0,B=>C,S=>S,C=>S2);
+U3:Or2Input PORT MAP(X=>S2,Y=>S1,Z=>C);
+
+end structural;
+

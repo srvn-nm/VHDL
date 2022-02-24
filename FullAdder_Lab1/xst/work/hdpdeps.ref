@@ -1,22 +1,35 @@
-V3 11
+V3 19
 FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/And2Input.vhd 2022/02/23.23:14:06 P.20131013
-EN work/And2Input 1645646331 \
+EN work/And2Input 1645698962 \
       FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/And2Input.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/And2Input/Behavioral 1645646332 \
+AR work/And2Input/Behavioral 1645698963 \
       FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/And2Input.vhd \
-      EN work/And2Input 1645646331
+      EN work/And2Input 1645698962
+EN work/FullAdder 0 \
+      FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/FullAdder/structural 0 \
+      FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdder.vhd \
+      EN work/FullAdder 0 CP HalfAdder CP Or2Input
 FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/HalfAdder.vhd 2022/02/23.23:28:44 P.20131013
-EN work/HalfAdder 1645646333 \
+EN work/HalfAdder 1645698964 \
       FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/HalfAdder.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/HalfAdder/structure 1645646334 \
+AR work/HalfAdder/structure 1645698965 \
       FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/HalfAdder.vhd \
-      EN work/HalfAdder 1645646333 CP XorInput CP And2Input
+      EN work/HalfAdder 1645698964 CP XorInput CP And2Input
+FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/Or2Input.vhd 2022/02/23.23:05:17 P.20131013
+EN work/Or2Input 1645698966 \
+      FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/Or2Input.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Or2Input/Behavioral 1645698967 \
+      FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/Or2Input.vhd \
+      EN work/Or2Input 1645698966
 FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/XorInput.vhd 2022/02/23.23:08:57 P.20131013
-EN work/XorInput 1645646329 \
+EN work/XorInput 1645698960 \
       FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/XorInput.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/XorInput/Behavioral 1645646330 \
+AR work/XorInput/Behavioral 1645698961 \
       FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/XorInput.vhd \
-      EN work/XorInput 1645646329
+      EN work/XorInput 1645698960

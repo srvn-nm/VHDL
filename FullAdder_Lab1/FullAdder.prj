@@ -1,0 +1,5 @@
+vhdl work "XorInput.vhd"
+vhdl work "And2Input.vhd"
+vhdl work "Or2Input.vhd"
+vhdl work "HalfAdder.vhd"
+vhdl work "FullAdder.vhd"
