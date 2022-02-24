@@ -1,3 +1,5 @@
 work	"And2Input.vhd"
+work	"FullAdder.vhd"
 work	"HalfAdder.vhd"
+work	"Or2Input.vhd"
 work	"XorInput.vhd"
