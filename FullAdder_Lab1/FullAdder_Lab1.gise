@@ -41,10 +41,10 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="FullAdder.unroutes" xil_pn:subbranch="Par"/>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="FullAdder.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="FullAdder.xst"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FullAdderTB_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FullAdderTB_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="FullAdderTB_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="FullAdderTB_isim_beh.wdb"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FullAdderTB_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FullAdderTB_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="FullAdder_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="FullAdder_map.map" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="FullAdder_map.mrp" xil_pn:subbranch="Map"/>
@@ -109,8 +109,8 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1645699896" xil_pn:in_ck="3527780441665878521" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1645699896">
-      <status xil_pn:value="SuccessfullyRun"/>
+    <transform xil_pn:end_ts="1645699896" xil_pn:in_ck="-4385745230258138194" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1645700909">
+      <status xil_pn:value="ExecutingRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="And2Input.vhd"/>
       <outfile xil_pn:name="FullAdder.vhd"/>
@@ -135,6 +135,7 @@
     <transform xil_pn:end_ts="1645699901" xil_pn:in_ck="3527780441665878521" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1645699901">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="And2Input.vhd"/>
       <outfile xil_pn:name="FullAdder.vhd"/>
       <outfile xil_pn:name="FullAdderTB.vhd"/>
@@ -146,6 +147,7 @@
     <transform xil_pn:end_ts="1645699905" xil_pn:in_ck="3527780441665878521" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-5975270184796605925" xil_pn:start_ts="1645699901">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="FullAdderTB_beh.prj"/>
@@ -158,6 +160,7 @@
     <transform xil_pn:end_ts="1645699905" xil_pn:in_ck="-1688632372932109160" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8046167445783346040" xil_pn:start_ts="1645699905">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="FullAdderTB_isim_beh.wdb"/>
@@ -192,7 +195,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1645699180" xil_pn:in_ck="8531453281524305983" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="4044939805958472216" xil_pn:start_ts="1645699171">
+    <transform xil_pn:end_ts="1645700849" xil_pn:in_ck="6986921926223414004" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="4044939805958472216" xil_pn:start_ts="1645700838">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -204,6 +207,8 @@
       <outfile xil_pn:name="FullAdder.stx"/>
       <outfile xil_pn:name="FullAdder.syr"/>
       <outfile xil_pn:name="FullAdder.xst"/>
+      <outfile xil_pn:name="FullAdderTB_beh.prj"/>
+      <outfile xil_pn:name="FullAdderTB_stx_beh.prj"/>
       <outfile xil_pn:name="FullAdder_vhdl.prj"/>
       <outfile xil_pn:name="FullAdder_xst.xrpt"/>
       <outfile xil_pn:name="HalfAdder.ngr"/>
@@ -215,7 +220,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1645699188" xil_pn:in_ck="-8521797987481760198" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-757023608603881022" xil_pn:start_ts="1645699180">
+    <transform xil_pn:end_ts="1645700855" xil_pn:in_ck="-8521797987481760198" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-757023608603881022" xil_pn:start_ts="1645700849">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="FullAdder.bld"/>
@@ -224,7 +229,7 @@
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1645699195" xil_pn:in_ck="-8821676215161911332" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-7868858794111860816" xil_pn:start_ts="1645699188">
+    <transform xil_pn:end_ts="1645700859" xil_pn:in_ck="-8821676215161911332" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-7868858794111860816" xil_pn:start_ts="1645700855">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="FullAdder.pcf"/>
@@ -237,7 +242,7 @@
       <outfile xil_pn:name="FullAdder_usage.xml"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1645699204" xil_pn:in_ck="-3709949289485453778" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="3266239339701135281" xil_pn:start_ts="1645699195">
+    <transform xil_pn:end_ts="1645700867" xil_pn:in_ck="-3709949289485453778" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="3266239339701135281" xil_pn:start_ts="1645700859">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="FullAdder.ncd"/>
@@ -251,7 +256,7 @@
       <outfile xil_pn:name="FullAdder_par.xrpt"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1645699204" xil_pn:in_ck="-6131238308801064876" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1645699201">
+    <transform xil_pn:end_ts="1645700867" xil_pn:in_ck="-6131238308801064876" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1645700864">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="FullAdder.twr"/>
