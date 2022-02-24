@@ -98,7 +98,10 @@
     <transform xil_pn:end_ts="1645705324" xil_pn:in_ck="4076243204835636753" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="-2243113664140847254" xil_pn:start_ts="1645705315">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="nand_gate.lso"/>
@@ -120,6 +123,7 @@
     <transform xil_pn:end_ts="1645705330" xil_pn:in_ck="4076243204835628007" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-988765956801342060" xil_pn:start_ts="1645705324">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
       <outfile xil_pn:name="nand_gate.bld"/>
@@ -129,6 +133,7 @@
     <transform xil_pn:end_ts="1645705334" xil_pn:in_ck="4076243204835628008" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-7868858794111860816" xil_pn:start_ts="1645705330">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
       <outfile xil_pn:name="nand_gate.pcf"/>
       <outfile xil_pn:name="nand_gate_map.map"/>
@@ -142,6 +147,7 @@
     <transform xil_pn:end_ts="1645705342" xil_pn:in_ck="4005999855628474113" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="3266239339701135281" xil_pn:start_ts="1645705334">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
       <outfile xil_pn:name="nand_gate.ncd"/>
       <outfile xil_pn:name="nand_gate.pad"/>
