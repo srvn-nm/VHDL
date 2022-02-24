@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/and_Lab1/and4InputTB_isim_beh.exe" -prj "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/and_Lab1/and4InputTB_beh.prj" "work.and4InputTB" 
+-intstyle "ise" -incremental -o "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/and_Lab1/and2InputTB_isim_beh.exe" -prj "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/and_Lab1/and2InputTB_beh.prj" "work.and2InputTB" 
