@@ -7,3 +7,8 @@ ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 FullAdder.ngc
 map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o FullAdder_map.ncd FullAdder.ngd FullAdder.pcf 
 par -w -intstyle ise -ol high -t 1 FullAdder_map.ncd FullAdder.ncd FullAdder.pcf 
 trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml FullAdder.twx FullAdder.ncd -o FullAdder.twr FullAdder.pcf 
+xst -intstyle ise -ifn "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdder.xst" -ofn "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 FullAdder.ngc FullAdder.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o FullAdder_map.ncd FullAdder.ngd FullAdder.pcf 
+par -w -intstyle ise -ol high -t 1 FullAdder_map.ncd FullAdder.ncd FullAdder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml FullAdder.twx FullAdder.ncd -o FullAdder.twr FullAdder.pcf 

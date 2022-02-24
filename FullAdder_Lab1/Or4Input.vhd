@@ -39,8 +39,6 @@ end Or4Input;
 
 architecture Behavioral of Or4Input is
 
-begin
-
 component Or2Input is
     Port ( a : in  STD_LOGIC;
            b : in  STD_LOGIC;
