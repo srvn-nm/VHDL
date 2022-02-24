@@ -1,27 +1,21 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdderTB_isim_beh.exe -prj C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdderTB_beh.prj work.FullAdderTB 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/Or4InputTB_isim_beh.exe -prj C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/Or4InputTB_beh.prj work.Or4InputTB 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Parsing VHDL file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/XorInput.vhd" into library work
-Parsing VHDL file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/And2Input.vhd" into library work
 Parsing VHDL file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/Or2Input.vhd" into library work
-Parsing VHDL file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/HalfAdder.vhd" into library work
-Parsing VHDL file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdder.vhd" into library work
-Parsing VHDL file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdderTB.vhd" into library work
+Parsing VHDL file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/Or4Input.vhd" into library work
+Parsing VHDL file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/Or4InputTB.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
 Compiling package std_logic_1164
-Compiling architecture behavioral of entity XorInput [xorinput_default]
-Compiling architecture behavioral of entity And2Input [and2input_default]
-Compiling architecture structure of entity HalfAdder [halfadder_default]
 Compiling architecture behavioral of entity Or2Input [or2input_default]
-Compiling architecture structural of entity FullAdder [fulladder_default]
-Compiling architecture behavior of entity fulladdertb
+Compiling architecture behavioral of entity Or4Input [or4input_default]
+Compiling architecture behavior of entity or4inputtb
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
-Compiled 13 VHDL Units
-Built simulation executable C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/FullAdderTB_isim_beh.exe
-Fuse Memory Usage: 30712 KB
-Fuse CPU Usage: 530 ms
+Compiled 7 VHDL Units
+Built simulation executable C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FullAdder_Lab1/Or4InputTB_isim_beh.exe
+Fuse Memory Usage: 30380 KB
+Fuse CPU Usage: 483 ms
