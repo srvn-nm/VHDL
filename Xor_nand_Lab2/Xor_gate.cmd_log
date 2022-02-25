@@ -9,3 +9,8 @@ ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 Xor_gate.ngc 
 map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o Xor_gate_map.ncd Xor_gate.ngd Xor_gate.pcf 
 par -w -intstyle ise -ol high -t 1 Xor_gate_map.ncd Xor_gate.ncd Xor_gate.pcf 
 trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Xor_gate.twx Xor_gate.ncd -o Xor_gate.twr Xor_gate.pcf 
+xst -intstyle ise -ifn "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/Xor_gate.xst" -ofn "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/Xor_gate.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 Xor_gate.ngc Xor_gate.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o Xor_gate_map.ncd Xor_gate.ngd Xor_gate.pcf 
+par -w -intstyle ise -ol high -t 1 Xor_gate_map.ncd Xor_gate.ncd Xor_gate.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Xor_gate.twx Xor_gate.ncd -o Xor_gate.twr Xor_gate.pcf 

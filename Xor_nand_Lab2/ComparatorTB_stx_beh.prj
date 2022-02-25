@@ -1,0 +1,3 @@
+vhdl isim_temp "MUX4to1.vhd"
+vhdl isim_temp "Comparator.vhd"
+vhdl isim_temp "ComparatorTB.vhd"

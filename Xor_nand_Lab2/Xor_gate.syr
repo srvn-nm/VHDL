@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.15 secs
+Total CPU time to Xst completion: 1.39 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.15 secs
+Total CPU time to Xst completion: 1.39 secs
  
 --> Reading design: Xor_gate.prj
 
@@ -107,8 +107,7 @@ Slice Utilization Ratio Delta      : 5
 Compiling vhdl file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/nand_gate.vhd" in Library work.
 Architecture behavioral of Entity nand_gate is up to date.
 Compiling vhdl file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/Xor_gate.vhd" in Library work.
-Entity <xor_gate> compiled.
-Entity <xor_gate> (Architecture <structural>) compiled.
+Architecture structural of Entity xor_gate is up to date.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
@@ -280,12 +279,12 @@ Delay:               7.760ns (Levels of Logic = 3)
 =========================================================================
 
 
-Total REAL time to Xst completion: 7.00 secs
-Total CPU time to Xst completion: 6.12 secs
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.59 secs
  
 --> 
 
-Total memory usage is 4497224 kilobytes
+Total memory usage is 4497188 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
