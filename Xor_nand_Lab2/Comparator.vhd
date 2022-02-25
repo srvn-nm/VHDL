@@ -30,8 +30,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity Comparator is
-    Port ( a : in  STD_LOGIC_VECTOR (1 downto 0);
-           b : in  STD_LOGIC_VECTOR (1 downto 0);
+    Port ( x : in  STD_LOGIC_VECTOR (1 downto 0);
+           y : in  STD_LOGIC_VECTOR (1 downto 0);
            Less : out  STD_LOGIC);
 end Comparator;
 
@@ -49,8 +49,8 @@ end component;
 signal S:STD_LOGIC;
 
 begin
-S <= (not A[0])&b[0];
-C1 : MUX4to1 port map (a=>S,b=>a[1],c=>b[1],d=>S,s0=>a[1],s1=>b[1],z=>Less);
+S <= (not( x[0]))and(y[0]);
+C1 : MUX4to1 port map (a=>S,b=>x[1],c=>y[1],d=>S,s0=>x[1],s1=>y[1],z=>Less);
 
 end structural;
 
