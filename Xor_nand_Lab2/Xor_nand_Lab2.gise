@@ -22,6 +22,9 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Xor_nand_Lab2.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ComparatorTB_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ComparatorTB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="ComparatorTB_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ComparatorTB_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="XorTB_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="XorTB_isim_beh.exe"/>
@@ -71,6 +74,7 @@
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="nand_gate.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="nand_gate.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="nand_gate.lso"/>
@@ -108,7 +112,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1645787935" xil_pn:in_ck="-5794806065224641071" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1645787935">
+    <transform xil_pn:end_ts="1645788023" xil_pn:in_ck="-5794806065224641071" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1645788023">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Comparator.vhd"/>
@@ -118,51 +122,44 @@
       <outfile xil_pn:name="Xor_gate.vhd"/>
       <outfile xil_pn:name="nand_gate.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1645707675" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4661408784876197979" xil_pn:start_ts="1645707675">
+    <transform xil_pn:end_ts="1645787982" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1835682308408916964" xil_pn:start_ts="1645787982">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1645707675" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-8247264846837268387" xil_pn:start_ts="1645707675">
+    <transform xil_pn:end_ts="1645787982" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5388536369303155356" xil_pn:start_ts="1645787982">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1645707437" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="4830906908199482368" xil_pn:start_ts="1645707437">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1645707675" xil_pn:in_ck="5159193064279075321" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1645707675">
+    <transform xil_pn:end_ts="1645788026" xil_pn:in_ck="-5794806065224641071" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1645788026">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="Comparator.vhd"/>
+      <outfile xil_pn:name="ComparatorTB.vhd"/>
+      <outfile xil_pn:name="MUX4to1.vhd"/>
+      <outfile xil_pn:name="XorTB.vhd"/>
+      <outfile xil_pn:name="Xor_gate.vhd"/>
+      <outfile xil_pn:name="nand_gate.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1645707680" xil_pn:in_ck="5159193064279075321" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4450453122926978521" xil_pn:start_ts="1645707675">
+    <transform xil_pn:end_ts="1645788030" xil_pn:in_ck="-5794806065224641071" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="2335159700845866021" xil_pn:start_ts="1645788026">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="NotReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ComparatorTB_beh.prj"/>
+      <outfile xil_pn:name="ComparatorTB_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1645707680" xil_pn:in_ck="6554363182789594846" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6561382936419705236" xil_pn:start_ts="1645707680">
+    <transform xil_pn:end_ts="1645788030" xil_pn:in_ck="-3813969770598228323" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8977348513876065106" xil_pn:start_ts="1645788030">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="NotReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputChanged"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ComparatorTB_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
     </transform>
     <transform xil_pn:end_ts="1645705315" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1645705315">
       <status xil_pn:value="SuccessfullyRun"/>

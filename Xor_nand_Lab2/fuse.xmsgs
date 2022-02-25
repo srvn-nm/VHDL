@@ -5,14 +5,5 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/ComparatorTB.vhd" Line 90: &lt;<arg fmt="%s" index="1">a</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/ComparatorTB.vhd" Line 91: &lt;<arg fmt="%s" index="1">b</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="854" delta="unknown" >"C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/ComparatorTB.vhd" Line 38: Unit &lt;<arg fmt="%s" index="1">behavior</arg>&gt; ignored due to previous errors.
-</msg>
-
 </messages>
 

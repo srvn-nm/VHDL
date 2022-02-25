@@ -88,7 +88,7 @@ BEGIN
 
       -- insert stimulus here 
 		x<="00","01" after 50 ns;
-		y<="00","01" after 100 ns;
+		y<="01","00" after 100 ns;
       wait;
    end process;
 
