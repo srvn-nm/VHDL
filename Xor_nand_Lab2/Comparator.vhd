@@ -32,13 +32,25 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity Comparator is
     Port ( a : in  STD_LOGIC_VECTOR (1 downto 0);
            b : in  STD_LOGIC_VECTOR (1 downto 0);
-           Later : out  STD_LOGIC);
+           Less : out  STD_LOGIC);
 end Comparator;
 
-architecture Behavioral of Comparator is
+architecture structural of Comparator is
+component MUX4to1 is
+    Port ( a : in  STD_LOGIC;
+           b : in  STD_LOGIC;
+           c : in  STD_LOGIC;
+           d : in  STD_LOGIC;
+           s0 : in  STD_LOGIC;
+           s1 : in  STD_LOGIC;
+           z : out  STD_LOGIC);
+end component;
+
+signal S:STD_LOGIC;
 
 begin
+S <= (not A[0])&b[0];
+C1 : MUX4to1 port map (a=>S,b=>a[1],c=>b[1],d=>S,s0=>a[1],s1=>b[1],z=>Less);
 
-
-end Behavioral;
+end structural;
 
