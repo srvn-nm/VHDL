@@ -9,7 +9,7 @@ Target Device  : xc3s50
 Target Package : pq208
 Target Speed   : -5
 Mapper Version : spartan3 -- $Revision: 1.55 $
-Mapped Date    : Mon Feb 28 00:42:31 2022
+Mapped Date    : Mon Feb 28 00:49:47 2022
 
 Design Summary
 --------------
@@ -27,8 +27,8 @@ Logic Distribution:
 
 Average Fanout of Non-Clock Nets:                1.00
 
-Peak Memory Usage:  4383 MB
-Total REAL time to MAP completion:  3 secs 
+Peak Memory Usage:  4384 MB
+Total REAL time to MAP completion:  1 secs 
 Total CPU time to MAP completion:   1 secs 
 
 NOTES:

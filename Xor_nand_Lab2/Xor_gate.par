@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-DESKTOP-BSRPH44::  Mon Feb 28 00:42:37 2022
+DESKTOP-BSRPH44::  Mon Feb 28 00:49:51 2022
 
 par -w -intstyle ise -ol high -t 1 Xor_gate_map.ncd Xor_gate.ncd Xor_gate.pcf 
 
@@ -37,52 +37,52 @@ Placer effort level (-pl):    High
 Placer cost table entry (-t): 1
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 1 secs 
-Finished initial Timing Analysis.  REAL time: 1 secs 
+Starting initial Timing Analysis.  REAL time: 0 secs 
+Finished initial Timing Analysis.  REAL time: 0 secs 
 
 
 Starting Placer
-Total REAL time at the beginning of Placer: 1 secs 
+Total REAL time at the beginning of Placer: 0 secs 
 Total CPU  time at the beginning of Placer: 0 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:b) REAL time: 2 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:b) REAL time: 0 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:b) REAL time: 2 secs 
+Phase 2.7  Design Feasibility Check (Checksum:b) REAL time: 0 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:b) REAL time: 2 secs 
+Phase 3.31  Local Placement Optimization (Checksum:b) REAL time: 0 secs 
 
 Phase 4.2  Initial Clock and IO Placement
 ...
-Phase 4.2  Initial Clock and IO Placement (Checksum:b) REAL time: 2 secs 
+Phase 4.2  Initial Clock and IO Placement (Checksum:b) REAL time: 0 secs 
 
 Phase 5.36  Local Placement Optimization
-Phase 5.36  Local Placement Optimization (Checksum:b) REAL time: 2 secs 
+Phase 5.36  Local Placement Optimization (Checksum:b) REAL time: 0 secs 
 
 Phase 6.3  Local Placement Optimization
 ............
-Phase 6.3  Local Placement Optimization (Checksum:142049) REAL time: 2 secs 
+Phase 6.3  Local Placement Optimization (Checksum:142049) REAL time: 0 secs 
 
 Phase 7.5  Local Placement Optimization
-Phase 7.5  Local Placement Optimization (Checksum:142049) REAL time: 2 secs 
+Phase 7.5  Local Placement Optimization (Checksum:142049) REAL time: 0 secs 
 
 Phase 8.8  Global Placement
 ..
-Phase 8.8  Global Placement (Checksum:2a0bf6) REAL time: 2 secs 
+Phase 8.8  Global Placement (Checksum:2a0bf6) REAL time: 0 secs 
 
 Phase 9.5  Local Placement Optimization
-Phase 9.5  Local Placement Optimization (Checksum:2a0bf6) REAL time: 2 secs 
+Phase 9.5  Local Placement Optimization (Checksum:2a0bf6) REAL time: 0 secs 
 
 Phase 10.18  Placement Optimization
-Phase 10.18  Placement Optimization (Checksum:27c396) REAL time: 2 secs 
+Phase 10.18  Placement Optimization (Checksum:27c396) REAL time: 0 secs 
 
 Phase 11.5  Local Placement Optimization
-Phase 11.5  Local Placement Optimization (Checksum:27c396) REAL time: 2 secs 
+Phase 11.5  Local Placement Optimization (Checksum:27c396) REAL time: 0 secs 
 
-Total REAL time to Placer completion: 2 secs 
-Total CPU  time to Placer completion: 1 secs 
+Total REAL time to Placer completion: 0 secs 
+Total CPU  time to Placer completion: 0 secs 
 Writing design to file Xor_gate.ncd
 
 
@@ -90,25 +90,25 @@ Writing design to file Xor_gate.ncd
 Starting Router
 
 
-Phase  1  : 3 unrouted;      REAL time: 2 secs 
+Phase  1  : 3 unrouted;      REAL time: 0 secs 
 
-Phase  2  : 3 unrouted;      REAL time: 2 secs 
+Phase  2  : 3 unrouted;      REAL time: 0 secs 
 
-Phase  3  : 0 unrouted;      REAL time: 2 secs 
+Phase  3  : 0 unrouted;      REAL time: 0 secs 
 
-Phase  4  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 secs 
+Phase  4  : 0 unrouted; (Par is working to improve performance)     REAL time: 1 secs 
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 secs 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 1 secs 
 
 Updating file: Xor_gate.ncd with current fully routed design.
 
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 1 secs 
 
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 1 secs 
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 secs 
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 1 secs 
 
-Total REAL time to Router completion: 2 secs 
+Total REAL time to Router completion: 1 secs 
 Total CPU time to Router completion: 1 secs 
 
 Partition Implementation Status
@@ -128,7 +128,7 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 3 secs 
+Total REAL time to PAR completion: 1 secs 
 Total CPU time to PAR completion: 1 secs 
 
 Peak Memory Usage:  4383 MB
