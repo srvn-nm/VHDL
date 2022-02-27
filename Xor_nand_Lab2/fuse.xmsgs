@@ -5,20 +5,5 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/fullAdder.vhd" Line 25: Formal port &lt;<arg fmt="%s" index="1">A</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">decoder</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">decoder</arg>&gt; to its component declaration and its instantion to detect the mismatch.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/fullAdder.vhd" Line 26: Formal port &lt;<arg fmt="%s" index="1">B</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">decoder</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">decoder</arg>&gt; to its component declaration and its instantion to detect the mismatch.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/fullAdder.vhd" Line 27: Formal port &lt;<arg fmt="%s" index="1">Cin</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">decoder</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">decoder</arg>&gt; to its component declaration and its instantion to detect the mismatch.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="410" delta="unknown" >"C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/fullAdder.vhd" Line 28: Expression has <arg fmt="%d" index="1">8</arg> elements ; expected <arg fmt="%d" index="2">4</arg>
-</msg>
-
-<msg type="error" file="Simulator" num="777" delta="unknown" >Static elaboration of top level VHDL design unit <arg fmt="%s" index="1">fulladder_testbench</arg> in library <arg fmt="%s" index="2">work</arg> failed
-</msg>
-
 </messages>
 
