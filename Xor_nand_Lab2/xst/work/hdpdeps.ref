@@ -1,15 +1,15 @@
 V3 7
 FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/nand_gate.vhd 2022/02/24.15:51:52 P.20131013
-EN work/nand_gate 1645996336 \
+EN work/nand_gate 1645996768 \
       FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/nand_gate.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/nand_gate/Behavioral 1645996337 \
+AR work/nand_gate/Behavioral 1645996769 \
       FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/nand_gate.vhd \
-      EN work/nand_gate 1645996336
+      EN work/nand_gate 1645996768
 FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/Xor_gate.vhd 2022/02/24.16:25:55 P.20131013
-EN work/Xor_gate 1645996338 \
+EN work/Xor_gate 1645996770 \
       FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/Xor_gate.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/Xor_gate/structural 1645996339 \
+AR work/Xor_gate/structural 1645996771 \
       FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/Xor_gate.vhd \
-      EN work/Xor_gate 1645996338 CP NAND_GATE
+      EN work/Xor_gate 1645996770 CP NAND_GATE
