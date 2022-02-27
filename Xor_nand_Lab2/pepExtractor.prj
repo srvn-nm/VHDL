@@ -1,2 +1,2 @@
-work	"Comparator.vhd"
-work	"MUX4to1.vhd"
+work	"decoder.vhd"
+work	"fullAdder.vhd"
