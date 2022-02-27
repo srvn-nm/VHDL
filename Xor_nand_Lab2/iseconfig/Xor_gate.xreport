@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-02-24T16:28:24</DateModified>
+  <DateModified>2022-02-27T22:19:35</DateModified>
   <ModuleName>Xor_gate</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/iseconfig/Xor_gate.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2\</ImplementationReportsDirectory>
   <DateInitialized>2022-02-24T16:28:24</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
