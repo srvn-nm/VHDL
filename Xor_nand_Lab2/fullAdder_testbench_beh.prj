@@ -1,3 +1,0 @@
-vhdl work "fullAdder_decoder.vhd"
-vhdl work "fullAdder.vhd"
-vhdl work "fullAdder_testbench.vhd"

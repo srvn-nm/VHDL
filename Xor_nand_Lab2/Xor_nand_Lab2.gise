@@ -69,13 +69,15 @@
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="decoder_test_bench_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decoder_test_bench_stx_beh.prj"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="fullAdder_testbench_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="fullAdder_testbench_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="fullAdder_testbench_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="fullAdder_testbench_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux_test_bench_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="mux_test_bench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="mux_test_bench_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux_test_bench_stx_beh.prj"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="nand_gate.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="nand_gate.cmd_log"/>
@@ -131,11 +133,11 @@
       <outfile xil_pn:name="mux_test_bench.vhd"/>
       <outfile xil_pn:name="nand_gate.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1645996525" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1983223650374300904" xil_pn:start_ts="1645996525">
+    <transform xil_pn:end_ts="1645996857" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1644340567884479950" xil_pn:start_ts="1645996857">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1645996525" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-5485282636021107808" xil_pn:start_ts="1645996525">
+    <transform xil_pn:end_ts="1645996857" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2337917376658868358" xil_pn:start_ts="1645996857">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -160,20 +162,22 @@
       <outfile xil_pn:name="mux_test_bench.vhd"/>
       <outfile xil_pn:name="nand_gate.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1645996827" xil_pn:in_ck="-5555310607198218521" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-366347474381505587" xil_pn:start_ts="1645996824">
+    <transform xil_pn:end_ts="1645996860" xil_pn:in_ck="-5555310607198218521" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="2166799511898537785" xil_pn:start_ts="1645996857">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="fullAdder_testbench_beh.prj"/>
-      <outfile xil_pn:name="fullAdder_testbench_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="mux_test_bench_beh.prj"/>
+      <outfile xil_pn:name="mux_test_bench_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1645996828" xil_pn:in_ck="6061451294808227423" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8759197292855912858" xil_pn:start_ts="1645996827">
+    <transform xil_pn:end_ts="1645996860" xil_pn:in_ck="-1064946369505435258" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6233133393586151398" xil_pn:start_ts="1645996860">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="fullAdder_testbench_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="mux_test_bench_isim_beh.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1645705315" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1645705315">
       <status xil_pn:value="SuccessfullyRun"/>
