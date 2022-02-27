@@ -1,3 +1,0 @@
-vhdl work "nand_gate.vhd"
-vhdl work "Xor_gate.vhd"
-vhdl work "XorTB.vhd"
