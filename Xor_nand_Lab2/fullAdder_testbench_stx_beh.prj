@@ -1,0 +1,3 @@
+vhdl isim_temp "decoder.vhd"
+vhdl isim_temp "fullAdder.vhd"
+vhdl isim_temp "fullAdder_testbench.vhd"
