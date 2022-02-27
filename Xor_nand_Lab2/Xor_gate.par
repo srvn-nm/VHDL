@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-DESKTOP-BSRPH44::  Fri Feb 25 14:01:27 2022
+DESKTOP-BSRPH44::  Mon Feb 28 00:42:37 2022
 
 par -w -intstyle ise -ol high -t 1 Xor_gate_map.ncd Xor_gate.ncd Xor_gate.pcf 
 
@@ -90,25 +90,25 @@ Writing design to file Xor_gate.ncd
 Starting Router
 
 
-Phase  1  : 3 unrouted;      REAL time: 3 secs 
+Phase  1  : 3 unrouted;      REAL time: 2 secs 
 
-Phase  2  : 3 unrouted;      REAL time: 3 secs 
+Phase  2  : 3 unrouted;      REAL time: 2 secs 
 
-Phase  3  : 0 unrouted;      REAL time: 3 secs 
+Phase  3  : 0 unrouted;      REAL time: 2 secs 
 
-Phase  4  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
+Phase  4  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 secs 
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 secs 
 
 Updating file: Xor_gate.ncd with current fully routed design.
 
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 secs 
 
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 secs 
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 secs 
 
-Total REAL time to Router completion: 3 secs 
+Total REAL time to Router completion: 2 secs 
 Total CPU time to Router completion: 1 secs 
 
 Partition Implementation Status
@@ -128,7 +128,7 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 4 secs 
+Total REAL time to PAR completion: 3 secs 
 Total CPU time to PAR completion: 1 secs 
 
 Peak Memory Usage:  4383 MB
