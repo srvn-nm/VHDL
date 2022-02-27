@@ -2,14 +2,14 @@ Command line:
    XorTB_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  8729
+     -socket  13888
 
-Thu Feb 24 16:31:22 2022
+Mon Feb 28 00:44:25 2022
 
 
- Elaboration Time: 0.09375 sec
+ Elaboration Time: 0.125 sec
 
- Current Memory Usage: 5154.58 Meg
+ Current Memory Usage: 5153.99 Meg
 
  Total Signals          : 21
  Total Nets             : 6
@@ -20,9 +20,9 @@ Thu Feb 24 16:31:22 2022
  Total Traceable Variables  : 8
  Total Scalar Nets and Variables : 366
 
- Total Simulation Time: 0.140625 sec
+ Total Simulation Time: 0.125 sec
 
- Current Memory Usage: 4682.72 Meg
+ Current Memory Usage: 5153.99 Meg
 
-Thu Feb 24 16:36:17 2022
+Mon Feb 28 00:44:30 2022
 

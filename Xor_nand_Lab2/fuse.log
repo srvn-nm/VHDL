@@ -1,21 +1,21 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/ComparatorTB_isim_beh.exe -prj C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/ComparatorTB_beh.prj work.ComparatorTB 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/XorTB_isim_beh.exe -prj C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/XorTB_beh.prj work.XorTB 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Parsing VHDL file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/MUX4to1.vhd" into library work
-Parsing VHDL file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/Comparator.vhd" into library work
-Parsing VHDL file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/ComparatorTB.vhd" into library work
+Parsing VHDL file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/nand_gate.vhd" into library work
+Parsing VHDL file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/Xor_gate.vhd" into library work
+Parsing VHDL file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/XorTB.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
 Compiling package std_logic_1164
-Compiling architecture behavioral of entity MUX4to1 [mux4to1_default]
-Compiling architecture structural of entity Comparator [comparator_default]
-Compiling architecture behavior of entity comparatortb
+Compiling architecture behavioral of entity nand_gate [nand_gate_default]
+Compiling architecture structural of entity Xor_gate [xor_gate_default]
+Compiling architecture behavior of entity xortb
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
 Compiled 7 VHDL Units
-Built simulation executable C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/ComparatorTB_isim_beh.exe
-Fuse Memory Usage: 29972 KB
+Built simulation executable C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/XorTB_isim_beh.exe
+Fuse Memory Usage: 30084 KB
 Fuse CPU Usage: 421 ms

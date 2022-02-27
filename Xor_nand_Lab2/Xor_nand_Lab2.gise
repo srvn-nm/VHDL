@@ -22,9 +22,7 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Xor_nand_Lab2.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ComparatorTB_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ComparatorTB_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="ComparatorTB_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ComparatorTB_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="XorTB_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="XorTB_isim_beh.exe"/>
@@ -131,11 +129,11 @@
       <outfile xil_pn:name="mux_test_bench.vhd"/>
       <outfile xil_pn:name="nand_gate.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1645996429" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1835682308408916964" xil_pn:start_ts="1645996429">
+    <transform xil_pn:end_ts="1645996460" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4661408784876197979" xil_pn:start_ts="1645996460">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1645996429" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5388536369303155356" xil_pn:start_ts="1645996429">
+    <transform xil_pn:end_ts="1645996460" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-8247264846837268387" xil_pn:start_ts="1645996460">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -159,20 +157,20 @@
       <outfile xil_pn:name="mux_test_bench.vhd"/>
       <outfile xil_pn:name="nand_gate.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1645996433" xil_pn:in_ck="6642145636005208911" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="2335159700845866021" xil_pn:start_ts="1645996429">
+    <transform xil_pn:end_ts="1645996463" xil_pn:in_ck="6642145636005208911" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4450453122926978521" xil_pn:start_ts="1645996460">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="ComparatorTB_beh.prj"/>
-      <outfile xil_pn:name="ComparatorTB_isim_beh.exe"/>
+      <outfile xil_pn:name="XorTB_beh.prj"/>
+      <outfile xil_pn:name="XorTB_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1645996434" xil_pn:in_ck="2457896431443829435" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8977348513876065106" xil_pn:start_ts="1645996433">
+    <transform xil_pn:end_ts="1645996463" xil_pn:in_ck="2457896431443829435" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6561382936419705236" xil_pn:start_ts="1645996463">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="ComparatorTB_isim_beh.wdb"/>
+      <outfile xil_pn:name="XorTB_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
