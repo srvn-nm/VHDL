@@ -112,17 +112,17 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1645788023" xil_pn:in_ck="-5794806065224641071" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1645788023">
-      <status xil_pn:value="SuccessfullyRun"/>
+    <transform xil_pn:end_ts="1645996065" xil_pn:in_ck="4030002491139791397" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1645996125">
+      <status xil_pn:value="ExecutingRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="Comparator.vhd"/>
       <outfile xil_pn:name="ComparatorTB.vhd"/>
       <outfile xil_pn:name="MUX4to1.vhd"/>
       <outfile xil_pn:name="XorTB.vhd"/>
       <outfile xil_pn:name="Xor_gate.vhd"/>
+      <outfile xil_pn:name="decoder.vhd"/>
+      <outfile xil_pn:name="fullAdder.vhd"/>
+      <outfile xil_pn:name="mux4x1.vhd"/>
       <outfile xil_pn:name="nand_gate.vhd"/>
     </transform>
     <transform xil_pn:end_ts="1645787982" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1835682308408916964" xil_pn:start_ts="1645787982">
@@ -140,7 +140,9 @@
     <transform xil_pn:end_ts="1645788026" xil_pn:in_ck="-5794806065224641071" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1645788026">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
       <outfile xil_pn:name="Comparator.vhd"/>
       <outfile xil_pn:name="ComparatorTB.vhd"/>
       <outfile xil_pn:name="MUX4to1.vhd"/>
