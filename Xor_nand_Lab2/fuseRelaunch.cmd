@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/mux_test_bench_isim_beh.exe" -prj "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/mux_test_bench_beh.prj" "work.mux_test_bench" 
+-intstyle "ise" -incremental -o "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/XorTB_isim_beh.exe" -prj "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Xor_nand_Lab2/XorTB_beh.prj" "work.XorTB" 

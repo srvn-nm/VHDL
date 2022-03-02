@@ -1,3 +1,0 @@
-vhdl work "decoder.vhd"
-vhdl work "mux4x1.vhd"
-vhdl work "mux_test_bench.vhd"
