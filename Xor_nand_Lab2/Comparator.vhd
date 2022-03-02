@@ -50,7 +50,7 @@ signal S:STD_LOGIC;
 
 begin
 S <= ((not( x(0)))and(y(0)));
-C1 : MUX4to1 port map (a=>S,b=>x(1),c=>y(1),d=>S,s0=>x(1),s1=>y(1),z=>Less);
+C1 : MUX4to1 port map (a=>S,b=>y(1),c=>y(1),d=>S,s0=>x(1),s1=>y(1),z=>Less);
 
 end structural;
 
