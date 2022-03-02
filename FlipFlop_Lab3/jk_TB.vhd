@@ -60,7 +60,7 @@ ARCHITECTURE behavior OF jk_TB IS
    signal Q : std_logic;
 
    -- Clock period definitions
-   constant clock_period : time := 10 ns;
+   constant clock_period : time := 50 ns;
  
 BEGIN
  
@@ -88,9 +88,31 @@ BEGIN
    begin		
       -- hold reset state for 100 ns.
       wait for 100 ns;	
-
-      wait for clock_period*10;
-
+		j<='1';
+		k<='0';
+      wait for clock_period*2;
+		j<='1';
+		k<='1';
+      wait for clock_period*2;
+		j<='0';
+		k<='1';
+      wait for clock_period*2;
+		j<='0';
+		k<='0';
+      wait for clock_period*2;
+		j<='1';
+		k<='0';
+      wait for clock_period*2;
+		reset<='1';
+		j<='1';
+		k<='0';
+      wait for clock_period*2;
+		j<='0';
+		k<='1';
+      wait for clock_period*2;
+		resett <='0';
+		j<='1';
+		k<='1';
       -- insert stimulus here 
 
       wait;
