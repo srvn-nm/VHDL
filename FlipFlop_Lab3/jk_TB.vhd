@@ -110,7 +110,7 @@ BEGIN
 		j<='0';
 		k<='1';
       wait for clock_period*2;
-		resett <='0';
+		reset <='0';
 		j<='1';
 		k<='1';
       -- insert stimulus here 

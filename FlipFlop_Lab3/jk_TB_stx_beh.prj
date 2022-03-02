@@ -1,0 +1,2 @@
+vhdl isim_temp "JKFlipFlop.vhd"
+vhdl isim_temp "jk_TB.vhd"
