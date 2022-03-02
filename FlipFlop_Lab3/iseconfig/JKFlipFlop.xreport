@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-03-02T09:39:10</DateModified>
+  <DateModified>2022-03-02T14:22:43</DateModified>
   <ModuleName>JKFlipFlop</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FlipFlop_Lab3/iseconfig/JKFlipFlop.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FlipFlop_Lab3</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FlipFlop_Lab3\</ImplementationReportsDirectory>
   <DateInitialized>2022-03-02T08:41:35</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
