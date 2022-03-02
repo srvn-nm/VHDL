@@ -1,0 +1,2 @@
+vhdl work "JKFlipFlop.vhd"
+vhdl work "jk_TB.vhd"
