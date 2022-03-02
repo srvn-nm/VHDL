@@ -41,6 +41,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="JKFlipFlop.unroutes" xil_pn:subbranch="Par"/>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="JKFlipFlop.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="JKFlipFlop.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="JKFlipFlop_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="JKFlipFlop_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="JKFlipFlop_map.map" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="JKFlipFlop_map.mrp" xil_pn:subbranch="Map"/>
@@ -83,8 +84,12 @@
     <transform xil_pn:end_ts="1646200726" xil_pn:in_ck="960276726834498331" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1646200726">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="JKFlipFlop.vhd"/>
-      <outfile xil_pn:name="jk_TB.vhd"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1646200741" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="2833898876116444448" xil_pn:start_ts="1646200741">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -101,25 +106,30 @@
     <transform xil_pn:end_ts="1646200741" xil_pn:in_ck="960276726834498331" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1646200741">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="JKFlipFlop.vhd"/>
-      <outfile xil_pn:name="jk_TB.vhd"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1646200745" xil_pn:in_ck="960276726834498331" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="5935365318801103869" xil_pn:start_ts="1646200741">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="fuse.log"/>
-      <outfile xil_pn:name="isim"/>
-      <outfile xil_pn:name="jk_TB_beh.prj"/>
-      <outfile xil_pn:name="jk_TB_isim_beh.exe"/>
-      <outfile xil_pn:name="xilinxsim.ini"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1646200746" xil_pn:in_ck="6787374163167780217" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6590213429845983370" xil_pn:start_ts="1646200745">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="isim.cmd"/>
-      <outfile xil_pn:name="jk_TB_isim_beh.wdb"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1646199872" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1646199872">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -149,70 +159,54 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1646200107" xil_pn:in_ck="-4071347831869549919" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="7776176739298175706" xil_pn:start_ts="1646200093">
+    <transform xil_pn:end_ts="1646201690" xil_pn:in_ck="941585586366959585" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="7776176739298175706" xil_pn:start_ts="1646201681">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="JKFlipFlop.lso"/>
-      <outfile xil_pn:name="JKFlipFlop.ngc"/>
-      <outfile xil_pn:name="JKFlipFlop.ngr"/>
-      <outfile xil_pn:name="JKFlipFlop.prj"/>
-      <outfile xil_pn:name="JKFlipFlop.stx"/>
-      <outfile xil_pn:name="JKFlipFlop.syr"/>
-      <outfile xil_pn:name="JKFlipFlop.xst"/>
-      <outfile xil_pn:name="JKFlipFlop_vhdl.prj"/>
-      <outfile xil_pn:name="JKFlipFlop_xst.xrpt"/>
-      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="webtalk_pn.xml"/>
-      <outfile xil_pn:name="xst"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1646199879" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="5229030208030635049" xil_pn:start_ts="1646199879">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1646200116" xil_pn:in_ck="-4071347831869558665" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="445509972609463652" xil_pn:start_ts="1646200107">
+    <transform xil_pn:end_ts="1646201698" xil_pn:in_ck="-4071347831869558665" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="445509972609463652" xil_pn:start_ts="1646201690">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="JKFlipFlop.bld"/>
-      <outfile xil_pn:name="JKFlipFlop.ngd"/>
-      <outfile xil_pn:name="JKFlipFlop_ngdbuild.xrpt"/>
-      <outfile xil_pn:name="_ngo"/>
-      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
-    <transform xil_pn:end_ts="1646200124" xil_pn:in_ck="-4071347831869558664" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-7868858794111860816" xil_pn:start_ts="1646200116">
+    <transform xil_pn:end_ts="1646201702" xil_pn:in_ck="-4071347831869558664" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-7868858794111860816" xil_pn:start_ts="1646201698">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="JKFlipFlop.pcf"/>
-      <outfile xil_pn:name="JKFlipFlop_map.map"/>
-      <outfile xil_pn:name="JKFlipFlop_map.mrp"/>
-      <outfile xil_pn:name="JKFlipFlop_map.ncd"/>
-      <outfile xil_pn:name="JKFlipFlop_map.ngm"/>
-      <outfile xil_pn:name="JKFlipFlop_map.xrpt"/>
-      <outfile xil_pn:name="JKFlipFlop_summary.xml"/>
-      <outfile xil_pn:name="JKFlipFlop_usage.xml"/>
-      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
-    <transform xil_pn:end_ts="1646200136" xil_pn:in_ck="-9204775606627861615" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="3266239339701135281" xil_pn:start_ts="1646200124">
+    <transform xil_pn:end_ts="1646201710" xil_pn:in_ck="-9204775606627861615" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="3266239339701135281" xil_pn:start_ts="1646201702">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="JKFlipFlop.ncd"/>
-      <outfile xil_pn:name="JKFlipFlop.pad"/>
-      <outfile xil_pn:name="JKFlipFlop.par"/>
-      <outfile xil_pn:name="JKFlipFlop.ptwx"/>
-      <outfile xil_pn:name="JKFlipFlop.unroutes"/>
-      <outfile xil_pn:name="JKFlipFlop.xpi"/>
-      <outfile xil_pn:name="JKFlipFlop_pad.csv"/>
-      <outfile xil_pn:name="JKFlipFlop_pad.txt"/>
-      <outfile xil_pn:name="JKFlipFlop_par.xrpt"/>
-      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
-    <transform xil_pn:end_ts="1646200136" xil_pn:in_ck="-4071347831869558796" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1646200133">
+    <transform xil_pn:end_ts="1646201710" xil_pn:in_ck="-4071347831869558796" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1646201707">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="JKFlipFlop.twr"/>
-      <outfile xil_pn:name="JKFlipFlop.twx"/>
-      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
   </transforms>
 

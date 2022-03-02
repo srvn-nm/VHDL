@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.43 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.19 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.46 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.19 secs
  
 --> Reading design: JKFlipFlop.prj
 
@@ -105,19 +105,18 @@ Slice Utilization Ratio Delta      : 5
 *                          HDL Compilation                              *
 =========================================================================
 Compiling vhdl file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FlipFlop_Lab3/JKFlipFlop.vhd" in Library work.
-Entity <jkflipflop> compiled.
-Entity <JKFlipFlop> (Architecture <Behavioral>) compiled.
+Architecture behavioral of Entity jkflipflop is up to date.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
 =========================================================================
-Analyzing hierarchy for entity <JKFlipFlop> in library <work> (architecture <Behavioral>).
+Analyzing hierarchy for entity <JKFlipFlop> in library <work> (architecture <behavioral>).
 
 
 =========================================================================
 *                            HDL Analysis                               *
 =========================================================================
-Analyzing Entity <JKFlipFlop> in library <work> (Architecture <Behavioral>).
+Analyzing Entity <JKFlipFlop> in library <work> (Architecture <behavioral>).
 Entity <JKFlipFlop> analyzed. Unit <JKFlipFlop> generated.
 
 
@@ -337,12 +336,12 @@ Offset:              6.280ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 10.00 secs
-Total CPU time to Xst completion: 10.40 secs
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.84 secs
  
 --> 
 
-Total memory usage is 4497228 kilobytes
+Total memory usage is 4497216 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

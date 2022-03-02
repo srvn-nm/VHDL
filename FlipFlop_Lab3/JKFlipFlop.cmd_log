@@ -4,3 +4,8 @@ ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 JKFlipFlop.ng
 map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o JKFlipFlop_map.ncd JKFlipFlop.ngd JKFlipFlop.pcf 
 par -w -intstyle ise -ol high -t 1 JKFlipFlop_map.ncd JKFlipFlop.ncd JKFlipFlop.pcf 
 trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml JKFlipFlop.twx JKFlipFlop.ncd -o JKFlipFlop.twr JKFlipFlop.pcf 
+xst -intstyle ise -ifn "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FlipFlop_Lab3/JKFlipFlop.xst" -ofn "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FlipFlop_Lab3/JKFlipFlop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 JKFlipFlop.ngc JKFlipFlop.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o JKFlipFlop_map.ncd JKFlipFlop.ngd JKFlipFlop.pcf 
+par -w -intstyle ise -ol high -t 1 JKFlipFlop_map.ncd JKFlipFlop.ncd JKFlipFlop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml JKFlipFlop.twx JKFlipFlop.ncd -o JKFlipFlop.twr JKFlipFlop.pcf 
