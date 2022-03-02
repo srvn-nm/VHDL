@@ -32,13 +32,30 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity JKFlipFlop is
     Port ( j : in  STD_LOGIC;
            k : in  STD_LOGIC;
+			  reset : in STD_LOGIC;
+			  clock : in STD_LOGIC;
            Q : out  STD_LOGIC);
 end JKFlipFlop;
 
 architecture Behavioral of JKFlipFlop is
-
 begin
-
-
+process(clock,reset)
+variable tempQ : STD_LOGIC :='0';
+begin
+if(reset ='1')then
+tempQ :='0';
+elsif(CLOCK='1' and CLOCK'EVENT)then
+if(j='0' and k='0')then
+Null;
+elsif(j='0' and k='1')then
+tempQ := '0';
+elsif(j='1' and k='0')then
+tempQ := '1';
+else
+tempQ := not tempQ;
+end if;
+end if;
+Q <= tempQ;
+end process; 
 end Behavioral;
 
