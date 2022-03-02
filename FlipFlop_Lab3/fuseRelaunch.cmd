@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FlipFlop_Lab3/jk_TB_isim_beh.exe" -prj "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FlipFlop_Lab3/jk_TB_beh.prj" "work.jk_TB" 
+-intstyle "ise" -incremental -o "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FlipFlop_Lab3/d_TB_isim_beh.exe" -prj "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FlipFlop_Lab3/d_TB_beh.prj" "work.d_TB" 

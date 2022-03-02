@@ -1,19 +1,19 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FlipFlop_Lab3/jk_TB_isim_beh.exe -prj C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FlipFlop_Lab3/jk_TB_beh.prj work.jk_TB 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FlipFlop_Lab3/d_TB_isim_beh.exe -prj C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FlipFlop_Lab3/d_TB_beh.prj work.d_TB 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Parsing VHDL file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FlipFlop_Lab3/JKFlipFlop.vhd" into library work
-Parsing VHDL file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FlipFlop_Lab3/jk_TB.vhd" into library work
+Parsing VHDL file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FlipFlop_Lab3/DFLipFlop.vhd" into library work
+Parsing VHDL file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FlipFlop_Lab3/d_TB.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
 Compiling package std_logic_1164
-Compiling architecture behavioral of entity JKFlipFlop [jkflipflop_default]
-Compiling architecture behavior of entity jk_tb
+Compiling architecture behavioral of entity DFLipFlop [dflipflop_default]
+Compiling architecture behavior of entity d_tb
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
 Compiled 5 VHDL Units
-Built simulation executable C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FlipFlop_Lab3/jk_TB_isim_beh.exe
-Fuse Memory Usage: 29896 KB
-Fuse CPU Usage: 437 ms
+Built simulation executable C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/FlipFlop_Lab3/d_TB_isim_beh.exe
+Fuse Memory Usage: 29840 KB
+Fuse CPU Usage: 530 ms

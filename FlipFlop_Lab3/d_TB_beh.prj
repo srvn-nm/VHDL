@@ -1,0 +1,2 @@
+vhdl work "DFLipFlop.vhd"
+vhdl work "d_TB.vhd"
