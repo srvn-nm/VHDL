@@ -23,6 +23,30 @@
 
   <files xmlns="http://www.xilinx.com/XMLSchema"/>
 
-  <transforms xmlns="http://www.xilinx.com/XMLSchema"/>
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1646585911" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1646585911">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1646585911" xil_pn:in_ck="3705462944239" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1646585911">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="T_FF.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1646585911" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-9044832904953873877" xil_pn:start_ts="1646585911">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1646585911" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="4900216971465268963" xil_pn:start_ts="1646585911">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1646585911" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="5749104064316660426" xil_pn:start_ts="1646585911">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
 
 </generated_project>
