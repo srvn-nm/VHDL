@@ -1,41 +1,24 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date:    19:21:05 03/06/2022 
--- Design Name: 
--- Module Name:    T_FF - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
---
--- Dependencies: 
---
--- Revision: 
--- Revision 0.01 - File Created
--- Additional Comments: 
---
-----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx primitives in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
-
+ 
 entity T_FF is
+port( T: in std_logic;
+Clock: in std_logic;
+Q: out std_logic);
 end T_FF;
 
+--T_FF --> T xor Q
 architecture Behavioral of T_FF is
+--var --> TFF resualt
+signal temp: std_logic := '0';
 
 begin
 
-
+process (Clock)
+begin
+if Clock='1' and Clock'event then
+ temp <= T xor temp;
+end if;
+end process;
+Q <= temp;
 end Behavioral;
-
