@@ -10,7 +10,7 @@ Target Device  : xc3s50
 Target Package : pq208
 Target Speed   : -5
 Mapper Version : spartan3 -- $Revision: 1.55 $
-Mapped Date    : Fri Mar 18 00:44:11 2022
+Mapped Date    : Fri Mar 18 01:03:59 2022
 
 Mapping design into LUTs...
 Running directed packing...
