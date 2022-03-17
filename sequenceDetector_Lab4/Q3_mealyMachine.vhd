@@ -50,7 +50,7 @@ state_trans:  process(state,x)   --reacts to changes in state and x
             next_state <= state;  --update next state
             case state is
                when a => if x = '1' then
-                         z <= '0';
+                         z <= '1';
                          next_state <= b;
                     else
                          next_state <= a;

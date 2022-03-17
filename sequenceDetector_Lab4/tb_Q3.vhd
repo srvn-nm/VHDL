@@ -88,7 +88,7 @@ BEGIN
   wait for 10 ns;
   x <= '0';
   wait for 10 ns;
-  x <= '1'; 
+  x <= '0'; 
   wait for 20 ns;
   x <= '1'; 
   wait for 20 ns;
