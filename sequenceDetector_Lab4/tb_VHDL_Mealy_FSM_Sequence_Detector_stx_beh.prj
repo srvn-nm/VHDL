@@ -1,0 +1,2 @@
+vhdl isim_temp "VHDL_MEALY_FSM_Sequence_Detector.vhd"
+vhdl isim_temp "tb_VHDL_Mealy_FSM_Sequence_Detector.vhd"

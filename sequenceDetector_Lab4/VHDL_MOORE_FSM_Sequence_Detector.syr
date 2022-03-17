@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.14 secs
+Total CPU time to Xst completion: 0.20 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.14 secs
+Total CPU time to Xst completion: 0.20 secs
  
 --> Reading design: VHDL_MOORE_FSM_Sequence_Detector.prj
 
@@ -105,19 +105,18 @@ Slice Utilization Ratio Delta      : 5
 *                          HDL Compilation                              *
 =========================================================================
 Compiling vhdl file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/sequenceDetector_Lab4/VHDL_MOORE_FSM_Sequence_Detector.vhd" in Library work.
-Entity <vhdl_moore_fsm_sequence_detector> compiled.
-Entity <VHDL_MOORE_FSM_Sequence_Detector> (Architecture <Behavioral>) compiled.
+Architecture behavioral of Entity vhdl_moore_fsm_sequence_detector is up to date.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
 =========================================================================
-Analyzing hierarchy for entity <VHDL_MOORE_FSM_Sequence_Detector> in library <work> (architecture <Behavioral>).
+Analyzing hierarchy for entity <VHDL_MOORE_FSM_Sequence_Detector> in library <work> (architecture <behavioral>).
 
 
 =========================================================================
 *                            HDL Analysis                               *
 =========================================================================
-Analyzing Entity <VHDL_MOORE_FSM_Sequence_Detector> in library <work> (Architecture <Behavioral>).
+Analyzing Entity <VHDL_MOORE_FSM_Sequence_Detector> in library <work> (Architecture <behavioral>).
 Entity <VHDL_MOORE_FSM_Sequence_Detector> analyzed. Unit <VHDL_MOORE_FSM_Sequence_Detector> generated.
 
 
@@ -356,12 +355,12 @@ Offset:              6.314ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 6.00 secs
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.06 secs
  
 --> 
 
-Total memory usage is 4513412 kilobytes
+Total memory usage is 4497176 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

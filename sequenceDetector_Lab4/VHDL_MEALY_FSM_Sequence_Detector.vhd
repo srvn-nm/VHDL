@@ -30,11 +30,11 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity VHDL_MEALY_FSM_Sequence_Detector is port (
-     clk,x:    in bit;
-     z:        out bit);
+     clk,x:    in std_logic;
+     z:        out std_logic);
 end VHDL_MEALY_FSM_Sequence_Detector;               -- detect a 1110 sequence
 
-architecture mealy of VHDL_MEALY_FSM_Sequence_Detector is
+architecture Behavioral of VHDL_MEALY_FSM_Sequence_Detector is
      type states is (a,b,c,d,e);
      signal state:  states := a;  -- initial value is a
      signal next_state:   states := a;  -- initial value
@@ -86,4 +86,4 @@ state_trans:  process(state,x)   --reacts to changes in state and x
                      end if;
 end case;
 end process state_trans;
-end mealy;
+end Behavioral;
