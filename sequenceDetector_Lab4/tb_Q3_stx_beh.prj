@@ -1,0 +1,2 @@
+vhdl isim_temp "Q3_mealyMachine.vhd"
+vhdl isim_temp "tb_Q3.vhd"
