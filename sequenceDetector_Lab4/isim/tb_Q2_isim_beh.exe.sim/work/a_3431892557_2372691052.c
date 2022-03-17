@@ -223,7 +223,7 @@ LAB20:    xsi_set_current_line(98, ng0);
     *((unsigned char *)t6) = (unsigned char)3;
     xsi_driver_first_trans_fast(t2);
     xsi_set_current_line(99, ng0);
-    t7 = (20 * 1000LL);
+    t7 = (10 * 1000LL);
     t2 = (t0 + 2848);
     xsi_process_wait(t2, t7);
 
@@ -243,7 +243,7 @@ LAB24:    xsi_set_current_line(100, ng0);
     *((unsigned char *)t6) = (unsigned char)3;
     xsi_driver_first_trans_fast(t2);
     xsi_set_current_line(101, ng0);
-    t7 = (20 * 1000LL);
+    t7 = (10 * 1000LL);
     t2 = (t0 + 2848);
     xsi_process_wait(t2, t7);
 
@@ -263,7 +263,7 @@ LAB28:    xsi_set_current_line(102, ng0);
     *((unsigned char *)t6) = (unsigned char)2;
     xsi_driver_first_trans_fast(t2);
     xsi_set_current_line(103, ng0);
-    t7 = (20 * 1000LL);
+    t7 = (10 * 1000LL);
     t2 = (t0 + 2848);
     xsi_process_wait(t2, t7);
 
@@ -283,7 +283,7 @@ LAB32:    xsi_set_current_line(104, ng0);
     *((unsigned char *)t6) = (unsigned char)3;
     xsi_driver_first_trans_fast(t2);
     xsi_set_current_line(105, ng0);
-    t7 = (20 * 1000LL);
+    t7 = (10 * 1000LL);
     t2 = (t0 + 2848);
     xsi_process_wait(t2, t7);
 

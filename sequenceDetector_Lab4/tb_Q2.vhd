@@ -96,16 +96,15 @@ BEGIN
   sequence_in <= '1'; 
   wait for 20 ns;
   sequence_in <= '1'; 
-  wait for 20 ns;
+  wait for 10 ns;
   sequence_in <= '1'; 
-  wait for 20 ns;
+  wait for 10 ns;
   sequence_in <= '0';
-wait for 20 ns;
+wait for 10 ns;
   sequence_in <= '1';
-wait for 20 ns;
+wait for 10 ns;
   sequence_in <= '0';  
       -- insert stimulus here 
 		wait;
    end process;
-
 END;

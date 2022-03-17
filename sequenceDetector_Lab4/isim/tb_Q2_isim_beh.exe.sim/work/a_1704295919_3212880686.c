@@ -198,7 +198,7 @@ LAB22:    xsi_set_current_line(64, ng0);
     t4 = *((char **)t2);
     t5 = (t4 + 56U);
     t8 = *((char **)t5);
-    *((unsigned char *)t8) = (unsigned char)1;
+    *((unsigned char *)t8) = (unsigned char)0;
     xsi_driver_first_trans_fast(t1);
 
 LAB21:    goto LAB2;

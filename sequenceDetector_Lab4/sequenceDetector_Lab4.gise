@@ -86,7 +86,7 @@
     <transform xil_pn:end_ts="1647540461" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1647540461">
       <status xil_pn:value="SuccessfullyRun"/>
     </transform>
-    <transform xil_pn:end_ts="1647556656" xil_pn:in_ck="-6748893947414235742" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1647556656">
+    <transform xil_pn:end_ts="1647557399" xil_pn:in_ck="-6748893947414235742" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1647557399">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Q2_mooreSequenceDetector.vhd"/>
@@ -110,7 +110,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1647556684" xil_pn:in_ck="-6748893947414235742" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1647556684">
+    <transform xil_pn:end_ts="1647557399" xil_pn:in_ck="-6748893947414235742" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1647557399">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Q2_mooreSequenceDetector.vhd"/>
@@ -122,9 +122,11 @@
       <outfile xil_pn:name="tb_VHDL_Mealy_FSM_Sequence_Detector.vhd"/>
       <outfile xil_pn:name="tb_VHDL_Moore_FSM_Sequence_Detector.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1647556688" xil_pn:in_ck="-6748893947414235742" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3092248208809800167" xil_pn:start_ts="1647556684">
+    <transform xil_pn:end_ts="1647557402" xil_pn:in_ck="-6748893947414235742" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3092248208809800167" xil_pn:start_ts="1647557399">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
@@ -132,9 +134,11 @@
       <outfile xil_pn:name="tb_Q2_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1647556688" xil_pn:in_ck="-8593707760282397065" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="2553162869949426150" xil_pn:start_ts="1647556688">
+    <transform xil_pn:end_ts="1647557402" xil_pn:in_ck="-8593707760282397065" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="2553162869949426150" xil_pn:start_ts="1647557402">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="tb_Q2_isim_beh.wdb"/>

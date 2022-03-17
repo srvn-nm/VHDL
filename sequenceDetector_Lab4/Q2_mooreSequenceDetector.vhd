@@ -61,7 +61,7 @@ begin
   if(sequence_in='1') then
    next_state <= One;
   else
-   next_state <= One;
+   next_state <= Zero;
   end if;
  end case;
 end process;
