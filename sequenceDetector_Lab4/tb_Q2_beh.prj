@@ -1,0 +1,2 @@
+vhdl work "Q2_mooreSequenceDetector.vhd"
+vhdl work "tb_Q2.vhd"

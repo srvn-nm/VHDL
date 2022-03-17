@@ -77,7 +77,7 @@ begin
   detector_out <= '0'; 
  when OneZeroOne =>
   detector_out <= '0'; 
- when OneZeroZOneZO =>
+ when OneZeroOneZO =>
   detector_out <= '1';
  end case;
 end process;

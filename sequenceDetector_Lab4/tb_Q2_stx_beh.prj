@@ -1,0 +1,2 @@
+vhdl isim_temp "Q2_mooreSequenceDetector.vhd"
+vhdl isim_temp "tb_Q2.vhd"

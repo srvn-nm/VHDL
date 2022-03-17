@@ -83,14 +83,29 @@ BEGIN
    -- Stimulus process
    stim_proc: process
    begin		
-      -- hold reset state for 100 ns.
-      wait for 100 ns;	
-
-      wait for clock_period*10;
-
+    sequence_in <= '0';
+  reset <= '1';
+  -- Wait 100 ns for global reset to finish
+  wait for 30 ns;
+      reset <= '0';
+  wait for 40 ns;
+  sequence_in <= '1';
+  wait for 10 ns;
+  sequence_in <= '0';
+  wait for 10 ns;
+  sequence_in <= '1'; 
+  wait for 20 ns;
+  sequence_in <= '1'; 
+  wait for 20 ns;
+  sequence_in <= '1'; 
+  wait for 20 ns;
+  sequence_in <= '0';
+wait for 20 ns;
+  sequence_in <= '1';
+wait for 20 ns;
+  sequence_in <= '0';  
       -- insert stimulus here 
-
-      wait;
+		wait;
    end process;
 
 END;
