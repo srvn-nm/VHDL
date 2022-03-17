@@ -1,0 +1,2 @@
+vhdl work "Q3_mealyMachine.vhd"
+vhdl work "tb_Q3.vhd"
