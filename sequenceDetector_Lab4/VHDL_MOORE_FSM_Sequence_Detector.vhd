@@ -41,27 +41,27 @@ begin
    -- "11"
    next_state <= OneOne;
   else
-   next_state <= One;
+   next_state <= Zero;
   end if;  
  when OneOne => 
   if(sequence_in='1') then
    -- "111"
    next_state <= OneOneOne;
   else
-   next_state <= One;
+   next_state <= Zero;
   end if;  
  when OneOneOne =>
   if(sequence_in='0') then
    -- "1110"
    next_state <= OneOneOneZero;
   else
-   next_state <= Zero;
+   next_state <= One;
   end if; 
  when OneOneOneZero =>
   if(sequence_in='1') then
    next_state <= One;
   else
-   next_state <= OneZero;
+   next_state <= Zero;
   end if;
  end case;
 end process;

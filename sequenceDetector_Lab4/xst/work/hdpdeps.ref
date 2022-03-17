@@ -1,0 +1,7 @@
+V3 3
+EN work/VHDL_MOORE_FSM_Sequence_Detector 0 \
+      FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/sequenceDetector_Lab4/VHDL_MOORE_FSM_Sequence_Detector.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/VHDL_MOORE_FSM_Sequence_Detector/Behavioral 0 \
+      FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/sequenceDetector_Lab4/VHDL_MOORE_FSM_Sequence_Detector.vhd \
+      EN work/VHDL_MOORE_FSM_Sequence_Detector 0

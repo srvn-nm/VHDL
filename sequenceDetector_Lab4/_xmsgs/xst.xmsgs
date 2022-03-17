@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLParsers" num="3313" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/sequenceDetector_Lab4/VHDL_MOORE_FSM_Sequence_Detector.vhd</arg>&quot; Line <arg fmt="%d" index="2">42</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">OneOne</arg>&apos;.  Should it be: <arg fmt="%s" index="4">&apos;One One&apos;</arg>?
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/sequenceDetector_Lab4/VHDL_MOORE_FSM_Sequence_Detector.vhd</arg>&quot; Line <arg fmt="%d" index="2">42</arg>. <arg fmt="%s" index="3">OneOne</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/sequenceDetector_Lab4/VHDL_MOORE_FSM_Sequence_Detector.vhd</arg>&quot; Line <arg fmt="%d" index="2">49</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">OneOneOne</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/sequenceDetector_Lab4/VHDL_MOORE_FSM_Sequence_Detector.vhd</arg>&quot; Line <arg fmt="%d" index="2">49</arg>. <arg fmt="%s" index="3">OneOneOne</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/sequenceDetector_Lab4/VHDL_MOORE_FSM_Sequence_Detector.vhd</arg>&quot; Line <arg fmt="%d" index="2">56</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">OneOneOneZero</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/sequenceDetector_Lab4/VHDL_MOORE_FSM_Sequence_Detector.vhd</arg>&quot; Line <arg fmt="%d" index="2">56</arg>. <arg fmt="%s" index="3">OneOneOneZero</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="813" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/sequenceDetector_Lab4/VHDL_MOORE_FSM_Sequence_Detector.vhd</arg>&quot; Line <arg fmt="%d" index="2">32</arg>. Enumerated value <arg fmt="%s" index="3">onezerozeroone</arg> is missing in <arg fmt="%s" index="4">case</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3313" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/sequenceDetector_Lab4/VHDL_MOORE_FSM_Sequence_Detector.vhd</arg>&quot; Line <arg fmt="%d" index="2">76</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">OneOne</arg>&apos;.  Should it be: <arg fmt="%s" index="4">&apos;One One&apos;</arg>?
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/sequenceDetector_Lab4/VHDL_MOORE_FSM_Sequence_Detector.vhd</arg>&quot; Line <arg fmt="%d" index="2">76</arg>. <arg fmt="%s" index="3">OneOne</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/sequenceDetector_Lab4/VHDL_MOORE_FSM_Sequence_Detector.vhd</arg>&quot; Line <arg fmt="%d" index="2">78</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">OneOneOne</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/sequenceDetector_Lab4/VHDL_MOORE_FSM_Sequence_Detector.vhd</arg>&quot; Line <arg fmt="%d" index="2">78</arg>. <arg fmt="%s" index="3">OneOneOne</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/sequenceDetector_Lab4/VHDL_MOORE_FSM_Sequence_Detector.vhd</arg>&quot; Line <arg fmt="%d" index="2">80</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">OneOneOneZero</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/sequenceDetector_Lab4/VHDL_MOORE_FSM_Sequence_Detector.vhd</arg>&quot; Line <arg fmt="%d" index="2">80</arg>. <arg fmt="%s" index="3">OneOneOneZero</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="813" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/sequenceDetector_Lab4/VHDL_MOORE_FSM_Sequence_Detector.vhd</arg>&quot; Line <arg fmt="%d" index="2">72</arg>. Enumerated value <arg fmt="%s" index="3">onezerozeroone</arg> is missing in <arg fmt="%s" index="4">case</arg>.
+</msg>
+
+</messages>
+
