@@ -82,6 +82,8 @@
     <transform xil_pn:end_ts="1647540570" xil_pn:in_ck="1460200610434455743" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1647540570">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
       <outfile xil_pn:name="VHDL_MOORE_FSM_Sequence_Detector.vhd"/>
       <outfile xil_pn:name="tb_VHDL_Moore_FSM_Sequence_Detector.vhd"/>
     </transform>
@@ -100,12 +102,14 @@
     <transform xil_pn:end_ts="1647540574" xil_pn:in_ck="1460200610434455743" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1647540574">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="VHDL_MOORE_FSM_Sequence_Detector.vhd"/>
       <outfile xil_pn:name="tb_VHDL_Moore_FSM_Sequence_Detector.vhd"/>
     </transform>
     <transform xil_pn:end_ts="1647540578" xil_pn:in_ck="1460200610434455743" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-2977960790245254435" xil_pn:start_ts="1647540574">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="tb_VHDL_Moore_FSM_Sequence_Detector_beh.prj"/>
@@ -115,6 +119,9 @@
     <transform xil_pn:end_ts="1647540579" xil_pn:in_ck="836632627789522441" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8775502153517690454" xil_pn:start_ts="1647540578">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="tb_VHDL_Moore_FSM_Sequence_Detector_isim_beh.wdb"/>
     </transform>
@@ -148,7 +155,9 @@
     <transform xil_pn:end_ts="1647538512" xil_pn:in_ck="2376073107758194805" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="-3750501658864746770" xil_pn:start_ts="1647538503">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="VHDL_MOORE_FSM_Sequence_Detector.lso"/>
       <outfile xil_pn:name="VHDL_MOORE_FSM_Sequence_Detector.ngc"/>
@@ -170,6 +179,7 @@
     <transform xil_pn:end_ts="1647538518" xil_pn:in_ck="2376073107758186059" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="725320956806878904" xil_pn:start_ts="1647538512">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="VHDL_MOORE_FSM_Sequence_Detector.bld"/>
       <outfile xil_pn:name="VHDL_MOORE_FSM_Sequence_Detector.ngd"/>
       <outfile xil_pn:name="VHDL_MOORE_FSM_Sequence_Detector_ngdbuild.xrpt"/>
@@ -179,6 +189,7 @@
     <transform xil_pn:end_ts="1647538524" xil_pn:in_ck="2376073107758186060" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-7868858794111860816" xil_pn:start_ts="1647538518">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="VHDL_MOORE_FSM_Sequence_Detector.pcf"/>
       <outfile xil_pn:name="VHDL_MOORE_FSM_Sequence_Detector_map.map"/>
       <outfile xil_pn:name="VHDL_MOORE_FSM_Sequence_Detector_map.mrp"/>
@@ -192,6 +203,7 @@
     <transform xil_pn:end_ts="1647538534" xil_pn:in_ck="2605048280006792037" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="3266239339701135281" xil_pn:start_ts="1647538524">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="VHDL_MOORE_FSM_Sequence_Detector.ncd"/>
       <outfile xil_pn:name="VHDL_MOORE_FSM_Sequence_Detector.pad"/>
       <outfile xil_pn:name="VHDL_MOORE_FSM_Sequence_Detector.par"/>
@@ -206,6 +218,7 @@
     <transform xil_pn:end_ts="1647538534" xil_pn:in_ck="2376073107758185928" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1647538531">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="VHDL_MOORE_FSM_Sequence_Detector.twr"/>
       <outfile xil_pn:name="VHDL_MOORE_FSM_Sequence_Detector.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
