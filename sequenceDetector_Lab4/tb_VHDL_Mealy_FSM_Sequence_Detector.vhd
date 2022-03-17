@@ -81,10 +81,20 @@ BEGIN
    stim_proc: process
    begin		
       -- hold reset state for 100 ns.
-      wait for 100 ns;	
-
-      wait for clk_period*10;
-
+  x <= '0';
+  -- Wait 100 ns for global reset to finish
+  wait for 40 ns;
+  x <= '1';
+  wait for 10 ns;
+  x <= '0';
+  wait for 10 ns;
+  x <= '1'; 
+  wait for 20 ns;
+  x <= '1'; 
+  wait for 20 ns;
+  x <= '1'; 
+  wait for 20 ns;
+  x <= '0'; 
       -- insert stimulus here 
 
       wait;
