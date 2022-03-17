@@ -9,30 +9,46 @@
     <!-- along with the project source files, is sufficient to open and    -->
     <!-- implement in ISE Project Navigator.                               -->
     <!--                                                                   -->
-    <!-- Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved. -->
+    <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
   </header>
 
   <version xil_pn:ise_version="14.7" xil_pn:schema_version="2"/>
 
-  <files>
-</files>
+  <files/>
 
   <properties>
-    <property xil_pn:name="Project Description" xil_pn:value=""/>
-    <property xil_pn:name="Working Directory" xil_pn:value="C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/sequenceDetector_Lab4"/>
-    <property xil_pn:name="Top-Level Source Type" xil_pn:value="HDL"/>
-    <property xil_pn:name="Synthesis Tool" xil_pn:value="XST (VHDL/Verilog)"/>
-    <property xil_pn:name="Simulator" xil_pn:value="ISim (VHDL/Verilog)"/>
-    <property xil_pn:name="Preferred Language" xil_pn:value="VHDL"/>
-    <property xil_pn:name="Property Specification in Project File" xil_pn:value="Store non-default values only"/>
-    <property xil_pn:name="Manual Compile Order" xil_pn:value="false"/>
-    <property xil_pn:name="VHDL Source Analysis Standard" xil_pn:value="VHDL-93"/>
-    <property xil_pn:name="Enable Message Filtering" xil_pn:value="false"/>
+    <property xil_pn:name="Device" xil_pn:value="xc3s50" xil_pn:valueState="default"/>
+    <property xil_pn:name="Device Family" xil_pn:value="Spartan3" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Package" xil_pn:value="pq208" xil_pn:valueState="default"/>
+    <property xil_pn:name="Preferred Language" xil_pn:value="VHDL" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Property Specification in Project File" xil_pn:value="Store non-default values only" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Simulator" xil_pn:value="ISim (VHDL/Verilog)" xil_pn:valueState="default"/>
+    <property xil_pn:name="Speed Grade" xil_pn:value="-5" xil_pn:valueState="default"/>
+    <property xil_pn:name="Synthesis Tool" xil_pn:value="XST (VHDL/Verilog)" xil_pn:valueState="default"/>
+    <property xil_pn:name="Top-Level Source Type" xil_pn:value="HDL" xil_pn:valueState="default"/>
+    <property xil_pn:name="Working Directory" xil_pn:value="." xil_pn:valueState="non-default"/>
+    <!--                                                                                  -->
+    <!-- The following properties are for internal use only. These should not be modified.-->
+    <!--                                                                                  -->
+    <property xil_pn:name="PROP_DesignName" xil_pn:value="sequenceDetector_Lab4" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="PROP_DevFamilyPMName" xil_pn:value="spartan3" xil_pn:valueState="default"/>
+    <property xil_pn:name="PROP_intProjectCreationTimestamp" xil_pn:value="2022-03-17T20:45:49" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="PROP_intWbtProjectID" xil_pn:value="8666A12A77564AA3B6E43B166BC0C536" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="PROP_intWorkingDirLocWRTProjDir" xil_pn:value="Same" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="PROP_intWorkingDirUsed" xil_pn:value="No" xil_pn:valueState="non-default"/>
   </properties>
 
   <bindings/>
 
   <libraries/>
 
+  <autoManagedFiles>
+    <!-- The following files are identified by `include statements in verilog -->
+    <!-- source files and are automatically managed by Project Navigator.     -->
+    <!--                                                                      -->
+    <!-- Do not hand-edit this section, as it will be overwritten when the    -->
+    <!-- project is analyzed based on files automatically identified as       -->
+    <!-- include files.                                                       -->
+  </autoManagedFiles>
 
 </project>
