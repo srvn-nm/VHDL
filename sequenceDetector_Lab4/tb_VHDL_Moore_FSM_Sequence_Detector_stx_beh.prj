@@ -1,0 +1,2 @@
+vhdl isim_temp "VHDL_MOORE_FSM_Sequence_Detector.vhd"
+vhdl isim_temp "tb_VHDL_Moore_FSM_Sequence_Detector.vhd"

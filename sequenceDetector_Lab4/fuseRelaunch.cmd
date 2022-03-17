@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/sequenceDetector_Lab4/tb_VHDL_Moore_FSM_Sequence_Detector_isim_beh.exe" -prj "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/sequenceDetector_Lab4/tb_VHDL_Moore_FSM_Sequence_Detector_beh.prj" "work.tb_VHDL_Moore_FSM_Sequence_Detector" 
