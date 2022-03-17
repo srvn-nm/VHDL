@@ -1,43 +1,12 @@
---------------------------------------------------------------------------------
--- Company: 
--- Engineer:
---
--- Create Date:   21:37:42 03/17/2022
--- Design Name:   
--- Module Name:   C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/sequenceDetector_Lab4/tb_VHDL_Moore_FSM_Sequence_Detector.vhd
--- Project Name:  sequenceDetector_Lab4
--- Target Device:  
--- Tool versions:  
--- Description:   
--- 
--- VHDL Test Bench Created by ISE for module: VHDL_MOORE_FSM_Sequence_Detector
--- 
--- Dependencies:
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
---
--- Notes: 
--- This testbench has been automatically generated using types std_logic and
--- std_logic_vector for the ports of the unit under test.  Xilinx recommends
--- that these types always be used for the top-level I/O of a design in order
--- to guarantee that the testbench will bind correctly to the post-implementation 
--- simulation model.
---------------------------------------------------------------------------------
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
- 
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---USE ieee.numeric_std.ALL;
  
 ENTITY tb_VHDL_Moore_FSM_Sequence_Detector IS
 END tb_VHDL_Moore_FSM_Sequence_Detector;
  
 ARCHITECTURE behavior OF tb_VHDL_Moore_FSM_Sequence_Detector IS 
  
-    -- Component Declaration for the Unit Under Test (UUT)
+    -- Component Declaration for the Moore FSM Sequence Detector in VHDL
  
     COMPONENT VHDL_MOORE_FSM_Sequence_Detector
     PORT(
@@ -54,7 +23,7 @@ ARCHITECTURE behavior OF tb_VHDL_Moore_FSM_Sequence_Detector IS
    signal reset : std_logic := '0';
    signal sequence_in : std_logic := '0';
 
- 	--Outputs
+  --Outputs
    signal detector_out : std_logic;
 
    -- Clock period definitions
@@ -62,7 +31,7 @@ ARCHITECTURE behavior OF tb_VHDL_Moore_FSM_Sequence_Detector IS
  
 BEGIN
  
-	-- Instantiate the Unit Under Test (UUT)
+ -- Instantiate the Moore FSM Sequence Detector in VHDL
    uut: VHDL_MOORE_FSM_Sequence_Detector PORT MAP (
           clock => clock,
           reset => reset,
@@ -73,23 +42,35 @@ BEGIN
    -- Clock process definitions
    clock_process :process
    begin
-		clock <= '0';
-		wait for clock_period/2;
-		clock <= '1';
-		wait for clock_period/2;
+  clock <= '0';
+  wait for clock_period/2;
+  clock <= '1';
+  wait for clock_period/2;
    end process;
  
 
    -- Stimulus process
    stim_proc: process
-   begin		
+   begin  
       -- hold reset state for 100 ns.
-      wait for 100 ns;	
-
-      wait for clock_period*10;
-
+  sequence_in <= '0';
+  reset <= '1';
+  -- Wait 100 ns for global reset to finish
+  wait for 30 ns;
+      reset <= '0';
+  wait for 40 ns;
+  sequence_in <= '1';
+  wait for 10 ns;
+  sequence_in <= '0';
+  wait for 10 ns;
+  sequence_in <= '1'; 
+  wait for 20 ns;
+  sequence_in <= '1'; 
+  wait for 20 ns;
+  sequence_in <= '1'; 
+  wait for 20 ns;
+  sequence_in <= '0'; 
       -- insert stimulus here 
-
       wait;
    end process;
 
