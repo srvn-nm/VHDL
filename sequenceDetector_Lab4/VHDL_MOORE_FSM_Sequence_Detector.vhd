@@ -11,7 +11,7 @@ port (
 end VHDL_MOORE_FSM_Sequence_Detector;
 
 architecture Behavioral of VHDL_MOORE_FSM_Sequence_Detector is
-type MOORE_FSM is (Zero, One, OneZero, OneZeroZero, OneZeroZeroOne);
+type MOORE_FSM is (Zero, One, OneOne, OneOneOne, OneOneOneZero);
 signal current_state, next_state: MOORE_FSM;
 
 begin
