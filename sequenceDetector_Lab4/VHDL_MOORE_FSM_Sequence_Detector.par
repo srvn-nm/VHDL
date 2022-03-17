@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-DESKTOP-BSRPH44::  Fri Mar 18 01:04:03 2022
+DESKTOP-BSRPH44::  Fri Mar 18 01:46:27 2022
 
 par -w -intstyle ise -ol high -t 1 VHDL_MOORE_FSM_Sequence_Detector_map.ncd
 VHDL_MOORE_FSM_Sequence_Detector.ncd VHDL_MOORE_FSM_Sequence_Detector.pcf 
@@ -45,7 +45,7 @@ Finished initial Timing Analysis.  REAL time: 1 secs
 
 Starting Placer
 Total REAL time at the beginning of Placer: 1 secs 
-Total CPU  time at the beginning of Placer: 0 secs 
+Total CPU  time at the beginning of Placer: 1 secs 
 
 Phase 1.1  Initial Placement Analysis
 Phase 1.1  Initial Placement Analysis (Checksum:1a) REAL time: 1 secs 
@@ -84,7 +84,7 @@ Phase 11.5  Local Placement Optimization
 Phase 11.5  Local Placement Optimization (Checksum:b939c2) REAL time: 2 secs 
 
 Total REAL time to Placer completion: 2 secs 
-Total CPU  time to Placer completion: 1 secs 
+Total CPU  time to Placer completion: 2 secs 
 Writing design to file VHDL_MOORE_FSM_Sequence_Detector.ncd
 
 
