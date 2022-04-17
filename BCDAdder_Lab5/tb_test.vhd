@@ -1,6 +1,5 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
-USE ieee.numeric_std.ALL;
  
 ENTITY tb_test IS
 END tb_test;
@@ -9,15 +8,15 @@ ARCHITECTURE behavior OF tb_test IS
 
     COMPONENT BCDAdder
     PORT(
-         a : IN  unsigned(3 downto 0);
-         b : IN  unsigned(3 downto 0);
+         a : IN  std_logic_vector(3 downto 0);
+         b : IN  std_logic_vector(3 downto 0);
             Cin : in std_logic;
-         sum : OUT  unsigned(3 downto 0);
+         sum : OUT  std_logic_vector(3 downto 0);
          Cout : OUT  std_logic
         );
     END COMPONENT;
     
-   signal a,b,sum : unsigned(3 downto 0) := (others => '0');
+   signal a,b,sum : std_logic_vector(3 downto 0) := (others => '0');
    signal Cout,Cin : std_logic;
  
 BEGIN

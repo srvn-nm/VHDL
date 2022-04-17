@@ -8,7 +8,16 @@ Parsing VHDL file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder
 Parsing VHDL file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/BCDAdder.vhd" into library work
 Parsing VHDL file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/tb_test.vhd" into library work
 Starting static elaboration
-ERROR:HDLCompiler:377 - "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/tb_test.vhd" Line 12: Entity port a does not match with type unsigned of component port
-ERROR:HDLCompiler:377 - "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/tb_test.vhd" Line 13: Entity port b does not match with type unsigned of component port
-ERROR:HDLCompiler:377 - "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/tb_test.vhd" Line 15: Entity port sum does not match with type unsigned of component port
-ERROR:Simulator:777 - Static elaboration of top level VHDL design unit tb_test in library work failed
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity FullAdder [fulladder_default]
+Compiling architecture behavioral of entity FourBitRippleAdder [fourbitrippleadder_default]
+Compiling architecture behavioral of entity BCDAdder [bcdadder_default]
+Compiling architecture behavior of entity tb_test
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 9 VHDL Units
+Built simulation executable C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/tb_test_isim_beh.exe
+Fuse Memory Usage: 30096 KB
+Fuse CPU Usage: 468 ms
