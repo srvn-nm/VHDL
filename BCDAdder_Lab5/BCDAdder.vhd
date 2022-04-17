@@ -32,12 +32,13 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity BCDAdder is
     Port ( a : in  STD_LOGIC_VECTOR (3 downto 0);
            b : in  STD_LOGIC_VECTOR (3 downto 0);
+			  Cin : in  STD_LOGIC;
            sum : out  STD_LOGIC_VECTOR (3 downto 0);
-           carry : in  STD_LOGIC);
+           Cout : in  STD_LOGIC);
 end BCDAdder;
 
 architecture Behavioral of BCDAdder is
-component FullAdder is
+component FourBitRippleAdder is
     Port ( A : in STD_LOGIC_VECTOR(3 downto 0);
            B : in STD_LOGIC_VECTOR(3 downto 0);
            Cin : in  STD_LOGIC;
