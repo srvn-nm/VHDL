@@ -1,1 +1,3 @@
+work	"BCDAdder.vhd"
+work	"FourBitRippleAdder.vhd"
 work	"FullAdder.vhd"

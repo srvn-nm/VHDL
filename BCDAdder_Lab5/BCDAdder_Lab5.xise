@@ -29,14 +29,18 @@
       <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="3"/>
       <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="3"/>
     </file>
+    <file xil_pn:name="BCDAdder.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="4"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="4"/>
+    </file>
   </files>
 
   <properties>
     <property xil_pn:name="Device" xil_pn:value="xc3s50" xil_pn:valueState="default"/>
     <property xil_pn:name="Device Family" xil_pn:value="Spartan3" xil_pn:valueState="non-default"/>
-    <property xil_pn:name="Implementation Top" xil_pn:value="Architecture|FourBitRippleAdder|Behavioral" xil_pn:valueState="non-default"/>
-    <property xil_pn:name="Implementation Top File" xil_pn:value="FourBitRippleAdder.vhd" xil_pn:valueState="non-default"/>
-    <property xil_pn:name="Implementation Top Instance Path" xil_pn:value="/FourBitRippleAdder" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Implementation Top" xil_pn:value="Architecture|BCDAdder|Behavioral" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Implementation Top File" xil_pn:value="BCDAdder.vhd" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Implementation Top Instance Path" xil_pn:value="/BCDAdder" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Package" xil_pn:value="pq208" xil_pn:valueState="default"/>
     <property xil_pn:name="Preferred Language" xil_pn:value="VHDL" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Property Specification in Project File" xil_pn:value="Store non-default values only" xil_pn:valueState="non-default"/>

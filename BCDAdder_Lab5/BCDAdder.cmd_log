@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/BCDAdder.xst" -ofn "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/BCDAdder.syr" 
