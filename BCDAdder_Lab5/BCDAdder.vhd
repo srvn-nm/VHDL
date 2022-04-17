@@ -48,11 +48,16 @@ end component FourBitRippleAdder;
 signal carryOut_Wire :  STD_LOGIC;
 signal firstSum : STD_LOGIC_VECTOR(3 downto 0);
 signal lastCarry : STD_LOGIC;
+signal secondFourBitRippleAdder : STD_LOGIC_VECTOR(3 downto 0);
 begin
 
 FBR1 : FourBitRippleAdder port map(A=>A,B=>B,Cin=>Cin,Cout=>carryOut_Wire,Sum=>firstSum);
 lastCarry <= (firstSum(3) and firstSum(2))or(firstSum(3) and firstSum(1))or(carryOut_Wire) ;
 Cout <= lastCarry;
-FBR2 : FourBitRippleAdder port map(A=>A,B=>B,Cin=>Cin,Cout=>carryOut_Wire,Sum=>firstSum);
+secondFourBitRippleAdder(0) <= '0';
+secondFourBitRippleAdder(3) <= '0';
+secondFourBitRippleAdder(2) <= lastCarry;
+secondFourBitRippleAdder(1) <= lastCarry;
+FBR2 : FourBitRippleAdder port map(A=>firstSum,B=>secondFourBitRippleAdder,Cin=>Cin,Cout=>carryOut_Wire,Sum=>Sum);
 end Behavioral;
 
