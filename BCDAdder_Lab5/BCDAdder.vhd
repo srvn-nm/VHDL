@@ -34,7 +34,7 @@ entity BCDAdder is
            b : in  STD_LOGIC_VECTOR (3 downto 0);
 			  Cin : in  STD_LOGIC;
            sum : out  STD_LOGIC_VECTOR (3 downto 0);
-           Cout : in  STD_LOGIC);
+           Cout : out  STD_LOGIC);
 end BCDAdder;
 
 architecture Behavioral of BCDAdder is
@@ -46,6 +46,7 @@ component FourBitRippleAdder is
            Sum : out STD_LOGIC_VECTOR(3 downto 0) );
 end component FourBitRippleAdder;
 signal carryOut_Wire :  STD_LOGIC;
+signal carryOut_Wire2 :  STD_LOGIC;
 signal firstSum : STD_LOGIC_VECTOR(3 downto 0);
 signal lastCarry : STD_LOGIC;
 signal secondFourBitRippleAdder : STD_LOGIC_VECTOR(3 downto 0);
@@ -58,6 +59,6 @@ secondFourBitRippleAdder(0) <= '0';
 secondFourBitRippleAdder(3) <= '0';
 secondFourBitRippleAdder(2) <= lastCarry;
 secondFourBitRippleAdder(1) <= lastCarry;
-FBR2 : FourBitRippleAdder port map(A=>firstSum,B=>secondFourBitRippleAdder,Cin=>Cin,Cout=>carryOut_Wire,Sum=>Sum);
+FBR2 : FourBitRippleAdder port map(A=>firstSum,B=>secondFourBitRippleAdder,Cin=>Cin,Cout=>carryOut_Wire2,Sum=>Sum);
 end Behavioral;
 

@@ -1,0 +1,4 @@
+vhdl work "FullAdder.vhd"
+vhdl work "FourBitRippleAdder.vhd"
+vhdl work "BCDAdder.vhd"
+vhdl work "tb_test.vhd"

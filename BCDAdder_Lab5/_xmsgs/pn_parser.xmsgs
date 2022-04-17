@@ -11,13 +11,7 @@
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/BCDAdder.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/FourBitRippleAdder.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/FullAdder.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/FullAdderTestBench.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/tb_test.vhd&quot; into library work</arg>
 </msg>
 
 </messages>

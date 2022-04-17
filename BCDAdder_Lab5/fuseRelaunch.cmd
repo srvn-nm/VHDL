@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/tb_test_isim_beh.exe" -prj "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/tb_test_beh.prj" "work.tb_test" 

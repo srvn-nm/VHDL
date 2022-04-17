@@ -1,1 +1,7 @@
 xst -intstyle ise -ifn "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/BCDAdder.xst" -ofn "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/BCDAdder.syr" 
+xst -intstyle ise -ifn "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/BCDAdder.xst" -ofn "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/BCDAdder.syr" 
+xst -intstyle ise -ifn "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/BCDAdder.xst" -ofn "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/BCDAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 BCDAdder.ngc BCDAdder.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o BCDAdder_map.ncd BCDAdder.ngd BCDAdder.pcf 
+par -w -intstyle ise -ol high -t 1 BCDAdder_map.ncd BCDAdder.ncd BCDAdder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BCDAdder.twx BCDAdder.ncd -o BCDAdder.twr BCDAdder.pcf 

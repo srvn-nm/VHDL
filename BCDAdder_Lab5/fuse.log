@@ -1,0 +1,14 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/tb_test_isim_beh.exe -prj C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/tb_test_beh.prj work.tb_test 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/FullAdder.vhd" into library work
+Parsing VHDL file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/FourBitRippleAdder.vhd" into library work
+Parsing VHDL file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/BCDAdder.vhd" into library work
+Parsing VHDL file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/tb_test.vhd" into library work
+Starting static elaboration
+ERROR:HDLCompiler:377 - "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/tb_test.vhd" Line 12: Entity port a does not match with type unsigned of component port
+ERROR:HDLCompiler:377 - "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/tb_test.vhd" Line 13: Entity port b does not match with type unsigned of component port
+ERROR:HDLCompiler:377 - "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BCDAdder_Lab5/tb_test.vhd" Line 15: Entity port sum does not match with type unsigned of component port
+ERROR:Simulator:777 - Static elaboration of top level VHDL design unit tb_test in library work failed
