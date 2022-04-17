@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/TFLipFlopCounter_Lab3/Counter_TestBench_isim_beh.exe" -prj "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/TFLipFlopCounter_Lab3/Counter_TestBench_beh.prj" "work.Counter_TestBench" 

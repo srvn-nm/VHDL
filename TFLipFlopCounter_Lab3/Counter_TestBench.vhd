@@ -24,7 +24,7 @@ ARCHITECTURE behavior OF Counter_TestBench IS
    signal T : std_logic := '0';
    signal Clock : std_logic := '0';
 	signal CurrentState:  std_logic_vector (0 to 3) := "0001";
-	signal Control: std_logic := '1';
+	signal Control: std_logic := '0';
 
  	--Outputs
    signal Q : std_logic_vector(0 to 3);
@@ -86,7 +86,7 @@ BEGIN
 		CurrentState <= "1110";
 		wait for Clock_period;
 		CurrentState <= "1111";
-		
+		Control <='0','1' after 200 ns;
 		
 	wait;
    end process;
