@@ -37,7 +37,14 @@ entity BCDAdder is
 end BCDAdder;
 
 architecture Behavioral of BCDAdder is
-
+component FullAdder is
+    Port ( A : in STD_LOGIC_VECTOR(3 downto 0);
+           B : in STD_LOGIC_VECTOR(3 downto 0);
+           Cin : in  STD_LOGIC;
+           Cout : out  STD_LOGIC;
+           Sum : out STD_LOGIC_VECTOR(3 downto 0) );
+end component FourBitRippleAdder;
+signal carryOut_Wire :  STD_LOGIC_VECTOR(2 downto 0);
 begin
 
 
