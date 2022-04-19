@@ -44,7 +44,7 @@ ARCHITECTURE behavior OF CSA_TB IS
          A : IN  std_logic_vector(3 downto 0);
          B : IN  std_logic_vector(3 downto 0);
          C : IN  std_logic_vector(3 downto 0);
-         S : OUT  std_logic_vector(3 downto 0);
+         S : OUT  std_logic_vector(4 downto 0);
          Cout : OUT  std_logic
         );
     END COMPONENT;
@@ -56,7 +56,7 @@ ARCHITECTURE behavior OF CSA_TB IS
    signal C : std_logic_vector(3 downto 0) := (others => '0');
 
  	--Outputs
-   signal S : std_logic_vector(3 downto 0);
+   signal S : std_logic_vector(4 downto 0);
    signal Cout : std_logic;
   
 BEGIN

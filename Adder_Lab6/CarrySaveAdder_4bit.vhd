@@ -33,7 +33,7 @@ entity CarrySaveAdder_4bit is
     Port ( A : in  STD_LOGIC_VECTOR (3 downto 0);
            B : in  STD_LOGIC_VECTOR (3 downto 0);
            C : in  STD_LOGIC_VECTOR (3 downto 0);
-           S : out  STD_LOGIC_VECTOR (3 downto 0);
+           S : out  STD_LOGIC_VECTOR (4 downto 0);
            Cout : out  STD_LOGIC);
 end CarrySaveAdder_4bit;
 
