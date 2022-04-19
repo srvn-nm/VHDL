@@ -73,7 +73,6 @@ BEGIN
           Cout => Cout
         );
 
-
    -- Stimulus process
    stim_proc: process
    begin		

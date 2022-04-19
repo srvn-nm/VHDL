@@ -5,23 +5,5 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="HDLCompiler" num="488" delta="unknown" >"C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Adder_Lab6/CSA_TB.vhd" Line 64: Illegal identifier : <arg fmt="%s" index="1">_period</arg>
-</msg>
-
-<msg type="error" file="HDLCompiler" num="488" delta="unknown" >"C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Adder_Lab6/CSA_TB.vhd" Line 78: Illegal identifier : <arg fmt="%s" index="1">_process</arg>
-</msg>
-
-<msg type="error" file="HDLCompiler" num="488" delta="unknown" >"C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Adder_Lab6/CSA_TB.vhd" Line 81: Illegal identifier : <arg fmt="%s" index="1">_period</arg>
-</msg>
-
-<msg type="error" file="HDLCompiler" num="488" delta="unknown" >"C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Adder_Lab6/CSA_TB.vhd" Line 83: Illegal identifier : <arg fmt="%s" index="1">_period</arg>
-</msg>
-
-<msg type="error" file="HDLCompiler" num="1728" delta="unknown" >"C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Adder_Lab6/CarrySaveAdder_4bit.vhd" Line 64: Type error near <arg fmt="%s" index="1">cout</arg> ; current type <arg fmt="%s" index="2">std_logic_vector</arg>; expected type <arg fmt="%s" index="3">std_logic</arg>
-</msg>
-
-<msg type="error" file="HDLCompiler" num="854" delta="unknown" >"C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Adder_Lab6/CarrySaveAdder_4bit.vhd" Line 40: Unit &lt;<arg fmt="%s" index="1">behavioral</arg>&gt; ignored due to previous errors.
-</msg>
-
 </messages>
 
