@@ -52,16 +52,16 @@ signal C1,C2,C3: STD_LOGIC;
 begin
 
  -- Carry save adder block
-FA1: FullAdder PORT MAP(A(0),B(0),C(0),S(0),X(0));
-FA2: FullAdder PORT MAP(A(1),B(1),C(1),Y(0),X(1));
-FA3: FullAdder PORT MAP(A(2),B(2),C(2),Y(1),X(2));
-FA4: FullAdder PORT MAP(A(3),B(3),C(3),Y(2),X(3));
+FA1: FullAdder port map(A(0),B(0),C(0),S(0),X(0));
+FA2: FullAdder port map(A(1),B(1),C(1),Y(0),X(1));
+FA3: FullAdder port map(A(2),B(2),C(2),Y(1),X(2));
+FA4: FullAdder port map(A(3),B(3),C(3),Y(2),X(3));
  
  -- Ripple carry adder block
-FA5: FullAdder PORT MAP(X(0),Y(0),'0',S(1),C1);
-FA6: FullAdder PORT MAP(X(1),Y(1),C1,S(2),C2);
-FA7: FullAdder PORT MAP(X(2),Y(2),C2,S(3),C3);
-FA8: FullAdder PORT MAP(X(3),'0',C3,S(4),Cout);
+FA5: FullAdder port map(X(0),Y(0),'0',S(1),C1);
+FA6: FullAdder port map(X(1),Y(1),C1,S(2),C2);
+FA7: FullAdder port map(X(2),Y(2),C2,S(3),C3);
+FA8: FullAdder port map(X(3),'0',C3,S(4),Cout);
 
 end Behavioral;
 
