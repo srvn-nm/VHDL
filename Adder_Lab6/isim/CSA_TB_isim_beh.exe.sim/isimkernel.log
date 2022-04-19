@@ -2,27 +2,27 @@ Command line:
    CSA_TB_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  10823
+     -socket  13161
 
-Tue Apr 19 14:20:45 2022
+Tue Apr 19 14:28:16 2022
 
 
- Elaboration Time: 0.078125 sec
+ Elaboration Time: 0.09375 sec
 
- Current Memory Usage: 5154.51 Meg
+ Current Memory Usage: 5153.98 Meg
 
  Total Signals          : 81
- Total Nets             : 54
+ Total Nets             : 55
  Total Signal Drivers   : 43
  Total Blocks           : 11
  Total Primitive Blocks : 9
  Total Processes        : 41
  Total Traceable Variables  : 8
- Total Scalar Nets and Variables : 414
+ Total Scalar Nets and Variables : 415
 
- Total Simulation Time: 0.078125 sec
+ Total Simulation Time: 0.09375 sec
 
- Current Memory Usage: 4682.65 Meg
+ Current Memory Usage: 4682.12 Meg
 
-Tue Apr 19 14:25:25 2022
+Tue Apr 19 14:31:05 2022
 
