@@ -34,7 +34,7 @@ entity CarrySaveAdder_4bit is
            B : in  STD_LOGIC_VECTOR (3 downto 0);
            C : in  STD_LOGIC_VECTOR (3 downto 0);
            S : out  STD_LOGIC_VECTOR (3 downto 0);
-           Cout : out  STD_LOGIC_VECTOR (3 downto 0));
+           Cout : out  STD_LOGIC);
 end CarrySaveAdder_4bit;
 
 architecture Behavioral of CarrySaveAdder_4bit is

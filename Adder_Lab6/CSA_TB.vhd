@@ -45,7 +45,7 @@ ARCHITECTURE behavior OF CSA_TB IS
          B : IN  std_logic_vector(3 downto 0);
          C : IN  std_logic_vector(3 downto 0);
          S : OUT  std_logic_vector(3 downto 0);
-         Cout : OUT  std_logic_vector(3 downto 0)
+         Cout : OUT  std_logic
         );
     END COMPONENT;
     
@@ -57,11 +57,8 @@ ARCHITECTURE behavior OF CSA_TB IS
 
  	--Outputs
    signal S : std_logic_vector(3 downto 0);
-   signal Cout : std_logic_vector(3 downto 0);
-   -- No clocks detected in port list. Replace <clock> below with 
-   -- appropriate port name 
- 
- 
+   signal Cout : std_logic;
+  
 BEGIN
  
 	-- Instantiate the Unit Under Test (UUT)
