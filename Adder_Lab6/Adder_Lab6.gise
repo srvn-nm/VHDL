@@ -21,7 +21,51 @@
 
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Adder_Lab6.xise"/>
 
-  <files xmlns="http://www.xilinx.com/XMLSchema"/>
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="FourBitRippleAdderSubtractor.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="FourBitRippleAdderSubtractor.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="FourBitRippleAdderSubtractor.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="FourBitRippleAdderSubtractor.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="FourBitRippleAdderSubtractor.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="FourBitRippleAdderSubtractor.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="FourBitRippleAdderSubtractor.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="FourBitRippleAdderSubtractor.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="FourBitRippleAdderSubtractor.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="FourBitRippleAdderSubtractor.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FourBitRippleAdderSubtractor.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="FourBitRippleAdderSubtractor.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="FourBitRippleAdderSubtractor.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="FourBitRippleAdderSubtractor.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="FourBitRippleAdderSubtractor.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="FourBitRippleAdderSubtractor.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="FourBitRippleAdderSubtractor.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="FourBitRippleAdderSubtractor.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="FourBitRippleAdderSubtractor.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="FourBitRippleAdderSubtractor_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="FourBitRippleAdderSubtractor_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="FourBitRippleAdderSubtractor_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="FourBitRippleAdderSubtractor_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="FourBitRippleAdderSubtractor_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FourBitRippleAdderSubtractor_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FourBitRippleAdderSubtractor_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="FourBitRippleAdderSubtractor_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="FourBitRippleAdderSubtractor_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FourBitRippleAdderSubtractor_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="FourBitRippleAdderSubtractor_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="FourBitRippleAdderSubtractor_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="FourBitRippleAdderSubtractor_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FourBitRippleAdderSubtractor_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FourBitRippleAdderSubtractor_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
     <transform xil_pn:end_ts="1650358472" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1650358472">
@@ -50,6 +94,98 @@
     <transform xil_pn:end_ts="1650358472" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-2505578558423477125" xil_pn:start_ts="1650358472">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1650360626" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1650360626">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1650360626" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-5072091979263347061" xil_pn:start_ts="1650360626">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1650360626" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-2505578558423477125" xil_pn:start_ts="1650360626">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1650360626" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1650360626">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1650360626" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-8631227379029498413" xil_pn:start_ts="1650360626">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1650360626" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="4779560239316253549" xil_pn:start_ts="1650360626">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1650360626" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="5592843506557100101" xil_pn:start_ts="1650360626">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1650360636" xil_pn:in_ck="-8705009715612847851" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="5349442107706309753" xil_pn:start_ts="1650360626">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor.lso"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor.ngc"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor.ngr"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor.prj"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor.stx"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor.syr"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor.xst"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor_vhdl.prj"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1650360636" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-6758660662471614808" xil_pn:start_ts="1650360636">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1650360643" xil_pn:in_ck="4737300592931156502" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-6346451860016302973" xil_pn:start_ts="1650360636">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor.bld"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor.ngd"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1650360650" xil_pn:in_ck="4737300592931156503" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-7868858794111860816" xil_pn:start_ts="1650360643">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor.pcf"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor_map.map"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor_map.mrp"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor_map.ncd"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor_map.ngm"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor_map.xrpt"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor_summary.xml"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1650360659" xil_pn:in_ck="-2331641089357335376" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="3266239339701135281" xil_pn:start_ts="1650360650">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor.ncd"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor.pad"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor.par"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor.ptwx"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor.unroutes"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor.xpi"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor_pad.csv"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor_pad.txt"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1650360659" xil_pn:in_ck="4737300592931156371" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1650360656">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor.twr"/>
+      <outfile xil_pn:name="FourBitRippleAdderSubtractor.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
     </transform>
   </transforms>
 

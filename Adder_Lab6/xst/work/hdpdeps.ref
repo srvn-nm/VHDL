@@ -1,0 +1,15 @@
+V3 7
+FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Adder_Lab6/FourBitRippleAdderSubtractor.vhd 2022/04/19.13:42:19 P.20131013
+EN work/FourBitRippleAdderSubtractor 1650360632 \
+      FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Adder_Lab6/FourBitRippleAdderSubtractor.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/FourBitRippleAdderSubtractor/Behavioral 1650360633 \
+      FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Adder_Lab6/FourBitRippleAdderSubtractor.vhd \
+      EN work/FourBitRippleAdderSubtractor 1650360632 CP FullAdder
+FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Adder_Lab6/FullAdder.vhd 2022/04/19.13:42:19 P.20131013
+EN work/FullAdder 1650360630 \
+      FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Adder_Lab6/FullAdder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/FullAdder/Behavioral 1650360631 \
+      FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/Adder_Lab6/FullAdder.vhd \
+      EN work/FullAdder 1650360630
