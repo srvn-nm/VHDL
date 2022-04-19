@@ -22,6 +22,7 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Adder_Lab6.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CSA_TB_stx_beh.prj"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="FourBitRippleAdderSubtractor.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="FourBitRippleAdderSubtractor.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="FourBitRippleAdderSubtractor.lso"/>
@@ -63,6 +64,7 @@
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
@@ -71,25 +73,25 @@
     <transform xil_pn:end_ts="1650358472" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1650358472">
       <status xil_pn:value="SuccessfullyRun"/>
     </transform>
-    <transform xil_pn:end_ts="1650358597" xil_pn:in_ck="-4515084568510312314" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1650358597">
+    <transform xil_pn:end_ts="1650361017" xil_pn:in_ck="225928400047182272" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1650361017">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="CSA_TB.vhd"/>
+      <outfile xil_pn:name="CarrySaveAdder_4bit.vhd"/>
       <outfile xil_pn:name="FourBitRippleAdderSubtractor.vhd"/>
       <outfile xil_pn:name="FullAdder.vhd"/>
       <outfile xil_pn:name="FullAdderTestBench.vhd"/>
+      <outfile xil_pn:name="TestBanch.vhd"/>
     </transform>
     <transform xil_pn:end_ts="1650358472" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-9044832904953873877" xil_pn:start_ts="1650358472">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1650358472" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="4900216971465268963" xil_pn:start_ts="1650358472">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1650358472" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-2505578558423477125" xil_pn:start_ts="1650358472">
       <status xil_pn:value="SuccessfullyRun"/>
