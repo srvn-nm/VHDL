@@ -34,7 +34,7 @@ entity ShiftRegister is
            Sel : in  STD_LOGIC;
            P_in : in  STD_LOGIC_VECTOR (3 downto 0);
            clk : in  STD_LOGIC;
-           Output : in  STD_LOGIC_VECTOR (3 downto 0));
+           Output : out  STD_LOGIC);
 end ShiftRegister;
 
 architecture Behavioral of ShiftRegister is
