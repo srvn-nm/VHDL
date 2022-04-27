@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date:    08:38:13 04/27/2022 
+-- Create Date:    08:46:32 04/27/2022 
 -- Design Name: 
--- Module Name:    Mux - Behavioral 
+-- Module Name:    multiplexer2to1 - Behavioral 
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
@@ -29,24 +29,18 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity Mux is
-    Port ( w0 : in  STD_LOGIC;
-           w1 : in  STD_LOGIC;
+entity multiplexer2to1 is
+    Port ( Data_in : in  STD_LOGIC;
            sel : in  STD_LOGIC;
-           o : out  STD_LOGIC);
-end Mux;
+           P_in : in  STD_LOGIC_VECTOR (3 downto 0);
+           clk : in  STD_LOGIC;
+           output : out  STD_LOGIC_VECTOR (3 downto 0));
+end multiplexer2to1;
 
-architecture Behavioral of Mux is
+architecture Behavioral of multiplexer2to1 is
 
 begin
 
-process(w0,w1,sel)
-begin
-if sel ='0' then
-o <= w0;
-else
-o <= w1;
-end if;
-end process;
+
 end Behavioral;
 

@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date:    08:38:13 04/27/2022 
+-- Create Date:    08:48:04 04/27/2022 
 -- Design Name: 
--- Module Name:    Mux - Behavioral 
+-- Module Name:    ShiftRegister - Behavioral 
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
@@ -29,24 +29,18 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity Mux is
-    Port ( w0 : in  STD_LOGIC;
-           w1 : in  STD_LOGIC;
-           sel : in  STD_LOGIC;
-           o : out  STD_LOGIC);
-end Mux;
+entity ShiftRegister is
+    Port ( Data_in : in  STD_LOGIC;
+           Sel : in  STD_LOGIC;
+           P_in : in  STD_LOGIC_VECTOR (3 downto 0);
+           clk : in  STD_LOGIC;
+           Output : in  STD_LOGIC_VECTOR (3 downto 0));
+end ShiftRegister;
 
-architecture Behavioral of Mux is
+architecture Behavioral of ShiftRegister is
 
 begin
 
-process(w0,w1,sel)
-begin
-if sel ='0' then
-o <= w0;
-else
-o <= w1;
-end if;
-end process;
+
 end Behavioral;
 
