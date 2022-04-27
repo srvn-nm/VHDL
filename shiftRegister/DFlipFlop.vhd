@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date:    08:31:40 04/27/2022 
+-- Create Date:    09:47:22 03/02/2022 
 -- Design Name: 
--- Module Name:    DFlipFlop - Behavioral 
+-- Module Name:    DFLipFlop - Behavioral 
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
@@ -29,13 +29,22 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity DFlipFlop is
-end DFlipFlop;
+entity DFLipFlop is
+    Port ( d : in  STD_LOGIC;
+           clock : in  STD_LOGIC;
+			  reset : in STD_LOGIC;
+           q : out  STD_LOGIC);
+end DFLipFlop;
 
-architecture Behavioral of DFlipFlop is
+architecture Behavioral of DFLipFlop is
 
 begin
-
-
+process(clock,reset)
+begin
+if(reset ='1')then
+q <= '0';
+elsif(CLOCK='1' and CLOCK'EVENT)then
+q<=d;
+end if;
+end process;
 end Behavioral;
-
