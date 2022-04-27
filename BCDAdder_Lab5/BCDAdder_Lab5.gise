@@ -64,6 +64,7 @@
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_test_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_test_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_test_isim_beh.wdb"/>
@@ -79,7 +80,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1650189243" xil_pn:in_ck="7345168074092393787" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1650189242">
+    <transform xil_pn:end_ts="1650435114" xil_pn:in_ck="7345168074092393787" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1650435113">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="BCDAdder.vhd"/>
@@ -100,7 +101,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1650189247" xil_pn:in_ck="7345168074092393787" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1650189247">
+    <transform xil_pn:end_ts="1650435114" xil_pn:in_ck="7345168074092393787" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1650435114">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="BCDAdder.vhd"/>
@@ -109,21 +110,25 @@
       <outfile xil_pn:name="FullAdderTestBench.vhd"/>
       <outfile xil_pn:name="tb_test.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1650189251" xil_pn:in_ck="7345168074092393787" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6796571208871788877" xil_pn:start_ts="1650189247">
+    <transform xil_pn:end_ts="1650435117" xil_pn:in_ck="7345168074092393787" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6796571208871788877" xil_pn:start_ts="1650435114">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="tb_test_beh.prj"/>
       <outfile xil_pn:name="tb_test_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1650189252" xil_pn:in_ck="1398124580136660996" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1411557113243626976" xil_pn:start_ts="1650189251">
+    <transform xil_pn:end_ts="1650435117" xil_pn:in_ck="1398124580136660996" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1411557113243626976" xil_pn:start_ts="1650435117">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="tb_test_isim_beh.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1650182418" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1650182418">
@@ -158,7 +163,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="BCDAdder.lso"/>
       <outfile xil_pn:name="BCDAdder.ngc"/>
@@ -180,6 +187,7 @@
     <transform xil_pn:end_ts="1650182768" xil_pn:in_ck="3441646614498947151" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="4795959089911967420" xil_pn:start_ts="1650182761">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="BCDAdder.bld"/>
       <outfile xil_pn:name="BCDAdder.ngd"/>
       <outfile xil_pn:name="BCDAdder_ngdbuild.xrpt"/>
@@ -189,6 +197,7 @@
     <transform xil_pn:end_ts="1650182774" xil_pn:in_ck="3441646614498947152" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-7868858794111860816" xil_pn:start_ts="1650182768">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="BCDAdder.pcf"/>
       <outfile xil_pn:name="BCDAdder_map.map"/>
       <outfile xil_pn:name="BCDAdder_map.mrp"/>
@@ -202,6 +211,7 @@
     <transform xil_pn:end_ts="1650182783" xil_pn:in_ck="-5599033682691676311" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="3266239339701135281" xil_pn:start_ts="1650182774">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="BCDAdder.ncd"/>
       <outfile xil_pn:name="BCDAdder.pad"/>
       <outfile xil_pn:name="BCDAdder.par"/>
@@ -216,6 +226,7 @@
     <transform xil_pn:end_ts="1650182783" xil_pn:in_ck="3441646614498947020" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1650182780">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="BCDAdder.twr"/>
       <outfile xil_pn:name="BCDAdder.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>

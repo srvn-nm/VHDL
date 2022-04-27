@@ -33,11 +33,11 @@ BEGIN
    -- Stimulus process
    stim_proc: process
    begin        
-      a <= "1001"; b <= "1001"; Cin <= '1'; wait for 100 ns;
+      a <= "1001"; b <= "1001"; cin <= '0'; wait for 100 ns;
         a <= "1000"; b <= "1001"; wait for 100 ns;
         a <= "0101"; b <= "1001"; wait for 100 ns;
         a <= "0011"; b <= "1001"; wait for 100 ns;
-        a <= "1001"; b <= "0000"; Cin <= '0'; wait for 100 ns;
+        a <= "1001"; b <= "0000"; wait for 100 ns;
         a <= "1001"; b <= "0111"; wait for 100 ns;
         a <= "0110"; b <= "0011"; wait for 100 ns;
       wait;

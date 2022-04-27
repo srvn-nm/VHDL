@@ -76,8 +76,8 @@ BEGIN
       -- hold reset state for 100 ns.
 	wait for 100 ns;
 	A <= "1100";
-	B <= "1101";
-	C <= "1110";
+	B <= "0000";
+	C <= "0000";
  
 	wait for 100 ns;
 	A <= "1111";

@@ -2,14 +2,14 @@ Command line:
    CSA_TB_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  13161
+     -socket  4524
 
-Tue Apr 19 14:28:16 2022
+Wed Apr 20 10:25:11 2022
 
 
- Elaboration Time: 0.09375 sec
+ Elaboration Time: 0.078125 sec
 
- Current Memory Usage: 5153.98 Meg
+ Current Memory Usage: 5153.97 Meg
 
  Total Signals          : 81
  Total Nets             : 55
@@ -22,7 +22,7 @@ Tue Apr 19 14:28:16 2022
 
  Total Simulation Time: 0.09375 sec
 
- Current Memory Usage: 4682.12 Meg
+ Current Memory Usage: 4996.68 Meg
 
-Tue Apr 19 14:31:05 2022
+Wed Apr 20 10:26:19 2022
 
