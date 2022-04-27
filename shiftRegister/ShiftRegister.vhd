@@ -38,9 +38,22 @@ entity ShiftRegister is
 end ShiftRegister;
 
 architecture Behavioral of ShiftRegister is
-
+component DFLipFlop is
+    Port ( d : in  STD_LOGIC;
+           clock : in  STD_LOGIC;
+			  reset : in STD_LOGIC;
+           q : out  STD_LOGIC);
+end component DFLipFlop;
+component Mux is
+    Port ( w0 : in  STD_LOGIC;
+           w1 : in  STD_LOGIC;
+           sel : in  STD_LOGIC;
+           o : out  STD_LOGIC);
+end component Mux;
+signal DffIn : STD_LOGIC_VECTOR (3 downto 0);
 begin
-
+if clk='1' and clock'event then
+mux1 : Mux port map(w0 => Data_in, w1 => P_in(0), sel => Sel, o => DffIn);
 
 end Behavioral;
 
