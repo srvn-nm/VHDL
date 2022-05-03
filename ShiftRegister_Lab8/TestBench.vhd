@@ -2,10 +2,10 @@
 -- Company: 
 -- Engineer:
 --
--- Create Date:   12:38:37 05/03/2022
+-- Create Date:   09:12:38 04/27/2022
 -- Design Name:   
--- Module Name:   C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/ShiftRegister_Lab8/TestBench.vhd
--- Project Name:  ShiftRegister_Lab8
+-- Module Name:   C:/Users/ABTIN/Documents/amirkabir un/term 4/Computer Architecture/Lab/HW8/HW8/TestBench.vhd
+-- Project Name:  HW8
 -- Target Device:  
 -- Tool versions:  
 -- Description:   
@@ -53,14 +53,14 @@ ARCHITECTURE behavior OF TestBench IS
    --Inputs
    signal DataIn : std_logic := '0';
    signal Selector : std_logic := '0';
-   signal P_in : std_logic_vector(3 downto 0) := (others => '0');
+   signal P_in : std_logic_vector(3 downto 0) := "1011";
    signal Clk : std_logic := '0';
 
  	--Outputs
    signal OutPut : std_logic;
 
    -- Clock period definitions
-   constant Clk_period : time := 10 ns;
+   constant Clk_period : time := 5 ns;
  
 BEGIN
  
@@ -87,10 +87,12 @@ BEGIN
    stim_proc: process
    begin		
       -- hold reset state for 100 ns.
-      wait for 100 ns;	
+
 
       wait for Clk_period*10;
-
+      DataIn <= '0' ; P_in <= "1011" ; Selector <= '1' ;wait for Clk_period*1;
+      DataIn <= '1' ; P_in <= "1001"  ;wait for Clk_period*2;
+      
       -- insert stimulus here 
 
       wait;
