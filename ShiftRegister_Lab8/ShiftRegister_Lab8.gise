@@ -118,6 +118,8 @@
     <transform xil_pn:end_ts="1651565896" xil_pn:in_ck="7142743428940672367" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-971208264667603210" xil_pn:start_ts="1651565895">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="TestBench_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
     </transform>
