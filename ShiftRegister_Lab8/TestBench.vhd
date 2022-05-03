@@ -51,16 +51,16 @@ ARCHITECTURE behavior OF TestBench IS
     
 
    --Inputs
-   signal DataIn : std_logic := '0';
+   signal DataIn : std_logic := '1';
    signal Selector : std_logic := '0';
    signal P_in : std_logic_vector(3 downto 0) := "0000";
-   signal Clk : std_logic := '0';
+   signal Clk : std_logic := '1';
 
  	--Outputs
    signal OutPut : std_logic;
 
    -- Clock period definitions
-   constant Clk_period : time := 5 ns;
+   constant Clk_period : time := 40 ns;
  
 BEGIN
  
@@ -87,14 +87,12 @@ BEGIN
    stim_proc: process
    begin		
       -- hold reset state for 100 ns.
-
-
-      wait for Clk_period*10;
-      DataIn <= '0' ; P_in <= "1111" ; wait for Clk_period*2; 
-		Selector <= '1' ;wait for Clk_period*2;
-		wait for Clk_period*2;
-      DataIn <= '1' ; P_in <= "1001"  ;wait for Clk_period*2;
-      
+		wait for Clk_period*4;
+      DataIn <= '0' ; P_in <= "1111" ;Selector <= '1' ;
+		wait for Clk_period*4;
+      DataIn <= '1' ; P_in <= "1001"  ;Selector <= '0' ;
+		wait for Clk_period*4;
+		
       -- insert stimulus here 
 
       wait;

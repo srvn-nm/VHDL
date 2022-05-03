@@ -54,7 +54,7 @@ component multiplexer is
 end component multiplexer;
 
 
-signal DFFOutput :  STD_LOGIC_VECTOR(3 downto 0);
+signal DFFOutput :  STD_LOGIC_VECTOR(2 downto 0);
 signal MuxOutput :  STD_LOGIC_VECTOR(3 downto 0);
 
 begin 
