@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/ShiftRegister_Lab8/TestBench_isim_beh.exe" -prj "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/ShiftRegister_Lab8/TestBench_beh.prj" "work.TestBench" 
