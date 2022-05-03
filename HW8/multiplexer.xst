@@ -1,5 +1,0 @@
-set -tmpdir "C:/Users/ABTIN/Documents/amirkabir un/term 4/Computer Architecture/Lab/HW8/HW8/xst/projnav.tmp"
-set -xsthdpdir "C:/Users/ABTIN/Documents/amirkabir un/term 4/Computer Architecture/Lab/HW8/HW8/xst"
-elaborate
--ifn multiplexer.prj
--ifmt mixed
