@@ -1,0 +1,4 @@
+vhdl isim_temp "multiplexer.vhd"
+vhdl isim_temp "DFLipFlop.vhd"
+vhdl isim_temp "shiftRegister.vhd"
+vhdl isim_temp "TestBench.vhd"

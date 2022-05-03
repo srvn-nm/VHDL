@@ -1,0 +1,3 @@
+vhdl work "multiplexer.vhd"
+vhdl work "DFLipFlop.vhd"
+vhdl work "shiftRegister.vhd"

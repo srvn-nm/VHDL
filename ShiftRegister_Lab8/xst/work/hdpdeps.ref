@@ -1,0 +1,22 @@
+V3 11
+FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/ShiftRegister_Lab8/DFLipFlop.vhd 2022/05/03.12:33:56 P.20131013
+EN work/DFLipFlop 1651565425 \
+      FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/ShiftRegister_Lab8/DFLipFlop.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/DFLipFlop/Behavioral 1651565426 \
+      FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/ShiftRegister_Lab8/DFLipFlop.vhd \
+      EN work/DFLipFlop 1651565425
+FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/ShiftRegister_Lab8/multiplexer.vhd 2022/05/03.12:35:43 P.20131013
+EN work/multiplexer 1651565423 \
+      FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/ShiftRegister_Lab8/multiplexer.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/multiplexer/Behavioral 1651565424 \
+      FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/ShiftRegister_Lab8/multiplexer.vhd \
+      EN work/multiplexer 1651565423
+FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/ShiftRegister_Lab8/shiftRegister.vhd 2022/05/03.12:37:37 P.20131013
+EN work/shiftRegister 1651565427 \
+      FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/ShiftRegister_Lab8/shiftRegister.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/shiftRegister/structural 1651565428 \
+      FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/ShiftRegister_Lab8/shiftRegister.vhd \
+      EN work/shiftRegister 1651565427 CP multiplexer CP DFLipFlop

@@ -21,8 +21,173 @@
 
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="ShiftRegister_Lab8.xise"/>
 
-  <files xmlns="http://www.xilinx.com/XMLSchema"/>
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TestBench_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="shiftRegister.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="shiftRegister.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="shiftRegister.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="shiftRegister.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="shiftRegister.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="shiftRegister.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="shiftRegister.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="shiftRegister.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="shiftRegister.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="shiftRegister.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="shiftRegister.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="shiftRegister.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="shiftRegister.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="shiftRegister.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="shiftRegister.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="shiftRegister.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="shiftRegister.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="shiftRegister.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="shiftRegister.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="shiftRegister_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="shiftRegister_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="shiftRegister_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="shiftRegister_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="shiftRegister_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="shiftRegister_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="shiftRegister_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="shiftRegister_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="shiftRegister_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="shiftRegister_par.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="shiftRegister_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="shiftRegister_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="shiftRegister_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="shiftRegister_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
 
-  <transforms xmlns="http://www.xilinx.com/XMLSchema"/>
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1651565315" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1651565315">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1651565582" xil_pn:in_ck="-8701622954398494178" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1651565582">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DFLipFlop.vhd"/>
+      <outfile xil_pn:name="TestBench.vhd"/>
+      <outfile xil_pn:name="multiplexer.vhd"/>
+      <outfile xil_pn:name="shiftRegister.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1651565315" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-9044832904953873877" xil_pn:start_ts="1651565315">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1651565315" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="4900216971465268963" xil_pn:start_ts="1651565315">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1651565315" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="1361574298659837354" xil_pn:start_ts="1651565315">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1651565420" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1651565420">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1651565420" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-7723447195724170374" xil_pn:start_ts="1651565420">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1651565420" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="1361574298659837354" xil_pn:start_ts="1651565420">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1651565420" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1651565420">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1651565420" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="7346212741204001730" xil_pn:start_ts="1651565420">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1651565420" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="4779560239316253549" xil_pn:start_ts="1651565420">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1651565420" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-6070302775885248844" xil_pn:start_ts="1651565420">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1651565429" xil_pn:in_ck="-8169525614384958066" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="1592011952035170728" xil_pn:start_ts="1651565420">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="shiftRegister.lso"/>
+      <outfile xil_pn:name="shiftRegister.ngc"/>
+      <outfile xil_pn:name="shiftRegister.ngr"/>
+      <outfile xil_pn:name="shiftRegister.prj"/>
+      <outfile xil_pn:name="shiftRegister.stx"/>
+      <outfile xil_pn:name="shiftRegister.syr"/>
+      <outfile xil_pn:name="shiftRegister.xst"/>
+      <outfile xil_pn:name="shiftRegister_vhdl.prj"/>
+      <outfile xil_pn:name="shiftRegister_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1651565429" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-2829280814125851209" xil_pn:start_ts="1651565429">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1651565434" xil_pn:in_ck="-4633110238147997559" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="3886629491841324754" xil_pn:start_ts="1651565429">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="shiftRegister.bld"/>
+      <outfile xil_pn:name="shiftRegister.ngd"/>
+      <outfile xil_pn:name="shiftRegister_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1651565438" xil_pn:in_ck="-4633110238147997558" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-7868858794111860816" xil_pn:start_ts="1651565434">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="shiftRegister.pcf"/>
+      <outfile xil_pn:name="shiftRegister_map.map"/>
+      <outfile xil_pn:name="shiftRegister_map.mrp"/>
+      <outfile xil_pn:name="shiftRegister_map.ncd"/>
+      <outfile xil_pn:name="shiftRegister_map.ngm"/>
+      <outfile xil_pn:name="shiftRegister_map.xrpt"/>
+      <outfile xil_pn:name="shiftRegister_summary.xml"/>
+      <outfile xil_pn:name="shiftRegister_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1651565446" xil_pn:in_ck="7569574355006690467" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="3266239339701135281" xil_pn:start_ts="1651565438">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="shiftRegister.ncd"/>
+      <outfile xil_pn:name="shiftRegister.pad"/>
+      <outfile xil_pn:name="shiftRegister.par"/>
+      <outfile xil_pn:name="shiftRegister.ptwx"/>
+      <outfile xil_pn:name="shiftRegister.unroutes"/>
+      <outfile xil_pn:name="shiftRegister.xpi"/>
+      <outfile xil_pn:name="shiftRegister_pad.csv"/>
+      <outfile xil_pn:name="shiftRegister_pad.txt"/>
+      <outfile xil_pn:name="shiftRegister_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1651565446" xil_pn:in_ck="-4633110238147997690" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1651565443">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="shiftRegister.twr"/>
+      <outfile xil_pn:name="shiftRegister.twx"/>
+    </transform>
+  </transforms>
 
 </generated_project>
