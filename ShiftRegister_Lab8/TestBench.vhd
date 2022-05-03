@@ -53,7 +53,7 @@ ARCHITECTURE behavior OF TestBench IS
    --Inputs
    signal DataIn : std_logic := '0';
    signal Selector : std_logic := '0';
-   signal P_in : std_logic_vector(3 downto 0) := "1011";
+   signal P_in : std_logic_vector(3 downto 0) := "0000";
    signal Clk : std_logic := '0';
 
  	--Outputs
@@ -91,6 +91,7 @@ BEGIN
 
       wait for Clk_period*10;
       DataIn <= '0' ; P_in <= "1011" ; Selector <= '1' ;wait for Clk_period*1;
+		wait for Clk_period*2;
       DataIn <= '1' ; P_in <= "1001"  ;wait for Clk_period*2;
       
       -- insert stimulus here 
