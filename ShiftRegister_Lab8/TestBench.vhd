@@ -90,7 +90,8 @@ BEGIN
 
 
       wait for Clk_period*10;
-      DataIn <= '0' ; P_in <= "1011" ; Selector <= '1' ;wait for Clk_period*1;
+      DataIn <= '0' ; P_in <= "1111" ; wait for Clk_period*2; 
+		Selector <= '1' ;wait for Clk_period*2;
 		wait for Clk_period*2;
       DataIn <= '1' ; P_in <= "1001"  ;wait for Clk_period*2;
       
