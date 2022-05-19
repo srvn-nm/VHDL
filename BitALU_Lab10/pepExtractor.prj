@@ -1,0 +1,4 @@
+work	"ALU_8bit.vhd"
+work	"FullAdder.vhd"
+work	"HalfAdder.vhd"
+work	"adder8.vhd"
