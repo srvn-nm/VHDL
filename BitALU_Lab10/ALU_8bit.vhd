@@ -45,6 +45,13 @@ generic (
 end ALU_8bit;
 
 architecture Behavioral of ALU_8bit is
+component adder8 is
+	port ( Cin	:	In	Std_logic;
+		x,y	:	In	std_logic_vector (7 downto 0);
+		r	:	Out	std_logic_vector (7 downto 0);	
+		Cout	:	Out	Std_logic
+);	
+end component;
 
 signal ALU_Result : std_logic_vector (7 downto 0);
 signal tmp: std_logic_vector (8 downto 0);
