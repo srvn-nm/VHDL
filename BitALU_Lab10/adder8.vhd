@@ -22,13 +22,13 @@ component FullAdder
 	signal c5, c6, c7	:		Std_logic;
 	
 begin
-	stage0: FullAdder port map (Cin, x[0], y[0], r[0], c1);
-	stage1: FullAdder port map (c1, x[1], y[1], r[1], c2);
-	stage2: FullAdder port map (c2, x[2], y[2], r[2], c3);
-	stage3: FullAdder port map (c3, x[3], y[3], r[3], c4);
-	stage4: FullAdder port map (c4, x[4], y[4], r[4], c5);
-	stage5: FullAdder port map (c5, x[5], y[5], r[5], c6);
-	stage6: FullAdder port map (c6, x[6], y[6], r[6], c7);
-	stage7: FullAdder port map (c7, x[7], y[7], r[7], Cout);
+	stage0: FullAdder port map (a=>Cin, b=>x(0), c=>y(0), sum=>r(0), carry=>c1);
+	stage1: FullAdder port map (a=>c1, b=>x(1), c=>y(1), sum=>r(1), carry=>c2);
+	stage2: FullAdder port map (a=>c2, b=>x(2), c=>y(2), sum=>r(2), carry=>c3);
+	stage3: FullAdder port map (a=>c3, b=>x(3), c=>y(3), sum=>r(3), carry=>c4);
+	stage4: FullAdder port map (a=>c4, b=>x(4), c=>y(4), sum=>r(4), carry=>c5);
+	stage5: FullAdder port map (a=>c5, b=>x(5), c=>y(5), sum=>r(5), carry=>c6);
+	stage6: FullAdder port map (a=>c6, b=>x(6), c=>y(6), sum=>r(6), carry=>c7);
+	stage7: FullAdder port map (a=>c7, b=>x(7), c=>y(7), sum=>r(7), carry=>Cout);
 	
 end Architecture;
