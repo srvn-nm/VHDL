@@ -103,6 +103,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="ALU_8bit.lso"/>
       <outfile xil_pn:name="ALU_8bit.ngc"/>
       <outfile xil_pn:name="ALU_8bit.ngr"/>
@@ -123,6 +126,7 @@
     <transform xil_pn:end_ts="1652988194" xil_pn:in_ck="3405718028710467294" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="433934329741144139" xil_pn:start_ts="1652988186">
       <status xil_pn:value="FailedRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="ALU_8bit.bld"/>
       <outfile xil_pn:name="ALU_8bit_ngdbuild.xrpt"/>
       <outfile xil_pn:name="_ngo"/>
