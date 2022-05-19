@@ -83,12 +83,12 @@ BEGIN
       -- hold reset state for 100 ns.
       wait for 100 ns;	
       -- insert stimulus here 
-  A <= x"0A";
-  B <= x"02";
-  ALU_Sel <= x"0";
+  A <= "00010001";
+  B <= "00001001";
+  ALU_Sel <= "000";
   
-  for i in 0 to 15 loop 
-   ALU_Sel <= ALU_Sel + x"1";
+  for i in 0 to 5 loop 
+   ALU_Sel <= ALU_Sel + "1";
    wait for 100 ns;
   end loop;
   A <= x"F6";

@@ -1,0 +1,14 @@
+ISim log file
+Running: C:\Users\ASUS.PIESC\OneDrive\Desktop\Programing\VHDL\BitALU_Lab10\alu_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/alu_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ERROR: In process alu_tb.vhd:stim_proc 
+ Target Size 3 and source size 4 for array dimension 0 does not match. 
+
+INFO: Simulator is stopped.

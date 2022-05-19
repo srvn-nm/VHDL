@@ -1,0 +1,8 @@
+vhdl work "XorInput.vhd"
+vhdl work "And2Input.vhd"
+vhdl work "Or2Input.vhd"
+vhdl work "HalfAdder.vhd"
+vhdl work "FullAdder.vhd"
+vhdl work "adder8.vhd"
+vhdl work "ALU_8bit.vhd"
+vhdl work "alu_tb.vhd"
