@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.23 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.23 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
  
 --> Reading design: ALU_8bit.prj
 
@@ -105,23 +105,260 @@ Slice Utilization Ratio Delta      : 5
 *                          HDL Compilation                              *
 =========================================================================
 Compiling vhdl file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/HalfAdder.vhd" in Library work.
-Entity <HalfAdder> compiled.
-Entity <HalfAdder> (Architecture <structure>) compiled.
+Architecture structure of Entity halfadder is up to date.
 Compiling vhdl file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/FullAdder.vhd" in Library work.
-Entity <FullAdder> compiled.
-Entity <FullAdder> (Architecture <structural>) compiled.
+Architecture structural of Entity fulladder is up to date.
 Compiling vhdl file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/adder8.vhd" in Library work.
-Entity <adder8> compiled.
-Entity <adder8> (Architecture <Behavioral>) compiled.
+Architecture behavioral of Entity adder8 is up to date.
 Compiling vhdl file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/ALU_8bit.vhd" in Library work.
-Entity <ALU_8bit> compiled.
-ERROR:HDLParsers:3312 - "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/ALU_8bit.vhd" Line 56. Undefined symbol 'adder8'.
-ERROR:HDLParsers:1209 - "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/ALU_8bit.vhd" Line 57. adder8: Undefined symbol (last report in this block)
+Entity <alu_8bit> compiled.
+Entity <ALU_8bit> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <ALU_8bit> in library <work> (architecture <Behavioral>) with generics.
+	N = 1
+
+Analyzing hierarchy for entity <adder8> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <FullAdder> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <HalfAdder> in library <work> (architecture <structure>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <ALU_8bit> in library <work> (Architecture <Behavioral>).
+	N = 1
+WARNING:Xst:819 - "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/ALU_8bit.vhd" line 65: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <additionab>, <additiona1>
+Entity <ALU_8bit> analyzed. Unit <ALU_8bit> generated.
+
+Analyzing Entity <adder8> in library <work> (Architecture <behavioral>).
+Entity <adder8> analyzed. Unit <adder8> generated.
+
+Analyzing Entity <FullAdder> in library <work> (Architecture <structural>).
+WARNING:Xst:2211 - "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/FullAdder.vhd" line 58: Instantiating black box module <Or2Input>.
+Entity <FullAdder> analyzed. Unit <FullAdder> generated.
+
+Analyzing Entity <HalfAdder> in library <work> (Architecture <structure>).
+WARNING:Xst:2211 - "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/HalfAdder.vhd" line 56: Instantiating black box module <XorInput>.
+WARNING:Xst:2211 - "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/HalfAdder.vhd" line 57: Instantiating black box module <And2Input>.
+Entity <HalfAdder> analyzed. Unit <HalfAdder> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <HalfAdder>.
+    Related source file is "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/HalfAdder.vhd".
+Unit <HalfAdder> synthesized.
+
+
+Synthesizing Unit <FullAdder>.
+    Related source file is "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/FullAdder.vhd".
+Unit <FullAdder> synthesized.
+
+
+Synthesizing Unit <adder8>.
+    Related source file is "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/adder8.vhd".
+Unit <adder8> synthesized.
+
+
+Synthesizing Unit <ALU_8bit>.
+    Related source file is "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/ALU_8bit.vhd".
+WARNING:Xst:646 - Signal <tmp<7:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 8-bit adder for signal <ALU_Result$addsub0000> created at line 81.
+    Found 9-bit adder for signal <tmp>.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+Unit <ALU_8bit> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 8-bit adder                                           : 1
+ 9-bit adder                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 8-bit adder                                           : 1
+ 9-bit adder                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ALU_8bit> ...
+
+Optimizing unit <adder8> ...
+
+Mapping all equations...
+WARNING:Xst:2036 - Inserting OBUF on port <Carryout> driven by black box <Or2Input>. Possible simulation mismatch.
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ALU_8bit, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : ALU_8bit.ngr
+Top Level Output File Name         : ALU_8bit
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 28
+
+Cell Usage :
+# BELS                             : 81
+#      GND                         : 1
+#      LUT1                        : 7
+#      LUT2                        : 8
+#      LUT3                        : 8
+#      LUT4                        : 18
+#      MUXCY                       : 7
+#      MUXF5                       : 16
+#      MUXF6                       : 7
+#      VCC                         : 1
+#      XORCY                       : 8
+# IO Buffers                       : 28
+#      IBUF                        : 19
+#      OBUF                        : 9
+# Others                           : 80
+#      And2Input                   : 32
+#      Or2Input                    : 16
+#      XorInput                    : 32
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-5 
+
+ Number of Slices:                       21  out of    768     2%  
+ Number of 4 input LUTs:                 41  out of   1536     2%  
+ Number of IOs:                          28
+ Number of bonded IOBs:                  28  out of    124    22%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 11.479ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 366 / 149
+-------------------------------------------------------------------------
+Delay:               11.479ns (Levels of Logic = 14)
+  Source:            A<0> (PAD)
+  Destination:       ALU_Out<7> (PAD)
+
+  Data Path: A<0> to ALU_Out<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   0.715   1.074  A_0_IBUF (A_0_IBUF)
+     LUT2:I0->O            1   0.479   0.000  Madd_ALU_Result_addsub0000_lut<0> (Madd_ALU_Result_addsub0000_lut<0>)
+     MUXCY:S->O            1   0.435   0.000  Madd_ALU_Result_addsub0000_cy<0> (Madd_ALU_Result_addsub0000_cy<0>)
+     MUXCY:CI->O           1   0.056   0.000  Madd_ALU_Result_addsub0000_cy<1> (Madd_ALU_Result_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.056   0.000  Madd_ALU_Result_addsub0000_cy<2> (Madd_ALU_Result_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.056   0.000  Madd_ALU_Result_addsub0000_cy<3> (Madd_ALU_Result_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.056   0.000  Madd_ALU_Result_addsub0000_cy<4> (Madd_ALU_Result_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.056   0.000  Madd_ALU_Result_addsub0000_cy<5> (Madd_ALU_Result_addsub0000_cy<5>)
+     MUXCY:CI->O           0   0.056   0.000  Madd_ALU_Result_addsub0000_cy<6> (Madd_ALU_Result_addsub0000_cy<6>)
+     XORCY:CI->O           1   0.786   0.976  Madd_ALU_Result_addsub0000_xor<7> (ALU_Result_addsub0000<7>)
+     LUT1:I0->O            1   0.479   0.000  ALU_Result<7>_f5_rt (ALU_Result<7>_f5_rt)
+     MUXF5:I1->O           1   0.314   0.000  ALU_Result<7>_f5 (ALU_Result<7>_f5)
+     MUXF6:I1->O           1   0.298   0.681  ALU_Result<7>_f6 (ALU_Out_7_OBUF)
+     OBUF:I->O                 4.909          ALU_Out_7_OBUF (ALU_Out<7>)
+    ----------------------------------------
+    Total                     11.479ns (8.748ns logic, 2.731ns route)
+                                       (76.2% logic, 23.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.64 secs
+ 
 --> 
 
-Total memory usage is 4495444 kilobytes
+Total memory usage is 4513404 kilobytes
 
-Number of errors   :    2 (   0 filtered)
-Number of warnings :    0 (   0 filtered)
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    6 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

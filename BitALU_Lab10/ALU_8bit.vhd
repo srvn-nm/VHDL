@@ -60,8 +60,8 @@ signal additiona1 : std_logic_vector (7 downto 0);
 
  
 begin
-addition1: adder8  port map (Cin=>"1", x=>A, y=>B, r=>additionab, Cout=>Carryout);
-addition2: adder8  port map (Cin=>"1", x=>A, y=>"00000001", r=>additiona1, Cout=>Carryout);
+addition1: adder8  port map (Cin=>'1', x=>A, y=>B, r=>additionab, Cout=>Carryout);
+addition2: adder8  port map (Cin=>'1', x=>A, y=>"00000001", r=>additiona1, Cout=>Carryout);
    process(A,B,ALU_Sel)
  begin
   case(ALU_Sel) is

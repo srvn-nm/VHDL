@@ -1,29 +1,30 @@
 V3 18
 FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/adder8.vhd 2022/05/19.23:40:20 P.20131013
-EN work/adder8 1652987961 \
+EN work/adder8 1652988183 \
       FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/adder8.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/adder8/Behavioral 1652987962 \
+AR work/adder8/Behavioral 1652988184 \
       FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/adder8.vhd \
-      EN work/adder8 1652987961 CP FullAdder
-EN work/ALU_8bit 0 \
+      EN work/adder8 1652988183 CP FullAdder
+FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/ALU_8bit.vhd 2022/05/19.23:52:56 P.20131013
+EN work/ALU_8bit 1652988185 \
       FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/ALU_8bit.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
       PB ieee/NUMERIC_STD 1381692181
-AR work/ALU_8bit/Behavioral 0 \
+AR work/ALU_8bit/Behavioral 1652988186 \
       FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/ALU_8bit.vhd \
-      EN work/ALU_8bit 0 CP adder8
+      EN work/ALU_8bit 1652988185 CP adder8
 FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/FullAdder.vhd 2022/05/19.23:11:15 P.20131013
-EN work/FullAdder 1652987959 \
+EN work/FullAdder 1652988181 \
       FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/FullAdder.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/FullAdder/structural 1652987960 \
+AR work/FullAdder/structural 1652988182 \
       FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/FullAdder.vhd \
-      EN work/FullAdder 1652987959 CP HalfAdder CP Or2Input
+      EN work/FullAdder 1652988181 CP HalfAdder CP Or2Input
 FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/HalfAdder.vhd 2022/05/19.23:10:11 P.20131013
-EN work/HalfAdder 1652987957 \
+EN work/HalfAdder 1652988179 \
       FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/HalfAdder.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/HalfAdder/structure 1652987958 \
+AR work/HalfAdder/structure 1652988180 \
       FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/HalfAdder.vhd \
-      EN work/HalfAdder 1652987957 CP XorInput CP And2Input
+      EN work/HalfAdder 1652988179 CP XorInput CP And2Input

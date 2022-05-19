@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage0/U3</arg>&apos; with type &apos;<arg fmt="%s" index="3">Or2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">Or2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage0/U2/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage0/U2/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage0/U1/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage0/U1/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage1/U3</arg>&apos; with type &apos;<arg fmt="%s" index="3">Or2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">Or2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage1/U2/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage1/U2/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage1/U1/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage1/U1/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage2/U3</arg>&apos; with type &apos;<arg fmt="%s" index="3">Or2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">Or2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage2/U2/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage2/U2/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage2/U1/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage2/U1/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage3/U3</arg>&apos; with type &apos;<arg fmt="%s" index="3">Or2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">Or2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage3/U2/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage3/U2/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage3/U1/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage3/U1/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage4/U3</arg>&apos; with type &apos;<arg fmt="%s" index="3">Or2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">Or2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage4/U2/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage4/U2/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage4/U1/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage4/U1/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage5/U3</arg>&apos; with type &apos;<arg fmt="%s" index="3">Or2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">Or2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage5/U2/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage5/U2/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage5/U1/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage5/U1/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage6/U3</arg>&apos; with type &apos;<arg fmt="%s" index="3">Or2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">Or2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage6/U2/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage6/U2/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage6/U1/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage6/U1/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage7/U3</arg>&apos; with type &apos;<arg fmt="%s" index="3">Or2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">Or2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage7/U2/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage7/U2/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage7/U1/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition2/stage7/U1/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage0/U3</arg>&apos; with type &apos;<arg fmt="%s" index="3">Or2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">Or2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage0/U2/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage0/U2/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage0/U1/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage0/U1/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage1/U3</arg>&apos; with type &apos;<arg fmt="%s" index="3">Or2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">Or2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage1/U2/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage1/U2/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage1/U1/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage1/U1/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage2/U3</arg>&apos; with type &apos;<arg fmt="%s" index="3">Or2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">Or2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage2/U2/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage2/U2/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage2/U1/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage2/U1/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage3/U3</arg>&apos; with type &apos;<arg fmt="%s" index="3">Or2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">Or2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage3/U2/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage3/U2/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage3/U1/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage3/U1/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage4/U3</arg>&apos; with type &apos;<arg fmt="%s" index="3">Or2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">Or2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage4/U2/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage4/U2/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage4/U1/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage4/U1/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage5/U3</arg>&apos; with type &apos;<arg fmt="%s" index="3">Or2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">Or2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage5/U2/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage5/U2/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage5/U1/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage5/U1/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage6/U3</arg>&apos; with type &apos;<arg fmt="%s" index="3">Or2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">Or2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage6/U2/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage6/U2/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage6/U1/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage6/U1/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage7/U3</arg>&apos; with type &apos;<arg fmt="%s" index="3">Or2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">Or2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage7/U2/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage7/U2/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage7/U1/and_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">And2Input</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">And2Input</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">addition1/stage7/U1/xor_gate_instance0</arg>&apos; with type &apos;<arg fmt="%s" index="3">XorInput</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">XorInput</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="455" delta="new" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">Carryout_OBUF</arg>&apos; has multiple driver(s)<arg fmt="%s" index="3">:
+  pin C on block addition2/stage7/U3 with type Or2Input,
+  pin C on block addition1/stage7/U3 with type Or2Input</arg>
+</msg>
+
+</messages>
+
