@@ -1,24 +1,26 @@
 Library ieee;
 Use ieee.std_logic_1164.all;
-Use work.FullAdder_package.all;
+
 
 Entity adder8 is
 	port ( Cin	:	In	Std_logic;
 		x,y	:	In	std_logic_vector (7 downto 0);
 		r	:	Out	std_logic_vector (7 downto 0);	
 		Cout	:	Out	Std_logic
-(;	
+);	
 end adder8;
 
-Architecture adder8_structure of adder8 is
-	signal c1, c2, c3, c4	:		Std_logic;
-	signal c5, c6, c7	:		Std_logic;
-	component FullAdder
+Architecture structural of adder8 is
+component FullAdder
 	Port ( a : in  STD_LOGIC;
            b : in  STD_LOGIC;
            c : in  STD_LOGIC;
            sum : out  STD_LOGIC;
-           carry : out  STD_LOGIC);	end component
+           carry : out  STD_LOGIC);	
+			  end component;
+	signal c1, c2, c3, c4	:		Std_logic;
+	signal c5, c6, c7	:		Std_logic;
+	
 begin
 	stage0: FullAdder port map (Cin, x[0], y[0], r[0], c1);
 	stage1: FullAdder port map (c1, x[1], y[1], r[1], c2);
