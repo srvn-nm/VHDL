@@ -80,16 +80,15 @@ BEGIN
    -- Stimulus process
    stim_proc: process
    begin		
-      -- hold reset state for 100 ns.
-      wait for 100 ns;	
+      -- hold reset state for 100 ns.	
       -- insert stimulus here 
   A <= "00010001";
   B <= "00001001";
   ALU_Sel <= "000";
   
   for i in 0 to 5 loop 
-   ALU_Sel <= ALU_Sel + "1";
    wait for 100 ns;
+	ALU_Sel <= ALU_Sel + "1";
   end loop;
   A <= x"F6";
   B <= x"0A";

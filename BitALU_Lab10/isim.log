@@ -8,7 +8,3 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-ERROR: In process alu_tb.vhd:stim_proc 
- Target Size 3 and source size 4 for array dimension 0 does not match. 
-
-INFO: Simulator is stopped.

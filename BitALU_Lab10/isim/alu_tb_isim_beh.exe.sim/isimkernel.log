@@ -2,14 +2,14 @@ Command line:
    alu_tb_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  3213
+     -socket  4064
 
-Fri May 20 00:17:30 2022
+Fri May 20 00:23:23 2022
 
 
- Elaboration Time: 0.109375 sec
+ Elaboration Time: 0.078125 sec
 
- Current Memory Usage: 5154.78 Meg
+ Current Memory Usage: 5154.16 Meg
 
  Total Signals          : 539
  Total Nets             : 135
@@ -19,13 +19,10 @@ Fri May 20 00:17:30 2022
  Total Processes        : 85
  Total Traceable Variables  : 16
  Total Scalar Nets and Variables : 637
-In process alu_tb.vhd:stim_proc 
- Target Size 3 and source size 4 for array dimension 0 does not match. 
-
 
  Total Simulation Time: 0.109375 sec
 
- Current Memory Usage: 4997.49 Meg
+ Current Memory Usage: 4839.59 Meg
 
-Fri May 20 00:19:32 2022
+Fri May 20 00:33:51 2022
 
