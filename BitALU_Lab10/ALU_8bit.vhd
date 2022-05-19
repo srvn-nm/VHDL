@@ -48,13 +48,18 @@ architecture Behavioral of ALU_8bit is
 
 signal ALU_Result : std_logic_vector (7 downto 0);
 signal tmp: std_logic_vector (8 downto 0);
+signal additionab : std_logic_vector (7 downto 0);
+signal additiona1 : std_logic_vector (7 downto 0);
 
+ 
 begin
+addition1: adder8  port map (Cin=>"1", x=>A, y=>B, r=>additionab, Cout=>Carryout);
+addition2: adder8  port map (Cin=>"1", x=>A, y=>"00000001", r=>additiona1, Cout=>Carryout);
    process(A,B,ALU_Sel)
  begin
   case(ALU_Sel) is
   when "000" => -- Addition
-   ALU_Result <= A + B ; 
+  ALU_Result <= additionab;
   when "001" => -- Logical or
    ALU_Result <= A or B;
   when "010" => -- Logical and 
@@ -62,7 +67,7 @@ begin
   when "011" => -- Zero
    ALU_Result <= "00000000" ;
   when "100" => -- one bit addition
-  ALU_Result <=  ;
+  ALU_Result <= additiona1;
   when "101" => -- Logical shift left
    ALU_Result <= std_logic_vector(unsigned(A) sll N);
 

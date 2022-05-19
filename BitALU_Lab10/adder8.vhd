@@ -10,7 +10,7 @@ Entity adder8 is
 );	
 end adder8;
 
-Architecture structural of adder8 is
+Architecture Behavioral of adder8 is
 component FullAdder
 	Port ( a : in  STD_LOGIC;
            b : in  STD_LOGIC;
