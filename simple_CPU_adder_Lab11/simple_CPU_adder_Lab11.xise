@@ -35,6 +35,10 @@
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="91"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="91"/>
     </file>
+    <file xil_pn:name="Or2Input.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="92"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="92"/>
+    </file>
   </files>
 
   <properties>
