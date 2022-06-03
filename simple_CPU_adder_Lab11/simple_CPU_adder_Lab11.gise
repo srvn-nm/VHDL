@@ -135,14 +135,11 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1654246913" xil_pn:in_ck="-949632188812129524" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="1592011952035170728" xil_pn:start_ts="1654246905">
+    <transform xil_pn:end_ts="1654248983" xil_pn:in_ck="-2498303907367732020" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="1592011952035170728" xil_pn:start_ts="1654248973">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="shiftRegister.lso"/>
@@ -161,20 +158,18 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1654246919" xil_pn:in_ck="-4633110238147997559" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="3886629491841324754" xil_pn:start_ts="1654246913">
+    <transform xil_pn:end_ts="1654248990" xil_pn:in_ck="-4633110238147997559" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="3886629491841324754" xil_pn:start_ts="1654248983">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
       <outfile xil_pn:name="shiftRegister.bld"/>
       <outfile xil_pn:name="shiftRegister.ngd"/>
       <outfile xil_pn:name="shiftRegister_ngdbuild.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1654246923" xil_pn:in_ck="-4633110238147997558" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-7868858794111860816" xil_pn:start_ts="1654246919">
+    <transform xil_pn:end_ts="1654248993" xil_pn:in_ck="-4633110238147997558" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-7868858794111860816" xil_pn:start_ts="1654248990">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
       <outfile xil_pn:name="shiftRegister.pcf"/>
       <outfile xil_pn:name="shiftRegister_map.map"/>
@@ -185,10 +180,9 @@
       <outfile xil_pn:name="shiftRegister_summary.xml"/>
       <outfile xil_pn:name="shiftRegister_usage.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1654246930" xil_pn:in_ck="7569574355006690467" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="3266239339701135281" xil_pn:start_ts="1654246923">
+    <transform xil_pn:end_ts="1654249002" xil_pn:in_ck="7569574355006690467" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="3266239339701135281" xil_pn:start_ts="1654248993">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
       <outfile xil_pn:name="shiftRegister.ncd"/>
       <outfile xil_pn:name="shiftRegister.pad"/>
@@ -200,10 +194,9 @@
       <outfile xil_pn:name="shiftRegister_pad.txt"/>
       <outfile xil_pn:name="shiftRegister_par.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1654246930" xil_pn:in_ck="-4633110238147997690" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1654246928">
+    <transform xil_pn:end_ts="1654249002" xil_pn:in_ck="-4633110238147997690" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1654248999">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
       <outfile xil_pn:name="shiftRegister.twr"/>
       <outfile xil_pn:name="shiftRegister.twx"/>
