@@ -23,6 +23,10 @@
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="55"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="55"/>
     </file>
+    <file xil_pn:name="multiplexer.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="56"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="56"/>
+    </file>
   </files>
 
   <properties>
