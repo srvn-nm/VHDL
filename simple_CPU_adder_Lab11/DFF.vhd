@@ -30,8 +30,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity DFF is
-    Port ( d : in  STD_LOGIC;
-           enable : in  STD_LOGIC;
+    Port ( clock :in STD_LOGIC;
+		     d : in  STD_LOGIC;
            q : out  STD_LOGIC);
 end DFF;
 
@@ -39,9 +39,9 @@ architecture arch of DFF is
 
 begin
 
-process (d, enable)
+process (d, enable , clock)
   begin
-  	if (enable = '1') then 
+  	if (rising_edge(clock)) then 
   	    q <= d;
   	end if;
   end process;
