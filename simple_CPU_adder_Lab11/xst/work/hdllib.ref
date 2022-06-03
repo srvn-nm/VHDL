@@ -1,11 +1,11 @@
-EN multiplexer NULL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/multiplexer.vhd sub00/vhpl05 1654246907
-EN dflipflop NULL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/DFLipFlop.vhd sub00/vhpl07 1654246909
+EN multiplexer NULL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/multiplexer.vhd sub00/vhpl05 1654248975
+EN dflipflop NULL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/DFLipFlop.vhd sub00/vhpl07 1654248977
 EN dff NULL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/DFF.vhd sub00/vhpl02 1654246597
 EN rom NULL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/ROM.vhd sub00/vhpl00 1654245366
 AR dff arch C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/DFF.vhd sub00/vhpl03 1654246598
 AR rom arch C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/ROM.vhd sub00/vhpl01 1654245367
-AR shiftregister structural C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/shiftRegister.vhd sub00/vhpl10 1654246912
-EN shiftregister NULL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/shiftRegister.vhd sub00/vhpl09 1654246911
-AR dflipflop behavioral C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/DFLipFlop.vhd sub00/vhpl08 1654246910
+AR shiftregister structural C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/shiftRegister.vhd sub00/vhpl10 1654248980
+EN shiftregister NULL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/shiftRegister.vhd sub00/vhpl09 1654248979
+AR dflipflop behavioral C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/DFLipFlop.vhd sub00/vhpl08 1654248978
 EN register_dffbase NULL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/Register_dffBase.vhd sub00/vhpl04 1654246599
-AR multiplexer behavioral C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/multiplexer.vhd sub00/vhpl06 1654246908
+AR multiplexer behavioral C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/multiplexer.vhd sub00/vhpl06 1654248976

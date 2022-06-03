@@ -3,13 +3,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
+Total REAL time to Xst completion: 1.00 secs
 Total CPU time to Xst completion: 0.15 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
+Total REAL time to Xst completion: 1.00 secs
 Total CPU time to Xst completion: 0.15 secs
  
 --> Reading design: shiftRegister.prj
@@ -105,23 +105,20 @@ Slice Utilization Ratio Delta      : 5
 *                          HDL Compilation                              *
 =========================================================================
 Compiling vhdl file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/multiplexer.vhd" in Library work.
-Entity <multiplexer> compiled.
-Entity <multiplexer> (Architecture <Behavioral>) compiled.
+Architecture behavioral of Entity multiplexer is up to date.
 Compiling vhdl file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/DFLipFlop.vhd" in Library work.
-Entity <DFLipFlop> compiled.
-Entity <DFLipFlop> (Architecture <Behavioral>) compiled.
+Architecture behavioral of Entity dflipflop is up to date.
 Compiling vhdl file "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/shiftRegister.vhd" in Library work.
-Entity <shiftRegister> compiled.
-Entity <shiftRegister> (Architecture <structural>) compiled.
+Architecture structural of Entity shiftregister is up to date.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
 =========================================================================
 Analyzing hierarchy for entity <shiftRegister> in library <work> (architecture <structural>).
 
-Analyzing hierarchy for entity <multiplexer> in library <work> (architecture <Behavioral>).
+Analyzing hierarchy for entity <multiplexer> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <DFLipFlop> in library <work> (architecture <Behavioral>).
+Analyzing hierarchy for entity <DFLipFlop> in library <work> (architecture <behavioral>).
 
 
 =========================================================================
@@ -130,12 +127,12 @@ Analyzing hierarchy for entity <DFLipFlop> in library <work> (architecture <Beha
 Analyzing Entity <shiftRegister> in library <work> (Architecture <structural>).
 Entity <shiftRegister> analyzed. Unit <shiftRegister> generated.
 
-Analyzing Entity <multiplexer> in library <work> (Architecture <Behavioral>).
+Analyzing Entity <multiplexer> in library <work> (Architecture <behavioral>).
 WARNING:Xst:819 - "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/multiplexer.vhd" line 43: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <DataIn>, <P_in>
 Entity <multiplexer> analyzed. Unit <multiplexer> generated.
 
-Analyzing Entity <DFLipFlop> in library <work> (Architecture <Behavioral>).
+Analyzing Entity <DFLipFlop> in library <work> (Architecture <behavioral>).
 Entity <DFLipFlop> analyzed. Unit <DFLipFlop> generated.
 
 
@@ -365,12 +362,12 @@ Offset:              6.216ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 5.23 secs
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.14 secs
  
 --> 
 
-Total memory usage is 4497192 kilobytes
+Total memory usage is 4497196 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    1 (   0 filtered)

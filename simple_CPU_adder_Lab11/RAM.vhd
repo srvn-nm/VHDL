@@ -33,13 +33,24 @@ entity RAM is
     Port ( clock : in  STD_LOGIC;
            data : in  STD_LOGIC_VECTOR (3 downto 0);
            we : in  STD_LOGIC;
+			  write_address:  IN   integer RANGE 0 to 3;
+			  read_address:   IN   integer RANGE 0 to 3;
            q : out  STD_LOGIC_VECTOR (3 downto 0));
 end RAM;
 
-architecture Behavioral of RAM is
-
+architecture rtl of RAM is
+   TYPE mem IS ARRAY(0 TO 3) OF std_logic_vector(3 DOWNTO 0);
+   SIGNAL ram_block : mem;
 begin
+	PROCESS (clock)
+   BEGIN
+      IF (clock'event AND clock = '1') THEN
+         IF (we = '1') THEN
+            ram_block(write_address) <= data;
+         END IF;
+         q <= ram_block(read_address);
+      END IF;
+   END PROCESS;
 
-
-end Behavioral;
+end rtl;
 
