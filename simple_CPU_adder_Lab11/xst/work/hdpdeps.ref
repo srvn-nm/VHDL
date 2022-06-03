@@ -1,4 +1,18 @@
-V3 3
+V3 10
+FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/DFF.vhd 2022/06/03.13:26:35 P.20131013
+EN work/DFF 1654246597 \
+      FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/DFF.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/DFF/arch 1654246598 \
+      FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/DFF.vhd \
+      EN work/DFF 1654246597
+FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/Register_dffBase.vhd 2022/06/03.13:26:04 P.20131013
+EN work/Register_dffBase 0 \
+      FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/Register_dffBase.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Register_dffBase/Behavioral 0 \
+      FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/Register_dffBase.vhd \
+      EN work/Register_dffBase 0 CP DFF
 FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/ROM.vhd 2022/06/03.13:06:03 P.20131013
 EN work/ROM 1654245366 \
       FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/ROM.vhd \

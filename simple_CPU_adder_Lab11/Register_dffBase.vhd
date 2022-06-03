@@ -37,9 +37,13 @@ entity Register_dffBase is
 end Register_dffBase;
 
 architecture Behavioral of Register_dffBase is
-
+signal Q_i : std_logic_vector(3 downto 0);
 begin
-
+Q <= Q_i;
+FF1: DFF port map(Clock, Sin, Q_i(3));
+FF2: DFF port map(Clock, Q_i(3), Q_i(2));
+FF3: DFF port map(Clock, Q_i(2), Q_i(1));
+FF4: DFF port map(Clock, Q_i(1), Q_i(0));
 
 end Behavioral;
 

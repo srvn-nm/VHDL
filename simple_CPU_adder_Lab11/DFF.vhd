@@ -39,7 +39,7 @@ architecture arch of DFF is
 
 begin
 
-process (d, enable , clock)
+process (d, clock)
   begin
   	if (rising_edge(clock)) then 
   	    q <= d;

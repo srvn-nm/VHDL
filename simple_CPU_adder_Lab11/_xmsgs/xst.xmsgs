@@ -5,13 +5,10 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="info" file="Xst" num="3034" delta="new" >In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="1">Mrom_data_output_mux0000</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+<msg type="error" file="HDLParsers" num="3313" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/Register_dffBase.vhd</arg>&quot; Line <arg fmt="%d" index="2">43</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">DFF</arg>&apos;.  Should it be: <arg fmt="%s" index="4">&apos;D FF&apos; or FF</arg>?
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">data_output_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ROM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;data_output_2&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">data_output_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ROM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;data_output_3&gt; </arg>
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/Register_dffBase.vhd</arg>&quot; Line <arg fmt="%d" index="2">44</arg>. <arg fmt="%s" index="3">DFF</arg>: Undefined symbol (last report in this block)
 </msg>
 
 </messages>
