@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-05-19T21:09:12</DateModified>
+  <DateModified>2022-06-03T12:16:23</DateModified>
   <ModuleName>ALU_8bit</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/iseconfig/ALU_8bit.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10\</ImplementationReportsDirectory>
   <DateInitialized>2022-05-19T21:09:12</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
