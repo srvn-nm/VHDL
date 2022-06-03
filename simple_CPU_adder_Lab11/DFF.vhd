@@ -35,10 +35,16 @@ entity DFF is
            q : out  STD_LOGIC);
 end DFF;
 
-architecture Behavioral of DFF is
+architecture arch of DFF is
 
 begin
 
+process (d, enable)
+  begin
+  	if (enable = '1') then 
+  	    q <= d;
+  	end if;
+  end process;
 
-end Behavioral;
+end arch;
 
