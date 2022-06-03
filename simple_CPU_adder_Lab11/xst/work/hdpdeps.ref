@@ -1,4 +1,4 @@
-V3 10
+V3 21
 FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/DFF.vhd 2022/06/03.13:26:35 P.20131013
 EN work/DFF 1654246597 \
       FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/DFF.vhd \
@@ -6,6 +6,20 @@ EN work/DFF 1654246597 \
 AR work/DFF/arch 1654246598 \
       FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/DFF.vhd \
       EN work/DFF 1654246597
+FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/DFLipFlop.vhd 2022/06/03.13:29:43 P.20131013
+EN work/DFLipFlop 1654246909 \
+      FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/DFLipFlop.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/DFLipFlop/Behavioral 1654246910 \
+      FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/DFLipFlop.vhd \
+      EN work/DFLipFlop 1654246909
+FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/multiplexer.vhd 2022/06/03.13:30:20 P.20131013
+EN work/multiplexer 1654246907 \
+      FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/multiplexer.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/multiplexer/Behavioral 1654246908 \
+      FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/multiplexer.vhd \
+      EN work/multiplexer 1654246907
 FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/Register_dffBase.vhd 2022/06/03.13:26:04 P.20131013
 EN work/Register_dffBase 0 \
       FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/Register_dffBase.vhd \
@@ -20,3 +34,10 @@ EN work/ROM 1654245366 \
 AR work/ROM/arch 1654245367 \
       FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/ROM.vhd \
       EN work/ROM 1654245366
+FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/shiftRegister.vhd 2022/06/03.13:31:10 P.20131013
+EN work/shiftRegister 1654246911 \
+      FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/shiftRegister.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/shiftRegister/structural 1654246912 \
+      FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/shiftRegister.vhd \
+      EN work/shiftRegister 1654246911 CP multiplexer CP DFLipFlop
