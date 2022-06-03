@@ -1,0 +1,8 @@
+V3 3
+FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/ROM.vhd 2022/06/03.13:06:03 P.20131013
+EN work/ROM 1654245366 \
+      FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/ROM.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177
+AR work/ROM/arch 1654245367 \
+      FL C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/ROM.vhd \
+      EN work/ROM 1654245366
