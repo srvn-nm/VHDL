@@ -1,58 +1,44 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date:    12:51:54 06/03/2022 
--- Design Name: 
--- Module Name:    ROM - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
---
--- Dependencies: 
---
--- Revision: 
--- Revision 0.01 - File Created
--- Additional Comments: 
---
-----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.STD_LOGIC_arith.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx primitives in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
+use IEEE.Numeric_std.all; --for integer numbers
+use ieee.std_logic_unsigned.all;
 
 entity ROM is
-    Port ( clock : in STD_LOGIC;
-			  rom_enable : in  STD_LOGIC;
-           address : in  STD_LOGIC_VECTOR (1 downto 0);
-           data_output : out  STD_LOGIC_VECTOR (3 downto 0));
+port(
+			CLK: in std_logic;
+			readable: in std_logic;
+			address: in std_logic_vector(3 downto 0);
+			ROM_OutPut: out std_logic_vector(7 downto 0));
+			
 end ROM;
-
-architecture arch of ROM is
-
+architecture Behavioral of ROM is
+			type memory is Array(0 to 15) of std_logic_vector(7 downto 0);
+			signal rom: memory:=("00000000",
+										"00000001", 
+										"00000010", 
+										"00000011",
+										"00000100",
+										"00000101",
+										"00000110",
+										"00000111",
+										"00001000",
+										"00001001",
+										"00001010",
+										"00001011",
+										"00001100",
+										"00001101",
+										"00001110",
+										"00001111"
+										);	
+			signal index_of_location: integer range 0 to 15;
 begin
-	process(clock) is
-		begin
-			if(rising_edge(clock) and rom_enable ='1') then
-				if(address="00") then
-					data_output <="1001";
-				elsif(address="01") then
-					data_output <="0110";
-				elsif(address="10") then
-					data_output <="0000";
-				elsif(address="11") then
-					data_output <="1111";
-				end if;
-			end if;
-	end process;
-end arch;
-
+			CMB: process(CLK)
+			begin
+					index_of_location <= to_integer(unsigned(address)); --convert binary address to integer index
+					if(CLK'event and CLK = '1') then
+					    if (readable = '1') then
+					ROM_OutPut <= rom(index_of_location);
+					end if;
+					end if;
+end process;
+end Behavioral;

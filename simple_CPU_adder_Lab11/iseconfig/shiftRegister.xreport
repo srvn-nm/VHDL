@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-06-03T17:31:50</DateModified>
+  <DateModified>2022-06-04T18:17:30</DateModified>
   <ModuleName>shiftRegister</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/iseconfig/shiftRegister.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11\</ImplementationReportsDirectory>
   <DateInitialized>2022-06-03T17:31:50</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

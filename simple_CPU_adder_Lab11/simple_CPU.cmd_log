@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/simple_CPU.xst" -ofn "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/simple_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 simple_CPU.ngc simple_CPU.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o simple_CPU_map.ncd simple_CPU.ngd simple_CPU.pcf 
+par -w -intstyle ise -ol high -t 1 simple_CPU_map.ncd simple_CPU.ncd simple_CPU.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml simple_CPU.twx simple_CPU.ncd -o simple_CPU.twr simple_CPU.pcf 

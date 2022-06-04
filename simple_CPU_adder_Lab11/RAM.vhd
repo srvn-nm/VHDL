@@ -1,56 +1,53 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date:    14:02:18 06/03/2022 
--- Design Name: 
--- Module Name:    RAM - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
---
--- Dependencies: 
---
--- Revision: 
--- Revision 0.01 - File Created
--- Additional Comments: 
---
-----------------------------------------------------------------------------------
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.Numeric_std.all; --for integer numbers
+use ieee.std_logic_unsigned.all;
 
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
+entity RAM16x8 is
+port(
+			CLK: in std_logic;
+			readable: in std_logic;
+			Write_Allowed : in std_logic;
+			address: in std_logic_vector(3 downto 0);
+			new_Data: in std_logic_vector(8 downto 0);
+			ROM_OutPut: out std_logic_vector(8 downto 0));
+			
+end RAM16x8;
 
--- Uncomment the following library declaration if instantiating
--- any Xilinx primitives in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
-
-entity RAM is
-    Port ( clock : in  STD_LOGIC;
-           data : in  STD_LOGIC_VECTOR (3 downto 0);
-           we : in  STD_LOGIC;
-			  write_address:  IN   integer RANGE 0 to 3;
-			  read_address:   IN   integer RANGE 0 to 3;
-           q : out  STD_LOGIC_VECTOR (3 downto 0));
-end RAM;
-
-architecture rtl of RAM is
-   TYPE mem IS ARRAY(0 TO 3) OF std_logic_vector(3 DOWNTO 0);
-   SIGNAL ram_block : mem;
+architecture Behavioral of RAM16x8 is
+type memory is Array(0 to 15) of std_logic_vector(8 downto 0);
+        
+		   --first write in ram
+			signal rom: memory:=("000000000",
+										"000000001", 
+										"000000010", 
+										"000000011",
+										"000000100",
+										"000000101",
+										"000000110",
+										"000000111",
+										"000001000",
+										"000001001",
+										"000001010",
+										"000001011",
+										"000001100",
+										"000001101",
+										"000001110",
+										"000001111"
+										);	
+			signal index_of_location: integer range 0 to 15;
 begin
-	PROCESS (clock)
-   BEGIN
-      IF (clock'event AND clock = '1') THEN
-         IF (we = '1') THEN
-            ram_block(write_address) <= data;
-         END IF;
-         q <= ram_block(read_address);
-      END IF;
-   END PROCESS;
-
-end rtl;
-
+			CMB: process(CLK)
+			begin
+					index_of_location <= to_integer(unsigned(address)); --convert binary address to integer index
+					if(CLK'event and CLK = '1') then
+						if (Write_Allowed = '1') then
+						   rom(index_of_location) <= new_Data;    
+						 end if;
+					    if (readable = '1') then
+							ROM_OutPut <= rom(index_of_location);
+					end if;  
+					end if;
+ end process;
+end Behavioral;

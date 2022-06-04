@@ -1,0 +1,8 @@
+work	"ALU_8bit.vhd"
+work	"FullAdder.vhd"
+work	"RAM.vhd"
+work	"ROM.vhd"
+work	"Register8bit.vhd"
+work	"Register9Bit.vhd"
+work	"adder8.vhd"
+work	"simple_CPU.vhd"
