@@ -4,25 +4,29 @@
      changes made to this file may result in unpredictable
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
-<DeviceUsageSummary rev="2">
-<DesignStatistics TimeStamp="Fri May 20 00:04:00 2022"><group name="MiscellaneousStatistics">
-<item name="AGG_BONDED_IO" rev="2">
+<DeviceUsageSummary rev="4">
+<DesignStatistics TimeStamp="Sat Jun 04 12:48:50 2022"><group name="MiscellaneousStatistics">
+<item name="AGG_BONDED_IO" rev="4">
 <attrib name="value" value="28"/></item>
-<item name="AGG_IO" rev="2">
+<item name="AGG_IO" rev="4">
 <attrib name="value" value="28"/></item>
-<item name="AGG_SLICE" rev="2">
-<attrib name="value" value="31"/></item>
-<item name="NUM_4_INPUT_LUT" rev="2">
-<attrib name="value" value="60"/></item>
-<item name="NUM_BONDED_IOB" rev="2">
+<item name="AGG_SLICE" rev="4">
+<attrib name="value" value="27"/></item>
+<item name="NUM_4_INPUT_LUT" rev="4">
+<attrib name="value" value="52"/></item>
+<item name="NUM_BONDED_IOB" rev="4">
 <attrib name="value" value="28"/></item>
-<item name="NUM_CYMUX" rev="2">
-<attrib name="value" value="15"/></item>
-<item name="NUM_LUT_RT" rev="2">
+<item name="NUM_BUFGMUX" rev="4">
+<attrib name="value" value="1"/></item>
+<item name="NUM_CYMUX" rev="4">
 <attrib name="value" value="7"/></item>
-<item name="NUM_SLICEL" rev="2">
-<attrib name="value" value="31"/></item>
-<item name="NUM_XOR" rev="2">
+<item name="NUM_IOB_LATCH" rev="4">
+<attrib name="value" value="1"/></item>
+<item name="NUM_LUT_RT" rev="4">
+<attrib name="value" value="7"/></item>
+<item name="NUM_SLICEL" rev="4">
+<attrib name="value" value="27"/></item>
+<item name="NUM_XOR" rev="4">
 <attrib name="value" value="8"/></item>
 </group>
 </DesignStatistics>

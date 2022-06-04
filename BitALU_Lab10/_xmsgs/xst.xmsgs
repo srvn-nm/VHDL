@@ -5,39 +5,14 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/ALU_8bit.vhd</arg>&quot; line <arg fmt="%d" index="2">65</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
-<arg fmt="%s" index="3">&lt;additionab&gt;, &lt;additiona1&gt;</arg>
+<msg type="warning" file="Xst" num="819" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/ALU_8bit.vhd</arg>&quot; line <arg fmt="%d" index="2">66</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;additionab&gt;, &lt;ca&gt;, &lt;additiona1&gt;, &lt;ca1&gt;</arg>
 </msg>
 
-<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">tmp&lt;7:0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">carryout_sig</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">and_gate_instance0</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">U2</arg>&gt;.
-It will be removed from the design.
-</msg>
-
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">and_gate_instance0</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">U2</arg>&gt;.
-It will be removed from the design.
-</msg>
-
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">and_gate_instance0</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">U2</arg>&gt;.
-It will be removed from the design.
-</msg>
-
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">and_gate_instance0</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">U2</arg>&gt;.
-It will be removed from the design.
-</msg>
-
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">and_gate_instance0</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">U2</arg>&gt;.
-It will be removed from the design.
-</msg>
-
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">and_gate_instance0</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">U2</arg>&gt;.
-It will be removed from the design.
-</msg>
-
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">and_gate_instance0</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">U2</arg>&gt;.
-It will be removed from the design.
+<msg type="info" file="Xst" num="2371" delta="new" >HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
 </msg>
 
 </messages>

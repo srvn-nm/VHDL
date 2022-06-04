@@ -8,6 +8,24 @@
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/ALU_8bit - Behavioral C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|ALU_8bit.vhd</ClosedNode>
+         <ClosedNode>/ALU_8bit - Behavioral C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|ALU_8bit.vhd/addition1 - adder8 - Behavioral/stage0 - FullAdder - structural</ClosedNode>
+         <ClosedNode>/ALU_8bit - Behavioral C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|ALU_8bit.vhd/addition1 - adder8 - Behavioral/stage1 - FullAdder - structural</ClosedNode>
+         <ClosedNode>/ALU_8bit - Behavioral C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|ALU_8bit.vhd/addition1 - adder8 - Behavioral/stage2 - FullAdder - structural</ClosedNode>
+         <ClosedNode>/ALU_8bit - Behavioral C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|ALU_8bit.vhd/addition1 - adder8 - Behavioral/stage3 - FullAdder - structural</ClosedNode>
+         <ClosedNode>/ALU_8bit - Behavioral C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|ALU_8bit.vhd/addition1 - adder8 - Behavioral/stage4 - FullAdder - structural</ClosedNode>
+         <ClosedNode>/ALU_8bit - Behavioral C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|ALU_8bit.vhd/addition1 - adder8 - Behavioral/stage5 - FullAdder - structural</ClosedNode>
+         <ClosedNode>/ALU_8bit - Behavioral C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|ALU_8bit.vhd/addition1 - adder8 - Behavioral/stage6 - FullAdder - structural</ClosedNode>
+         <ClosedNode>/ALU_8bit - Behavioral C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|ALU_8bit.vhd/addition1 - adder8 - Behavioral/stage7 - FullAdder - structural</ClosedNode>
+         <ClosedNode>/ALU_8bit - Behavioral C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|ALU_8bit.vhd/addition2 - adder8 - Behavioral/stage0 - FullAdder - structural</ClosedNode>
+         <ClosedNode>/ALU_8bit - Behavioral C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|ALU_8bit.vhd/addition2 - adder8 - Behavioral/stage1 - FullAdder - structural</ClosedNode>
+         <ClosedNode>/ALU_8bit - Behavioral C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|ALU_8bit.vhd/addition2 - adder8 - Behavioral/stage2 - FullAdder - structural</ClosedNode>
+         <ClosedNode>/ALU_8bit - Behavioral C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|ALU_8bit.vhd/addition2 - adder8 - Behavioral/stage3 - FullAdder - structural</ClosedNode>
+         <ClosedNode>/ALU_8bit - Behavioral C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|ALU_8bit.vhd/addition2 - adder8 - Behavioral/stage4 - FullAdder - structural</ClosedNode>
+         <ClosedNode>/ALU_8bit - Behavioral C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|ALU_8bit.vhd/addition2 - adder8 - Behavioral/stage4 - FullAdder - structural/U1 - HalfAdder - structure</ClosedNode>
+         <ClosedNode>/ALU_8bit - Behavioral C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|ALU_8bit.vhd/addition2 - adder8 - Behavioral/stage4 - FullAdder - structural/U2 - HalfAdder - structure</ClosedNode>
+         <ClosedNode>/ALU_8bit - Behavioral C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|ALU_8bit.vhd/addition2 - adder8 - Behavioral/stage5 - FullAdder - structural</ClosedNode>
+         <ClosedNode>/ALU_8bit - Behavioral C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|ALU_8bit.vhd/addition2 - adder8 - Behavioral/stage6 - FullAdder - structural</ClosedNode>
+         <ClosedNode>/ALU_8bit - Behavioral C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|ALU_8bit.vhd/addition2 - adder8 - Behavioral/stage7 - FullAdder - structural</ClosedNode>
          <ClosedNode>/FullAdder - structural C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|FullAdder.vhd</ClosedNode>
          <ClosedNode>/HalfAdder - structure C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|HalfAdder.vhd</ClosedNode>
          <ClosedNode>/adder8 - Behavioral C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|adder8.vhd</ClosedNode>
@@ -28,13 +46,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -80,15 +98,23 @@
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
-         <ClosedNode>/alu_tb - behavior C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|alu_tb.vhd</ClosedNode>
+         <ClosedNode>/alu_tb - behavior C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|alu_tb.vhd/uut - ALU_8bit - Behavioral/addition1 - adder8 - Behavioral/stage0 - FullAdder - structural</ClosedNode>
+         <ClosedNode>/alu_tb - behavior C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|alu_tb.vhd/uut - ALU_8bit - Behavioral/addition1 - adder8 - Behavioral/stage1 - FullAdder - structural</ClosedNode>
+         <ClosedNode>/alu_tb - behavior C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|alu_tb.vhd/uut - ALU_8bit - Behavioral/addition1 - adder8 - Behavioral/stage2 - FullAdder - structural</ClosedNode>
+         <ClosedNode>/alu_tb - behavior C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|alu_tb.vhd/uut - ALU_8bit - Behavioral/addition1 - adder8 - Behavioral/stage3 - FullAdder - structural</ClosedNode>
+         <ClosedNode>/alu_tb - behavior C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|alu_tb.vhd/uut - ALU_8bit - Behavioral/addition1 - adder8 - Behavioral/stage4 - FullAdder - structural</ClosedNode>
+         <ClosedNode>/alu_tb - behavior C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|alu_tb.vhd/uut - ALU_8bit - Behavioral/addition1 - adder8 - Behavioral/stage5 - FullAdder - structural</ClosedNode>
+         <ClosedNode>/alu_tb - behavior C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|alu_tb.vhd/uut - ALU_8bit - Behavioral/addition1 - adder8 - Behavioral/stage6 - FullAdder - structural</ClosedNode>
+         <ClosedNode>/alu_tb - behavior C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|alu_tb.vhd/uut - ALU_8bit - Behavioral/addition1 - adder8 - Behavioral/stage7 - FullAdder - structural</ClosedNode>
+         <ClosedNode>/alu_tb - behavior C:|Users|ASUS.PIESC|OneDrive|Desktop|Programing|VHDL|BitALU_Lab10|alu_tb.vhd/uut - ALU_8bit - Behavioral/addition2 - adder8 - Behavioral</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
          <SelectedItem>alu_tb - behavior (C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/alu_tb.vhd)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >2</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000df000000020000000000000000000000000200000064ffffffff000000810000000300000002000000df0000000100000003000000000000000100000003</ViewHeaderState>
-      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000177000000020000000000000000000000000200000064ffffffff000000810000000300000002000001770000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
       <CurrentItem>alu_tb - behavior (C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/BitALU_Lab10/alu_tb.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >

@@ -8,7 +8,43 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/ALU_8bit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/And2Input.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/DFLipFlop.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/FullAdder.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/HalfAdder.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/Or2Input.vhd&quot; into library work</arg>
+</msg>
+
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/RAM.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/ROM.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/XorInput.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/adder8.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/multiplexer.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/shiftRegister.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/simple_CPU.vhd&quot; into library work</arg>
 </msg>
 
 </messages>

@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Map" timeStamp="Fri May 20 00:04:00 2022">
+  <application stringID="Map" timeStamp="Sat Jun 04 12:48:50 2022">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -74,10 +74,10 @@
         <item stringID="MAP_TOTAL_CPU_TIME" value="1 secs "/>
       </section>
       <section stringID="MAP_SLICE_REPORTING">
-        <item AVAILABLE="1536" dataType="int" label="Number of 4 input LUTs" stringID="MAP_NUM_4_INPUT_LUT" value="60">
+        <item AVAILABLE="1536" dataType="int" label="Number of 4 input LUTs" stringID="MAP_NUM_4_INPUT_LUT" value="52">
           <item dataType="int" label="Number of route-thrus" stringID="MAP_NUM_LUT_RT" value="7"/>
         </item>
-        <item AVAILABLE="768" dataType="int" label="Number of occupied Slices" stringID="MAP_OCCUPIED_SLICES" value="31">
+        <item AVAILABLE="768" dataType="int" label="Number of occupied Slices" stringID="MAP_OCCUPIED_SLICES" value="27">
           <item dataType="int" label="Number of Slices containing unrelated logic" stringID="MAP_NUM_SLICE_UNRELATED" value="0"/>
         </item>
       </section>
@@ -89,13 +89,15 @@
         <item AVAILABLE="124" dataType="int" stringID="MAP_AGG_BONDED_IO" value="28"/>
         <item AVAILABLE="44" dataType="int" stringID="MAP_AGG_UNBONDED_IO" value="0"/>
         <item AVAILABLE="0" dataType="int" label="IOB Flip Flops" stringID="MAP_NUM_IOB_FF" value="0"/>
-        <item AVAILABLE="0" dataType="int" stringID="MAP_NUM_IOB_LATCH" value="0"/>
+        <item AVAILABLE="0" dataType="int" stringID="MAP_NUM_IOB_LATCH" value="1"/>
         <item AVAILABLE="56" dataType="int" stringID="MAP_NUM_DIFFM" value="0"/>
         <item AVAILABLE="0" dataType="int" stringID="MAP_NUM_BONDED_DIFFM" value="0"/>
         <item AVAILABLE="56" dataType="int" stringID="MAP_NUM_DIFFS" value="0"/>
         <item AVAILABLE="0" dataType="int" stringID="MAP_NUM_BONDED_DIFFS" value="0"/>
       </section>
-      <section stringID="MAP_HARD_IP_REPORTING"/>
+      <section stringID="MAP_HARD_IP_REPORTING">
+        <item AVAILABLE="8" dataType="int" label="Number of BUFGMUXs" stringID="MAP_NUM_BUFGMUX" value="1"/>
+      </section>
       <section stringID="MAP_MACRO_RPM_REPORTING">
         <item dataType="int" stringID="MAP_HARD_MACROS" value="0"/>
         <item dataType="int" stringID="MAP_RPMS" value="0"/>
@@ -297,19 +299,22 @@
             <item label="IO&#xA;Standard" sort="smart" stringID="IO_STANDARD" value="LVCMOS25"/>
             <item label="Drive&#xA;Strength" stringID="DRIVE_STRENGTH" value="12"/>
             <item label="Slew&#xA;Rate" stringID="SLEW_RATE" value="SLOW"/>
+            <item label="Reg&#xA;(s)" stringID="REGS" value="OLATCH1"/>
           </row>
         </table>
       </section>
       <section stringID="MAP_RPM_MACROS">
         <section stringID="MAP_SHAPE_SECTION">
-          <item dataType="int" stringID="MAP_NUM_SHAPE" value="9"/>
+          <item dataType="int" stringID="MAP_NUM_SHAPE" value="8"/>
         </section>
       </section>
       <section stringID="MAP_GUIDE_REPORT"/>
       <section stringID="MAP_AREA_GROUPS_PARTITIONS"/>
       <section stringID="MAP_TIMING_REPORT"/>
       <section stringID="MAP_CONFIGURATION_STRING_DETAILS"/>
-      <section stringID="MAP_GENERAL_CONFIG_DATA"/>
+      <section stringID="MAP_GENERAL_CONFIG_DATA">
+        <item stringID="MAP_DISABLE_ATTR" value="LOW"/>
+      </section>
       <section stringID="MAP_CONTROL_SET_INFORMATION"/>
     </task>
   </application>

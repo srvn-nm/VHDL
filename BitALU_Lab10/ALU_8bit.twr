@@ -39,133 +39,158 @@ Data Sheet report:
 -----------------
 All values displayed in nanoseconds (ns)
 
+Setup/Hold to clock ALU_Sel<0>
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+A<0>        |    7.600(R)|   -4.964(R)|ALU_Sel_0_IBUF    |   0.000|
+A<1>        |    7.932(R)|   -2.963(R)|ALU_Sel_0_IBUF    |   0.000|
+A<2>        |    7.170(R)|   -3.682(R)|ALU_Sel_0_IBUF    |   0.000|
+A<3>        |    6.245(R)|   -2.817(R)|ALU_Sel_0_IBUF    |   0.000|
+A<4>        |    5.094(R)|   -2.106(R)|ALU_Sel_0_IBUF    |   0.000|
+A<5>        |    3.731(R)|   -1.243(R)|ALU_Sel_0_IBUF    |   0.000|
+A<6>        |    2.942(R)|   -0.549(R)|ALU_Sel_0_IBUF    |   0.000|
+A<7>        |    2.248(R)|   -0.497(R)|ALU_Sel_0_IBUF    |   0.000|
+ALU_Sel<1>  |    1.716(R)|    0.674(R)|ALU_Sel_0_IBUF    |   0.000|
+ALU_Sel<2>  |    2.928(R)|   -0.992(R)|ALU_Sel_0_IBUF    |   0.000|
+B<0>        |    7.919(R)|   -5.219(R)|ALU_Sel_0_IBUF    |   0.000|
+B<1>        |    7.031(R)|   -4.509(R)|ALU_Sel_0_IBUF    |   0.000|
+B<2>        |    6.840(R)|   -4.357(R)|ALU_Sel_0_IBUF    |   0.000|
+B<3>        |    6.018(R)|   -3.699(R)|ALU_Sel_0_IBUF    |   0.000|
+B<4>        |    5.136(R)|   -2.993(R)|ALU_Sel_0_IBUF    |   0.000|
+B<5>        |    3.834(R)|   -1.953(R)|ALU_Sel_0_IBUF    |   0.000|
+B<6>        |    3.401(R)|   -1.607(R)|ALU_Sel_0_IBUF    |   0.000|
+B<7>        |    2.430(R)|   -0.830(R)|ALU_Sel_0_IBUF    |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock ALU_Sel<0> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+Carryout    |    6.115(R)|ALU_Sel_0_IBUF    |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock ALU_Sel<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ALU_Sel<0>     |    1.874|    1.874|         |         |
+---------------+---------+---------+---------+---------+
+
 Pad to Pad
 ---------------+---------------+---------+
 Source Pad     |Destination Pad|  Delay  |
 ---------------+---------------+---------+
-A<0>           |ALU_Out<0>     |    8.565|
-A<0>           |ALU_Out<1>     |    9.580|
-A<0>           |ALU_Out<2>     |    9.754|
-A<0>           |ALU_Out<3>     |    9.794|
-A<0>           |ALU_Out<4>     |   10.006|
-A<0>           |ALU_Out<5>     |   10.029|
-A<0>           |ALU_Out<6>     |   11.294|
-A<0>           |ALU_Out<7>     |   12.142|
-A<0>           |Carryout       |   11.492|
-A<1>           |ALU_Out<1>     |   10.114|
-A<1>           |ALU_Out<2>     |   10.674|
-A<1>           |ALU_Out<3>     |   10.714|
-A<1>           |ALU_Out<4>     |   11.351|
-A<1>           |ALU_Out<5>     |   11.374|
-A<1>           |ALU_Out<6>     |   12.639|
-A<1>           |ALU_Out<7>     |   13.487|
-A<1>           |Carryout       |   12.837|
-A<2>           |ALU_Out<2>     |    9.485|
-A<2>           |ALU_Out<3>     |   10.064|
-A<2>           |ALU_Out<4>     |   10.795|
-A<2>           |ALU_Out<5>     |   10.818|
-A<2>           |ALU_Out<6>     |   12.083|
-A<2>           |ALU_Out<7>     |   12.931|
-A<2>           |Carryout       |   12.281|
-A<3>           |ALU_Out<3>     |    9.615|
-A<3>           |ALU_Out<4>     |    9.890|
-A<3>           |ALU_Out<5>     |    9.950|
-A<3>           |ALU_Out<6>     |   10.701|
-A<3>           |ALU_Out<7>     |   11.549|
-A<3>           |Carryout       |   10.899|
-A<4>           |ALU_Out<4>     |    8.505|
-A<4>           |ALU_Out<5>     |    9.104|
-A<4>           |ALU_Out<6>     |    9.750|
-A<4>           |ALU_Out<7>     |   10.495|
-A<4>           |Carryout       |    9.845|
-A<5>           |ALU_Out<5>     |    9.257|
-A<5>           |ALU_Out<6>     |   10.289|
-A<5>           |ALU_Out<7>     |   10.923|
-A<5>           |Carryout       |    9.559|
-A<6>           |ALU_Out<6>     |    9.626|
-A<6>           |ALU_Out<7>     |   10.799|
-A<6>           |Carryout       |    9.475|
-A<7>           |ALU_Out<7>     |    9.926|
-A<7>           |Carryout       |    9.033|
-ALU_Sel<0>     |ALU_Out<0>     |    7.923|
-ALU_Sel<0>     |ALU_Out<1>     |    8.149|
-ALU_Sel<0>     |ALU_Out<2>     |    7.925|
-ALU_Sel<0>     |ALU_Out<3>     |    7.848|
-ALU_Sel<0>     |ALU_Out<4>     |    8.103|
-ALU_Sel<0>     |ALU_Out<5>     |    7.318|
-ALU_Sel<0>     |ALU_Out<6>     |    7.897|
-ALU_Sel<0>     |ALU_Out<7>     |    8.481|
-ALU_Sel<1>     |ALU_Out<0>     |    8.526|
-ALU_Sel<1>     |ALU_Out<1>     |    8.484|
-ALU_Sel<1>     |ALU_Out<2>     |    8.970|
-ALU_Sel<1>     |ALU_Out<3>     |    8.634|
-ALU_Sel<1>     |ALU_Out<4>     |    7.972|
-ALU_Sel<1>     |ALU_Out<5>     |    7.508|
-ALU_Sel<1>     |ALU_Out<6>     |    8.162|
-ALU_Sel<1>     |ALU_Out<7>     |    8.324|
-ALU_Sel<2>     |ALU_Out<0>     |    8.167|
-ALU_Sel<2>     |ALU_Out<1>     |    8.363|
-ALU_Sel<2>     |ALU_Out<2>     |    8.850|
-ALU_Sel<2>     |ALU_Out<3>     |    8.553|
-ALU_Sel<2>     |ALU_Out<4>     |    8.057|
-ALU_Sel<2>     |ALU_Out<5>     |    7.597|
-ALU_Sel<2>     |ALU_Out<6>     |    7.856|
-ALU_Sel<2>     |ALU_Out<7>     |    8.718|
-B<0>           |ALU_Out<0>     |    8.808|
-B<0>           |ALU_Out<1>     |    9.823|
-B<0>           |ALU_Out<2>     |    9.997|
-B<0>           |ALU_Out<3>     |   10.037|
-B<0>           |ALU_Out<4>     |   10.660|
-B<0>           |ALU_Out<5>     |   10.683|
-B<0>           |ALU_Out<6>     |   11.948|
-B<0>           |ALU_Out<7>     |   12.796|
-B<0>           |Carryout       |   12.146|
-B<1>           |ALU_Out<1>     |    9.606|
-B<1>           |ALU_Out<2>     |   10.166|
-B<1>           |ALU_Out<3>     |   10.206|
-B<1>           |ALU_Out<4>     |   10.876|
-B<1>           |ALU_Out<5>     |   10.899|
-B<1>           |ALU_Out<6>     |   12.164|
-B<1>           |ALU_Out<7>     |   13.012|
-B<1>           |Carryout       |   12.362|
-B<2>           |ALU_Out<2>     |    8.759|
-B<2>           |ALU_Out<3>     |    9.338|
-B<2>           |ALU_Out<4>     |    9.383|
-B<2>           |ALU_Out<5>     |    9.406|
-B<2>           |ALU_Out<6>     |   10.671|
-B<2>           |ALU_Out<7>     |   11.519|
-B<2>           |Carryout       |   10.869|
-B<3>           |ALU_Out<3>     |    8.635|
-B<3>           |ALU_Out<4>     |    8.910|
-B<3>           |ALU_Out<5>     |    8.970|
-B<3>           |ALU_Out<6>     |    9.976|
-B<3>           |ALU_Out<7>     |   10.824|
-B<3>           |Carryout       |   10.174|
-B<4>           |ALU_Out<4>     |    8.057|
-B<4>           |ALU_Out<5>     |    8.656|
-B<4>           |ALU_Out<6>     |    9.522|
-B<4>           |ALU_Out<7>     |   10.370|
-B<4>           |Carryout       |    9.720|
-B<5>           |ALU_Out<5>     |    8.271|
-B<5>           |ALU_Out<6>     |    9.303|
-B<5>           |ALU_Out<7>     |    9.937|
-B<5>           |Carryout       |    9.194|
-B<6>           |ALU_Out<6>     |    8.471|
-B<6>           |ALU_Out<7>     |    9.644|
-B<6>           |Carryout       |    8.746|
-B<7>           |ALU_Out<7>     |   10.189|
-B<7>           |Carryout       |    9.196|
+A<0>           |ALU_Out<0>     |    8.840|
+A<0>           |ALU_Out<1>     |    9.540|
+A<0>           |ALU_Out<2>     |    9.765|
+A<0>           |ALU_Out<3>     |    9.917|
+A<0>           |ALU_Out<4>     |    9.830|
+A<0>           |ALU_Out<5>     |   10.724|
+A<0>           |ALU_Out<6>     |   12.309|
+A<0>           |ALU_Out<7>     |   13.032|
+A<1>           |ALU_Out<1>     |    9.698|
+A<1>           |ALU_Out<2>     |   10.309|
+A<1>           |ALU_Out<3>     |   10.461|
+A<1>           |ALU_Out<4>     |   10.374|
+A<1>           |ALU_Out<5>     |   11.056|
+A<1>           |ALU_Out<6>     |   12.641|
+A<1>           |ALU_Out<7>     |   13.364|
+A<2>           |ALU_Out<2>     |   10.016|
+A<2>           |ALU_Out<3>     |   10.707|
+A<2>           |ALU_Out<4>     |   10.817|
+A<2>           |ALU_Out<5>     |   10.354|
+A<2>           |ALU_Out<6>     |   11.879|
+A<2>           |ALU_Out<7>     |   12.602|
+A<3>           |ALU_Out<3>     |   10.065|
+A<3>           |ALU_Out<4>     |   10.561|
+A<3>           |ALU_Out<5>     |   10.098|
+A<3>           |ALU_Out<6>     |   10.954|
+A<3>           |ALU_Out<7>     |   11.677|
+A<4>           |ALU_Out<4>     |    9.218|
+A<4>           |ALU_Out<5>     |    9.294|
+A<4>           |ALU_Out<6>     |    9.803|
+A<4>           |ALU_Out<7>     |   10.526|
+A<5>           |ALU_Out<5>     |    8.902|
+A<5>           |ALU_Out<6>     |    9.575|
+A<5>           |ALU_Out<7>     |    9.916|
+A<6>           |ALU_Out<6>     |    8.430|
+A<6>           |ALU_Out<7>     |    9.310|
+A<7>           |ALU_Out<7>     |    8.747|
+ALU_Sel<0>     |ALU_Out<0>     |    7.452|
+ALU_Sel<0>     |ALU_Out<1>     |    7.513|
+ALU_Sel<0>     |ALU_Out<2>     |    7.281|
+ALU_Sel<0>     |ALU_Out<3>     |    8.084|
+ALU_Sel<0>     |ALU_Out<4>     |    7.248|
+ALU_Sel<0>     |ALU_Out<5>     |    7.478|
+ALU_Sel<0>     |ALU_Out<6>     |    7.544|
+ALU_Sel<0>     |ALU_Out<7>     |    7.766|
+ALU_Sel<1>     |ALU_Out<0>     |    8.267|
+ALU_Sel<1>     |ALU_Out<1>     |    8.500|
+ALU_Sel<1>     |ALU_Out<2>     |    8.518|
+ALU_Sel<1>     |ALU_Out<3>     |    8.281|
+ALU_Sel<1>     |ALU_Out<4>     |    7.952|
+ALU_Sel<1>     |ALU_Out<5>     |    7.549|
+ALU_Sel<1>     |ALU_Out<6>     |    8.435|
+ALU_Sel<1>     |ALU_Out<7>     |    7.790|
+ALU_Sel<2>     |ALU_Out<0>     |    7.836|
+ALU_Sel<2>     |ALU_Out<1>     |    8.088|
+ALU_Sel<2>     |ALU_Out<2>     |    8.183|
+ALU_Sel<2>     |ALU_Out<3>     |    8.206|
+ALU_Sel<2>     |ALU_Out<4>     |    7.576|
+ALU_Sel<2>     |ALU_Out<5>     |    7.248|
+ALU_Sel<2>     |ALU_Out<6>     |    7.561|
+ALU_Sel<2>     |ALU_Out<7>     |    7.910|
+B<0>           |ALU_Out<0>     |    9.320|
+B<0>           |ALU_Out<1>     |   10.020|
+B<0>           |ALU_Out<2>     |   10.245|
+B<0>           |ALU_Out<3>     |   10.397|
+B<0>           |ALU_Out<4>     |   10.310|
+B<0>           |ALU_Out<5>     |   11.043|
+B<0>           |ALU_Out<6>     |   12.628|
+B<0>           |ALU_Out<7>     |   13.351|
+B<1>           |ALU_Out<1>     |    9.462|
+B<1>           |ALU_Out<2>     |   10.073|
+B<1>           |ALU_Out<3>     |   10.225|
+B<1>           |ALU_Out<4>     |   10.138|
+B<1>           |ALU_Out<5>     |   10.155|
+B<1>           |ALU_Out<6>     |   11.740|
+B<1>           |ALU_Out<7>     |   12.463|
+B<2>           |ALU_Out<2>     |    9.193|
+B<2>           |ALU_Out<3>     |    9.884|
+B<2>           |ALU_Out<4>     |    9.994|
+B<2>           |ALU_Out<5>     |    9.964|
+B<2>           |ALU_Out<6>     |   11.549|
+B<2>           |ALU_Out<7>     |   12.272|
+B<3>           |ALU_Out<3>     |    8.913|
+B<3>           |ALU_Out<4>     |    9.409|
+B<3>           |ALU_Out<5>     |    9.142|
+B<3>           |ALU_Out<6>     |   10.727|
+B<3>           |ALU_Out<7>     |   11.450|
+B<4>           |ALU_Out<4>     |    9.018|
+B<4>           |ALU_Out<5>     |    9.094|
+B<4>           |ALU_Out<6>     |    9.845|
+B<4>           |ALU_Out<7>     |   10.568|
+B<5>           |ALU_Out<5>     |    8.629|
+B<5>           |ALU_Out<6>     |    9.302|
+B<5>           |ALU_Out<7>     |    9.643|
+B<6>           |ALU_Out<6>     |    8.235|
+B<6>           |ALU_Out<7>     |    9.115|
+B<7>           |ALU_Out<7>     |    8.919|
 ---------------+---------------+---------+
 
 
-Analysis completed Fri May 20 00:04:08 2022 
+Analysis completed Sat Jun 04 12:48:58 2022 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 4469 MB
+Peak Memory Usage: 4486 MB
 
 
 

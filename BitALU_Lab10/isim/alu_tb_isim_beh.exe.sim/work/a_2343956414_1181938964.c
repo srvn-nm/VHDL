@@ -25,7 +25,7 @@
 
 
 
-extern void work_a_3798783386_0632001823_init()
+extern void work_a_2343956414_1181938964_init()
 {
-	xsi_register_didat("work_a_3798783386_0632001823", "isim/alu_tb_isim_beh.exe.sim/work/a_3798783386_0632001823.didat");
+	xsi_register_didat("work_a_2343956414_1181938964", "isim/alu_tb_isim_beh.exe.sim/work/a_2343956414_1181938964.didat");
 }

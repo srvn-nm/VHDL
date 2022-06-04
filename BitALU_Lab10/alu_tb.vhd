@@ -84,7 +84,7 @@ BEGIN
       -- insert stimulus here 
   A <= "00010001";
   B <= "00001001";
-  ALU_Sel <= "000";
+  ALU_Sel <= "111";
   
   for i in 0 to 5 loop 
    wait for 100 ns;

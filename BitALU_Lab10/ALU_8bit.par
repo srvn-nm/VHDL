@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-DESKTOP-BSRPH44::  Fri May 20 00:04:03 2022
+DESKTOP-BSRPH44::  Sat Jun 04 12:48:53 2022
 
 par -w -intstyle ise -ol high -t 1 ALU_8bit_map.ncd ALU_8bit.ncd ALU_8bit.pcf 
 
@@ -24,10 +24,11 @@ Device speed data version:  "PRODUCTION 1.39 2013-10-13".
 
 Device Utilization Summary:
 
+   Number of BUFGMUXs                        1 out of 8      12%
    Number of External IOBs                  28 out of 124    22%
       Number of LOCed IOBs                   0 out of 28      0%
 
-   Number of Slices                         31 out of 768     4%
+   Number of Slices                         27 out of 768     3%
       Number of SLICEMs                      0 out of 384     0%
 
 
@@ -42,45 +43,45 @@ Finished initial Timing Analysis.  REAL time: 0 secs
 
 
 Starting Placer
-Total REAL time at the beginning of Placer: 1 secs 
+Total REAL time at the beginning of Placer: 0 secs 
 Total CPU  time at the beginning of Placer: 0 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:6b4) REAL time: 1 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:609) REAL time: 1 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:6b4) REAL time: 1 secs 
+Phase 2.7  Design Feasibility Check (Checksum:609) REAL time: 1 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:6b4) REAL time: 1 secs 
+Phase 3.31  Local Placement Optimization (Checksum:609) REAL time: 1 secs 
 
 Phase 4.2  Initial Clock and IO Placement
-......
-Phase 4.2  Initial Clock and IO Placement (Checksum:6b4) REAL time: 1 secs 
+.........
+Phase 4.2  Initial Clock and IO Placement (Checksum:389c6d9) REAL time: 1 secs 
 
 Phase 5.36  Local Placement Optimization
-Phase 5.36  Local Placement Optimization (Checksum:6b4) REAL time: 1 secs 
+Phase 5.36  Local Placement Optimization (Checksum:389c6d9) REAL time: 1 secs 
 
 Phase 6.3  Local Placement Optimization
-........
-Phase 6.3  Local Placement Optimization (Checksum:331428e9) REAL time: 1 secs 
+.......
+Phase 6.3  Local Placement Optimization (Checksum:27306f75) REAL time: 1 secs 
 
 Phase 7.5  Local Placement Optimization
-Phase 7.5  Local Placement Optimization (Checksum:331428e9) REAL time: 1 secs 
+Phase 7.5  Local Placement Optimization (Checksum:27306f75) REAL time: 1 secs 
 
 Phase 8.8  Global Placement
 ...
 ..
-Phase 8.8  Global Placement (Checksum:4ec6b45d) REAL time: 1 secs 
+Phase 8.8  Global Placement (Checksum:3f712cce) REAL time: 1 secs 
 
 Phase 9.5  Local Placement Optimization
-Phase 9.5  Local Placement Optimization (Checksum:4ec6b45d) REAL time: 1 secs 
+Phase 9.5  Local Placement Optimization (Checksum:3f712cce) REAL time: 1 secs 
 
 Phase 10.18  Placement Optimization
-Phase 10.18  Placement Optimization (Checksum:4e910e5c) REAL time: 1 secs 
+Phase 10.18  Placement Optimization (Checksum:4ab27140) REAL time: 1 secs 
 
 Phase 11.5  Local Placement Optimization
-Phase 11.5  Local Placement Optimization (Checksum:4e910e5c) REAL time: 1 secs 
+Phase 11.5  Local Placement Optimization (Checksum:4ab27140) REAL time: 1 secs 
 
 Total REAL time to Placer completion: 1 secs 
 Total CPU  time to Placer completion: 1 secs 
@@ -91,13 +92,13 @@ Writing design to file ALU_8bit.ncd
 Starting Router
 
 
-Phase  1  : 210 unrouted;      REAL time: 1 secs 
+Phase  1  : 197 unrouted;      REAL time: 1 secs 
 
-Phase  2  : 210 unrouted;      REAL time: 1 secs 
+Phase  2  : 195 unrouted;      REAL time: 1 secs 
 
-Phase  3  : 92 unrouted;      REAL time: 1 secs 
+Phase  3  : 84 unrouted;      REAL time: 1 secs 
 
-Phase  4  : 92 unrouted; (Par is working to improve performance)     REAL time: 1 secs 
+Phase  4  : 84 unrouted; (Par is working to improve performance)     REAL time: 1 secs 
 
 Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 1 secs 
 
@@ -121,8 +122,36 @@ Partition Implementation Status
 
 Generating "PAR" statistics.
 
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|      ALU_Sel_0_IBUF |      BUFGMUX0| No   |    1 |  0.000     |  0.642      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
 Timing Score: 0 (Setup: 0, Hold: 0)
 
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+------------------------------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic  | Absolute   |Number of
+                                            |            |            | Levels | Slack      |errors   
+------------------------------------------------------------------------------------------------------
+
+
+All constraints were met.
 
 
 Generating Pad Report.

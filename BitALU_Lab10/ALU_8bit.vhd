@@ -44,7 +44,7 @@ generic (
     );
 end ALU_8bit;
 
-architecture Behavioral of ALU_8bit is
+architecture structural of ALU_8bit is
 component adder8 is
 	port ( Cin	:	In	Std_logic;
 		x,y	:	In	std_logic_vector (7 downto 0);
@@ -54,19 +54,24 @@ component adder8 is
 end component;
 
 signal ALU_Result : std_logic_vector (7 downto 0);
-signal tmp: std_logic_vector (8 downto 0);
+--signal tmp: std_logic_vector (8 downto 0);
 signal additionab : std_logic_vector (7 downto 0);
 signal additiona1 : std_logic_vector (7 downto 0);
 signal ca,ca1 : std_logic;
+signal carryout_sig : std_logic:='0';
  
 begin
-addition1: adder8  port map (Cin=>'1', x=>A, y=>B, r=>additionab, Cout=>ca);
-addition2: adder8  port map (Cin=>'1', x=>A, y=>"00000001", r=>additiona1, Cout=>ca1);
-   process(A,B,ALU_Sel)
+addition1: adder8  port map (Cin=>'0', x=>A, y=>B, r=>additionab, Cout=>ca);
+addition2: adder8  port map (Cin=>'0', x=>A, y=>"00000001", r=>additiona1, Cout=>ca1);
+   process(A,B,ALU_Sel) is
  begin
   case(ALU_Sel) is
-  when "000" => -- Addition
+  when "000" =>
   ALU_Result <= additionab;
+  carryout_sig <=ca;
+  when "111" => -- Addition
+  ALU_Result <= additionab;
+  carryout_sig <=ca;
   when "001" => -- Logical or
    ALU_Result <= A or B;
   when "010" => -- Logical and 
@@ -75,6 +80,7 @@ addition2: adder8  port map (Cin=>'1', x=>A, y=>"00000001", r=>additiona1, Cout=
    ALU_Result <= "00000000" ;
   when "100" => -- one bit addition
   ALU_Result <= additiona1;
+  carryout_sig <= ca1;
   when "101" => -- Logical shift left
    ALU_Result <= std_logic_vector(unsigned(A) sll N);
 
@@ -82,7 +88,7 @@ addition2: adder8  port map (Cin=>'1', x=>A, y=>"00000001", r=>additiona1, Cout=
   end case;
  end process;
  ALU_Out <= ALU_Result; -- ALU out
- tmp <= ('0' & A) + ('0' & B);
- Carryout <= tmp(8) or (ca or ca1); -- Carryout flag
-end Behavioral;
+-- tmp <= ('0' & A) + ('0' & B);
+ Carryout <=carryout_sig;
+end structural;
 

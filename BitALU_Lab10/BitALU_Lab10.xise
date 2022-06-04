@@ -16,45 +16,29 @@
 
   <files>
     <file xil_pn:name="ALU_8bit.vhd" xil_pn:type="FILE_VHDL">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="7"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="7"/>
-    </file>
-    <file xil_pn:name="HalfAdder.vhd" xil_pn:type="FILE_VHDL">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="4"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="4"/>
-    </file>
-    <file xil_pn:name="FullAdder.vhd" xil_pn:type="FILE_VHDL">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="5"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="5"/>
-    </file>
-    <file xil_pn:name="adder8.vhd" xil_pn:type="FILE_VHDL">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="6"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="6"/>
-    </file>
-    <file xil_pn:name="alu_tb.vhd" xil_pn:type="FILE_VHDL">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="8"/>
-      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="5"/>
-      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="5"/>
-      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="5"/>
-    </file>
-    <file xil_pn:name="Or2Input.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="3"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="3"/>
     </file>
-    <file xil_pn:name="XorInput.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="FullAdder.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="1"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="1"/>
     </file>
-    <file xil_pn:name="And2Input.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="adder8.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="2"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="2"/>
+    </file>
+    <file xil_pn:name="alu_tb.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="4"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="5"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="5"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="5"/>
     </file>
   </files>
 
   <properties>
     <property xil_pn:name="Device" xil_pn:value="xc3s50" xil_pn:valueState="default"/>
     <property xil_pn:name="Device Family" xil_pn:value="Spartan3" xil_pn:valueState="non-default"/>
-    <property xil_pn:name="Implementation Top" xil_pn:value="Architecture|ALU_8bit|Behavioral" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Implementation Top" xil_pn:value="Architecture|ALU_8bit|structural" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Implementation Top File" xil_pn:value="ALU_8bit.vhd" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Implementation Top Instance Path" xil_pn:value="/ALU_8bit" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Package" xil_pn:value="pq208" xil_pn:valueState="default"/>

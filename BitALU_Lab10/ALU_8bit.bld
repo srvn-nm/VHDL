@@ -31,7 +31,7 @@ NGDBUILD Design Results Summary:
 Total memory usage is 4397160 kilobytes
 
 Writing NGD file "ALU_8bit.ngd" ...
-Total REAL time to NGDBUILD completion:  4 sec
-Total CPU time to NGDBUILD completion:   4 sec
+Total REAL time to NGDBUILD completion:  3 sec
+Total CPU time to NGDBUILD completion:   3 sec
 
 Writing NGDBUILD log file "ALU_8bit.bld"...
