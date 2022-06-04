@@ -67,25 +67,25 @@ BEGIN
       wait for CLK_period*20;
 		--sumation part
 		ROM_addr <= "0010";reg_2_input <= "00101010" ;RAM_addr <= "0010";ALU_sel<= "000" ;
---		-- or part
---		wait for CLK_period*20;
---		ROM_addr <= "0011";reg_2_input <= "00011111" ;RAM_addr <= "0001";ALU_sel<= "001" ;
---		-- and part
---		wait for CLK_period*20;
---		ROM_addr <= "0101";reg_2_input <= "01111100" ;RAM_addr <= "0000";ALU_sel<= "010" ;
---		-- zero part
---		wait for CLK_period*20;
---		ROM_addr <= "0001";reg_2_input <= "11111111" ;RAM_addr <= "0011";ALU_sel<= "011" ;
---		-- logic shift  part
---		wait for CLK_period*20;
---		ROM_addr <= "0111";reg_2_input <= "11111111" ;RAM_addr <= "0101";ALU_sel<= "101" ;
---		--one bit addition part
---		ROM_addr <= "1111";reg_2_input <= "11111000" ;RAM_addr <= "0010";ALU_sel<= "100" ;
---		wait for CLK_period*20;
---		--sumation part
---		ROM_addr <= "1111";reg_2_input <= "11111000" ;RAM_addr <= "0010";ALU_sel<= "000" ;
---		wait for CLK_period*20;
---		reset <= '1' ;
+		-- or part
+		wait for CLK_period*20;
+		ROM_addr <= "0011";reg_2_input <= "00011111" ;RAM_addr <= "0001";ALU_sel<= "001" ;
+		-- and part
+		wait for CLK_period*20;
+		ROM_addr <= "0101";reg_2_input <= "01111100" ;RAM_addr <= "0000";ALU_sel<= "010" ;
+		-- zero part
+		wait for CLK_period*20;
+		ROM_addr <= "0001";reg_2_input <= "11111111" ;RAM_addr <= "0011";ALU_sel<= "011" ;
+		-- logic shift  part
+		wait for CLK_period*20;
+		ROM_addr <= "0111";reg_2_input <= "11111111" ;RAM_addr <= "0101";ALU_sel<= "101" ;
+		--one bit addition part
+		ROM_addr <= "1111";reg_2_input <= "11111000" ;RAM_addr <= "0010";ALU_sel<= "100" ;
+		wait for CLK_period*20;
+		--sumation part
+		ROM_addr <= "1111";reg_2_input <= "11111000" ;RAM_addr <= "0010";ALU_sel<= "000" ;
+		wait for CLK_period*20;
+		reset <= '1' ;
 		
 
       -- insert stimulus here 
