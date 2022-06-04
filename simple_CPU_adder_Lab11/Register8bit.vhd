@@ -11,11 +11,11 @@ entity Register8Bit is
            RegisterData : out  STD_LOGIC_VECTOR (7 downto 0));
 end Register8Bit;
 
-architecture Behavioral of Register8Bit is
+architecture sim of Register8Bit is
 
 begin
 
-	process(CLK,writeAllowed)
+	process(CLK) is
 			begin
 					if(CLK'event and CLK = '1') then
 					  if(writeAllowed = '1') then
@@ -24,5 +24,5 @@ begin
 					end if;
 			end process;
 
-end Behavioral;
+end sim;
 

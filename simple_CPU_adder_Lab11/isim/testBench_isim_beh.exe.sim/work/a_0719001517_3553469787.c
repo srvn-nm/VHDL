@@ -21,11 +21,11 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/Register9Bit.vhd";
+static const char *ng0 = "C:/Users/ASUS.PIESC/OneDrive/Desktop/Programing/VHDL/simple_CPU_adder_Lab11/Register8bit.vhd";
 
 
 
-static void work_a_2977848258_3212880686_p_0(char *t0)
+static void work_a_0719001517_3553469787_p_0(char *t0)
 {
     unsigned char t1;
     char *t2;
@@ -85,16 +85,16 @@ LAB8:    xsi_set_current_line(22, ng0);
     t13 = *((char **)t12);
     t14 = (t13 + 56U);
     t15 = *((char **)t14);
-    memcpy(t15, t11, 9U);
+    memcpy(t15, t11, 8U);
     xsi_driver_first_trans_fast_port(t4);
     goto LAB9;
 
 }
 
 
-extern void work_a_2977848258_3212880686_init()
+extern void work_a_0719001517_3553469787_init()
 {
-	static char *pe[] = {(void *)work_a_2977848258_3212880686_p_0};
-	xsi_register_didat("work_a_2977848258_3212880686", "isim/testBench_isim_beh.exe.sim/work/a_2977848258_3212880686.didat");
+	static char *pe[] = {(void *)work_a_0719001517_3553469787_p_0};
+	xsi_register_didat("work_a_0719001517_3553469787", "isim/testBench_isim_beh.exe.sim/work/a_0719001517_3553469787.didat");
 	xsi_register_executes(pe);
 }
