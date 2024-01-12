@@ -98,7 +98,7 @@ secondRegister : Register8Bit port map (CLK=> CLK , NewData=> reg_2_input , writ
 REG_out2 <= firstRegisterOutput;														
 
 --Alu section
-Alu_interface : ALU_8bit port map (A => firstRegisterOutput  , B => secondRegisterOutput , 
+Alu_interface : ALU_8bit port map (A => secondRegisterOutput  , B => firstRegisterOutput , 
 														ALU_Sel => ALU_sel , ALU_Out=> ALUOutput(7 downto 0) , Carryout => ALUOutput(8));
 
 --result register

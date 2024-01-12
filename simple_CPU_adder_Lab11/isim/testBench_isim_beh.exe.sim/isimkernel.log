@@ -2,14 +2,14 @@ Command line:
    testBench_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  5029
+     -socket  1084
 
-Sat Jun 04 19:27:31 2022
+Sat Jun 04 19:35:23 2022
 
 
  Elaboration Time: 0.078125 sec
 
- Current Memory Usage: 5154.19 Meg
+ Current Memory Usage: 5154.14 Meg
 
  Total Signals          : 224
  Total Nets             : 469
@@ -20,9 +20,9 @@ Sat Jun 04 19:27:31 2022
  Total Traceable Variables  : 17
  Total Scalar Nets and Variables : 972
 
- Total Simulation Time: 0.09375 sec
+ Total Simulation Time: 0.078125 sec
 
- Current Memory Usage: 4996.91 Meg
+ Current Memory Usage: 4682.28 Meg
 
-Sat Jun 04 19:28:52 2022
+Sat Jun 04 19:38:07 2022
 

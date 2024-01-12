@@ -66,7 +66,7 @@ BEGIN
 
       wait for CLK_period*20;
 		--sumation part
-		ROM_addr <= "0010";reg_2_input <= "00101010" ;RAM_addr <= "0010";ALU_sel<= "000" ;
+		ROM_addr <= "0010";reg_2_input <= "00101010" ;RAM_addr <= "0010";ALU_sel<= "100" ;
 		-- or part
 		wait for CLK_period*20;
 		ROM_addr <= "0011";reg_2_input <= "00011111" ;RAM_addr <= "0001";ALU_sel<= "001" ;
